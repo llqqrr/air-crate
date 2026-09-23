@@ -32,14 +32,14 @@
 ## 已完成
 
 - 已读取根工程 `build.gradle`、`gradle.properties`、`README.md`、`docs/TOXIC_FOG_MECHANICS_STATUS_2026-08-04.md` 和 `docs/PROJECT_HANDOFF_2026-07-31.md`。
-- 已确认根工程是 `createsurvival`，NeoForge `21.1.219`、Minecraft `1.21.1`、Java 21；本地存在 Create 6.0.10、Ponder 1.0.82、Curios 9.5.1 jar。
+- 已确认本模组独立于 `createsurvival`；运行环境为 NeoForge `21.1.219`、Minecraft `1.21.1`、Java 21，本地存在 Create 6.0.10、Ponder 1.0.82、Curios 9.5.1 jar。
 - 已确认根工程 Git 无提交且有大量未跟踪文件；本阶段没有删除、重置或覆盖根工程文件。
 - 已建立独立目录 `air-crate/`、mod id `aircrate`、包名 `com.llqqrr.aircrate`，并添加最小 NeoForge 入口、唯一航空箱方块注册、元数据模板和语言资源。
 - 已将多方块边界、体素容量/成长预留、分裂重组、记录 ID/journal、舱口、插件、Create ItemHandler、兼容层、避难所生成和交易网络写入 `docs/AIR_CRATE_DESIGN.md`。
 
 ## 依赖和运行方式
 
-基座只依赖 Minecraft/NeoForge；Create、Ponder、Curios、Carry On、Sable、Aeronautics 和 `createsurvival` 都是 optional。Create 仅作 compile-only API，Sable 组装适配使用目标名与反射，不会把任何外部模组类打包进产物；Trading Floor 没有依赖声明，也没有代码引用。
+基座运行时依赖 Minecraft/NeoForge/Create；Ponder、Curios、Carry On、Sable、Aeronautics 和 Jade 是 optional。`createsurvival` 没有依赖声明，也没有代码引用。Create API 仅以 compile-only 方式参与构建，不会被打包；Sable 组装适配使用目标名与反射，不会把任何外部模组类打包进产物；Trading Floor 没有依赖声明，也没有代码引用。
 
 构建应在 ASCII 映射盘符中执行：
 

@@ -1,6 +1,6 @@
 # Air Crate / 航空箱
 
-独立的 NeoForge 1.21.1 模组工程，为“机械动力：生存”提供可组合的玻璃航空箱。工程不会把代码放入 `createsurvival`，也不复制 Create:Survival、FTB Unearthed 或其他模组的代码和资源。
+独立的 NeoForge 1.21.1 模组工程，为机械动力生态提供可组合的玻璃航空箱。工程不依赖《机械动力：生存》（`createsurvival`），也不复制 Create:Survival、FTB Unearthed 或其他模组的代码和资源。
 
 ## 固定身份
 
@@ -13,9 +13,9 @@
 
 ## 依赖策略
 
-基座只要求 Minecraft `1.21.1`、NeoForge `21.1.219+`，使用 NeoForge `ItemHandler` 和 Data Components 保存结构化记录。Create、Ponder、Curios、Create:Survival（`createsurvival`）、Sable、毒雾/空气 API 都是可选集成。
+基座运行时要求 Minecraft `1.21.1`、NeoForge `21.1.219+` 和 Create `6.0.10+`，使用 NeoForge `ItemHandler` 和 Data Components 保存结构化记录。Ponder、Curios、Carry On、Jade、Sable、Aeronautics 等属于可选集成；Create:Survival（`createsurvival`）不是依赖，也没有声明兼容入口。
 
-Create 相关代码应放在单独的 `compat/create` 源码边界或后续 `aircrate-create-compat` jar；Create:Survival 兼容应放在 `compat/createsurvival`，不能让基座加载其类。这样没有兼容模组时仍能启动和使用基础航空箱。
+Create 相关代码位于单独的 `compat/create` 源码边界；可选模组不能让基座在类加载时直接引用其类。这样没有任何可选兼容模组时仍能启动和使用基础航空箱。
 
 ## 构建
 

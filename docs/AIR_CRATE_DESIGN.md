@@ -6,7 +6,7 @@
 
 航空箱是独立模组 `aircrate`，不是实体生物笼。箱内不长期运行真实生物实体；服务器保存可校验的生物记录，只有在明确的释放、交易或工具交互时才生成实体。基础模组提供方块、多方块状态、记录存储、容量算法、舱口、记录工具、插件接口和基础生命支持。Create:Survival 的毒雾实现不复制到本项目。
 
-基础体验必须在没有 `createsurvival`、Sable 或其他可选模组时可启动。兼容层只能通过公开接口和事件接入，不能在基座类加载时直接引用可选模组类。
+基础体验必须在没有 Sable 或其他可选模组时可启动；项目不依赖也不声明 `createsurvival`。兼容层只能通过公开接口和事件接入，不能在基座类加载时直接引用可选模组类。
 
 ## 2. 工程身份和依赖
 
@@ -18,9 +18,9 @@
 | 方块 | `aircrate:aviation_crate`，唯一普通正方体方块 |
 | 运行底座 | Minecraft 1.21.1、NeoForge 21.1.219+、Java 21 |
 | 必需依赖 | 仅 Minecraft/NeoForge |
-| 可选依赖 | Create 6.0.10、Ponder 1.0.82、Curios 9.5.1、Create:Survival `createsurvival`、毒雾/空气 API、Sable |
+| 可选依赖 | Ponder 1.0.82、Curios 9.5.1、Carry On、Jade、Sable、Aeronautics |
 
-`build.gradle` 只把本地 Create/Ponder/Curios jar 声明为 compile-only，绝不打包。将来兼容实现优先拆为 `aircrate-create-compat`、`aircrate-createsurvival-compat`，或者至少使用独立的 Gradle source set；基座不得引用它们的包名。
+`build.gradle` 只把本地 Create/Ponder/Curios jar 声明为 compile-only，绝不打包；Create 由模组元数据声明为运行时必需依赖。可选兼容实现使用独立的 Gradle source set；基座不得引用可选模组的包名。
 
 ## 3. 方块和多方块结构
 

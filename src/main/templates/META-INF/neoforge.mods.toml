@@ -47,13 +47,6 @@ ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
-modId="createsurvival"
-type="optional"
-versionRange="[3.0,)"
-ordering="AFTER"
-side="BOTH"
-
-[[dependencies.${mod_id}]]
 modId="carryon"
 type="optional"
 versionRange="[2.2.6,)"
