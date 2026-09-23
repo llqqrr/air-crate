@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "glow": "aircrate:block/integration_v4/sculk_glow",
+    "crystal": "minecraft:block/calibrated_sculk_sensor_amethyst",
+    "particle": "aircrate:block/integration_v4/sculk_glow"
+  },
+  "elements": [
+    {
+      "name": "Sculk ring glow",
+      "from": [0, 12, 0],
+      "to": [16, 16, 16],
+      "shade": false,
+      "faces": {
+        "north": {"texture": "#glow", "uv": [0, 8, 16, 12]},
+        "south": {"texture": "#glow", "uv": [0, 8, 16, 12]},
+        "west": {"texture": "#glow", "uv": [0, 8, 16, 12]},
+        "east": {"texture": "#glow", "uv": [0, 8, 16, 12]}
+      }
+    },
+    {
+      "name": "Crystal glow plane 0",
+      "from": [8, 16, 0],
+      "to": [8, 28, 16],
+      "rotation": {"angle": 45, "axis": "y", "origin": [8, 17, 8], "rescale": true},
+      "shade": false,
+      "faces": {
+        "east": {"uv": [0, 4, 16, 16], "texture": "#crystal"},
+        "west": {"uv": [0, 4, 16, 16], "texture": "#crystal"}
+      }
+    },
+    {
+      "name": "Crystal glow plane 1",
+      "from": [0, 16, 8],
+      "to": [16, 28, 8],
+      "rotation": {"angle": 45, "axis": "y", "origin": [8, 17, 8], "rescale": true},
+      "shade": false,
+      "faces": {
+        "north": {"uv": [0, 4, 16, 16], "texture": "#crystal"},
+        "south": {"uv": [0, 4, 16, 16], "texture": "#crystal"}
+      }
+    }
+  ]
+}

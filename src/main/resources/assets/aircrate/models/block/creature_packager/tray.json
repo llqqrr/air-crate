@@ -1,0 +1,109 @@
+{
+  "credit": "Made with Blockbench",
+  "render_type": "cutout",
+  "textures": {
+    "1": "aircrate:block/packager/packager_details"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        2,
+        2
+      ],
+      "to": [
+        14,
+        4,
+        14
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          2,
+          2,
+          2
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            1.0,
+            1.0,
+            7.0,
+            7.0
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            1.0,
+            1.0,
+            7.0,
+            7.0
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "from": [
+        2.1,
+        2,
+        2.1
+      ],
+      "to": [
+        13.9,
+        4,
+        13.9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          2,
+          2,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1.0,
+            6.5,
+            7.0,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            1.0,
+            6.5,
+            7.0,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            1.0,
+            6.5,
+            7.0,
+            7.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            1.0,
+            6.5,
+            7.0,
+            7.5
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ]
+}

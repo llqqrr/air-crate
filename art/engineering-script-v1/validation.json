@@ -1,0 +1,1288 @@
+{
+  "models": [
+    {
+      "model": "00_all_assets_showcase.bbmodel",
+      "elements": 458,
+      "textures": 33,
+      "valid_uv": true
+    },
+    {
+      "model": "01_aviation_crate.bbmodel",
+      "elements": 16,
+      "textures": 6,
+      "valid_uv": true
+    },
+    {
+      "model": "01_aviation_crate_connected.bbmodel",
+      "elements": 16,
+      "textures": 6,
+      "valid_uv": true
+    },
+    {
+      "model": "01_aviation_crate_open.bbmodel",
+      "elements": 15,
+      "textures": 6,
+      "valid_uv": true
+    },
+    {
+      "model": "02_interaction_hatch.bbmodel",
+      "elements": 5,
+      "textures": 3,
+      "valid_uv": true
+    },
+    {
+      "model": "03_echo_resonator_active.bbmodel",
+      "elements": 8,
+      "textures": 4,
+      "valid_uv": true
+    },
+    {
+      "model": "03_echo_resonator_idle.bbmodel",
+      "elements": 8,
+      "textures": 4,
+      "valid_uv": true
+    },
+    {
+      "model": "04_creature_packager_powered.bbmodel",
+      "elements": 6,
+      "textures": 11,
+      "valid_uv": true
+    },
+    {
+      "model": "04_creature_packager_unpowered.bbmodel",
+      "elements": 6,
+      "textures": 11,
+      "valid_uv": true
+    },
+    {
+      "model": "05_creature_parcel.bbmodel",
+      "elements": 6,
+      "textures": 5,
+      "valid_uv": true
+    },
+    {
+      "model": "05_creature_parcel_display.bbmodel",
+      "elements": 13,
+      "textures": 10,
+      "valid_uv": true
+    },
+    {
+      "model": "06_mixed_feed.bbmodel",
+      "elements": 137,
+      "textures": 1,
+      "valid_uv": true
+    },
+    {
+      "model": "07_creature_filter.bbmodel",
+      "elements": 140,
+      "textures": 1,
+      "valid_uv": true
+    },
+    {
+      "model": "08_creature_catcher.bbmodel",
+      "elements": 133,
+      "textures": 1,
+      "valid_uv": true
+    }
+  ],
+  "textures": [
+    {
+      "file": "alu_bottom.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "alu_panel.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "andesite_base.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 8,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_00.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_01.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_02.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_03.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_04.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_05.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 7,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_06.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 9,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_07.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 6,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_08.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_09.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 9,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_10.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 7,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_11.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 6,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_12.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_13.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 6,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_14.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 6,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "crate_ct_15.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        18
+      ]
+    },
+    {
+      "file": "crate_open.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 7,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "crate_top.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "crate_window.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        18,
+        65,
+        95,
+        135,
+        255
+      ]
+    },
+    {
+      "file": "creature_catcher.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 12,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "creature_filter.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 9,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "crystal_active.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 4,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "crystal_idle.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 4,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "glass_clear.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 3,
+      "alpha_values": [
+        18,
+        50,
+        110
+      ]
+    },
+    {
+      "file": "hatch_front.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 16,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "iris_brass.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_details.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_frame.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_horizontal_linked.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_horizontal_powered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_horizontal_unpowered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_iris_closed.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_iris_open.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_particle.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_vertical_linked.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_vertical_powered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mask_packager_vertical_unpowered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 2,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "mixed_feed.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_back.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 8,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "packager_details.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 34,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_frame.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 11,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_front_powered.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "packager_front_unpowered.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "packager_horizontal_linked.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 16,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_horizontal_powered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 22,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_horizontal_unpowered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 23,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_iris_closed.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 10,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_iris_open.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 7,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_particle.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 15,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_side_powered.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 19,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "packager_side_unpowered.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 20,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "packager_top.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 6,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "packager_vertical_linked.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 16,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_vertical_powered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 22,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "packager_vertical_unpowered.png",
+      "size": [
+        32,
+        32
+      ],
+      "colors": 23,
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "parcel_back.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "parcel_bottom.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "parcel_front.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 8,
+      "alpha_values": [
+        16,
+        120,
+        255
+      ]
+    },
+    {
+      "file": "parcel_side.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "parcel_top.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "sculk_active.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "sculk_idle.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 5,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "shaft_socket.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 8,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_a0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_a1.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_a2.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_a3.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_b0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_b1.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_b2.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_b3.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_b4.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_cyan.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_ink.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_ivory.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_paper0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_paper1.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_paper2.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_paper3.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_purple0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_purple1.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_purple2.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_purple3.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_red.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_red0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_red1.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_rope0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_rope1.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_sculk.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_tape.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_teal.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_teal0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_wheat0.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_wheat1.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_wheat2.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_wheat3.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    },
+    {
+      "file": "solid_white.png",
+      "size": [
+        16,
+        16
+      ],
+      "colors": 1,
+      "alpha_values": [
+        255
+      ]
+    }
+  ],
+  "sheets": 8,
+  "generation": "deterministic Pillow/NumPy, no image API",
+  "renderer": "same embedded Blockbench mesh/UV data, nearest texel sampling"
+}

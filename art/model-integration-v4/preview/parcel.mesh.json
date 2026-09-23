@@ -1,0 +1,750 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "parcel",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "box",
+      "type": "mesh",
+      "uuid": "6962ef85-583d-5e07-a886-980ac5ea7ef6",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "east0": [
+          14.0,
+          12.0,
+          14.0
+        ],
+        "east1": [
+          14.0,
+          0.0,
+          14.0
+        ],
+        "east2": [
+          14.0,
+          0.0,
+          2.0
+        ],
+        "east3": [
+          14.0,
+          12.0,
+          2.0
+        ],
+        "south0": [
+          2.0,
+          12.0,
+          14.0
+        ],
+        "south1": [
+          2.0,
+          0.0,
+          14.0
+        ],
+        "south2": [
+          14.0,
+          0.0,
+          14.0
+        ],
+        "south3": [
+          14.0,
+          12.0,
+          14.0
+        ],
+        "west0": [
+          2.0,
+          12.0,
+          2.0
+        ],
+        "west1": [
+          2.0,
+          0.0,
+          2.0
+        ],
+        "west2": [
+          2.0,
+          0.0,
+          14.0
+        ],
+        "west3": [
+          2.0,
+          12.0,
+          14.0
+        ],
+        "up0": [
+          2.0,
+          12.0,
+          2.0
+        ],
+        "up1": [
+          2.0,
+          12.0,
+          14.0
+        ],
+        "up2": [
+          14.0,
+          12.0,
+          14.0
+        ],
+        "up3": [
+          14.0,
+          12.0,
+          2.0
+        ],
+        "down0": [
+          2.0,
+          0.0,
+          14.0
+        ],
+        "down1": [
+          2.0,
+          0.0,
+          2.0
+        ],
+        "down2": [
+          14.0,
+          0.0,
+          2.0
+        ],
+        "down3": [
+          14.0,
+          0.0,
+          14.0
+        ]
+      },
+      "faces": {
+        "east": {
+          "vertices": [
+            "east0",
+            "east1",
+            "east2",
+            "east3"
+          ],
+          "uv": {
+            "east0": [
+              36.0,
+              1.0
+            ],
+            "east1": [
+              36.0,
+              13.0
+            ],
+            "east2": [
+              48.0,
+              13.0
+            ],
+            "east3": [
+              48.0,
+              1.0
+            ]
+          },
+          "texture": 0
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              48.0,
+              25.0
+            ],
+            "south1": [
+              48.0,
+              37.0
+            ],
+            "south2": [
+              36.0,
+              37.0
+            ],
+            "south3": [
+              36.0,
+              25.0
+            ]
+          },
+          "texture": 0
+        },
+        "west": {
+          "vertices": [
+            "west0",
+            "west1",
+            "west2",
+            "west3"
+          ],
+          "uv": {
+            "west0": [
+              36.0,
+              13.0
+            ],
+            "west1": [
+              36.0,
+              25.0
+            ],
+            "west2": [
+              48.0,
+              25.0
+            ],
+            "west3": [
+              48.0,
+              13.0
+            ]
+          },
+          "texture": 0
+        },
+        "up": {
+          "vertices": [
+            "up0",
+            "up1",
+            "up2",
+            "up3"
+          ],
+          "uv": {
+            "up0": [
+              48.0,
+              49.0
+            ],
+            "up1": [
+              48.0,
+              37.0
+            ],
+            "up2": [
+              36.0,
+              37.0
+            ],
+            "up3": [
+              36.0,
+              49.0
+            ]
+          },
+          "texture": 0
+        },
+        "down": {
+          "vertices": [
+            "down0",
+            "down1",
+            "down2",
+            "down3"
+          ],
+          "uv": {
+            "down0": [
+              48.0,
+              49.0
+            ],
+            "down1": [
+              36.0,
+              49.0
+            ],
+            "down2": [
+              36.0,
+              61.0
+            ],
+            "down3": [
+              48.0,
+              61.0
+            ]
+          },
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Observation window",
+      "type": "mesh",
+      "uuid": "bde73eca-e515-5a37-9454-dced23ab6169",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          14.0,
+          12.0,
+          2.0
+        ],
+        "north1": [
+          14.0,
+          0.0,
+          2.0
+        ],
+        "north2": [
+          2.0,
+          0.0,
+          2.0
+        ],
+        "north3": [
+          2.0,
+          12.0,
+          2.0
+        ],
+        "south0": [
+          2.0,
+          12.0,
+          2.04
+        ],
+        "south1": [
+          2.0,
+          0.0,
+          2.04
+        ],
+        "south2": [
+          14.0,
+          0.0,
+          2.04
+        ],
+        "south3": [
+          14.0,
+          12.0,
+          2.04
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              2.0,
+              2.0
+            ],
+            "north1": [
+              2.0,
+              14.0
+            ],
+            "north2": [
+              14.0,
+              14.0
+            ],
+            "north3": [
+              14.0,
+              2.0
+            ]
+          },
+          "texture": 1
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              14.0,
+              2.0
+            ],
+            "south1": [
+              14.0,
+              14.0
+            ],
+            "south2": [
+              2.0,
+              14.0
+            ],
+            "south3": [
+              2.0,
+              2.0
+            ]
+          },
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior east",
+      "type": "mesh",
+      "uuid": "17e06c8b-1014-5853-a1a9-aaf087b3bfbf",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "east0": [
+          2.04,
+          12.0,
+          14.0
+        ],
+        "east1": [
+          2.04,
+          0.0,
+          14.0
+        ],
+        "east2": [
+          2.04,
+          0.0,
+          2.0
+        ],
+        "east3": [
+          2.04,
+          12.0,
+          2.0
+        ]
+      },
+      "faces": {
+        "east": {
+          "vertices": [
+            "east0",
+            "east1",
+            "east2",
+            "east3"
+          ],
+          "uv": {
+            "east0": [
+              36.0,
+              49.0
+            ],
+            "east1": [
+              36.0,
+              61.0
+            ],
+            "east2": [
+              48.0,
+              61.0
+            ],
+            "east3": [
+              48.0,
+              49.0
+            ]
+          },
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior west",
+      "type": "mesh",
+      "uuid": "113918d8-3379-59a4-9f63-91a5994d73bf",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "west0": [
+          13.96,
+          12.0,
+          2.0
+        ],
+        "west1": [
+          13.96,
+          0.0,
+          2.0
+        ],
+        "west2": [
+          13.96,
+          0.0,
+          14.0
+        ],
+        "west3": [
+          13.96,
+          12.0,
+          14.0
+        ]
+      },
+      "faces": {
+        "west": {
+          "vertices": [
+            "west0",
+            "west1",
+            "west2",
+            "west3"
+          ],
+          "uv": {
+            "west0": [
+              36.0,
+              49.0
+            ],
+            "west1": [
+              36.0,
+              61.0
+            ],
+            "west2": [
+              48.0,
+              61.0
+            ],
+            "west3": [
+              48.0,
+              49.0
+            ]
+          },
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior north",
+      "type": "mesh",
+      "uuid": "fea032e6-2ac9-5c89-9e77-1fa54deee386",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          14.0,
+          12.0,
+          13.96
+        ],
+        "north1": [
+          14.0,
+          0.0,
+          13.96
+        ],
+        "north2": [
+          2.0,
+          0.0,
+          13.96
+        ],
+        "north3": [
+          2.0,
+          12.0,
+          13.96
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              36.0,
+              49.0
+            ],
+            "north1": [
+              36.0,
+              61.0
+            ],
+            "north2": [
+              48.0,
+              61.0
+            ],
+            "north3": [
+              48.0,
+              49.0
+            ]
+          },
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior down",
+      "type": "mesh",
+      "uuid": "d7785676-23d2-591c-9c95-d1b0196373e8",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "down0": [
+          2.0,
+          11.96,
+          14.0
+        ],
+        "down1": [
+          2.0,
+          11.96,
+          2.0
+        ],
+        "down2": [
+          14.0,
+          11.96,
+          2.0
+        ],
+        "down3": [
+          14.0,
+          11.96,
+          14.0
+        ]
+      },
+      "faces": {
+        "down": {
+          "vertices": [
+            "down0",
+            "down1",
+            "down2",
+            "down3"
+          ],
+          "uv": {
+            "down0": [
+              36.0,
+              49.0
+            ],
+            "down1": [
+              36.0,
+              61.0
+            ],
+            "down2": [
+              48.0,
+              61.0
+            ],
+            "down3": [
+              48.0,
+              49.0
+            ]
+          },
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior up",
+      "type": "mesh",
+      "uuid": "7216d748-7092-55c2-a0d2-f685cd273399",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "up0": [
+          2.0,
+          0.04,
+          2.0
+        ],
+        "up1": [
+          2.0,
+          0.04,
+          14.0
+        ],
+        "up2": [
+          14.0,
+          0.04,
+          14.0
+        ],
+        "up3": [
+          14.0,
+          0.04,
+          2.0
+        ]
+      },
+      "faces": {
+        "up": {
+          "vertices": [
+            "up0",
+            "up1",
+            "up2",
+            "up3"
+          ],
+          "uv": {
+            "up0": [
+              36.0,
+              49.0
+            ],
+            "up1": [
+              36.0,
+              61.0
+            ],
+            "up2": [
+              48.0,
+              61.0
+            ],
+            "up3": [
+              48.0,
+              49.0
+            ]
+          },
+          "texture": 0
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "6962ef85-583d-5e07-a886-980ac5ea7ef6",
+    "bde73eca-e515-5a37-9454-dced23ab6169",
+    "17e06c8b-1014-5853-a1a9-aaf087b3bfbf",
+    "113918d8-3379-59a4-9f63-91a5994d73bf",
+    "fea032e6-2ac9-5c89-9e77-1fa54deee386",
+    "d7785676-23d2-591c-9c95-d1b0196373e8",
+    "7216d748-7092-55c2-a0d2-f685cd273399"
+  ],
+  "textures": [
+    {
+      "name": "item/package/cardboard.png",
+      "namespace": "create",
+      "folder": "item/package",
+      "id": "0",
+      "uuid": "1b2461d9-6155-5e25-a909-3c43fa85927c",
+      "width": 64,
+      "height": 64,
+      "uv_width": 64,
+      "uv_height": 64,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACBUExURdOrf9y0h5dlLntPHo5eKcGZbcykeMujd8aecc+ofGZBF7KMZFY6GVs3E3FIG9/Bn9e5mX5cNbyUasefc+fMrsywkZlvQ6iAU8aph+TFot2/ntS3l31ZM6F4S6N7TrTBuHB1cIKHhJqknXl+e2BjX1BTUWhsaEBFQzU7OS4zMQAAAJv+E6cAAAArdFJOU////////////////////////////////////////////////////////wAjyafQAAAACXBIWXMAAA7BAAAOwQG4kWvtAAAEMklEQVRYR6WXDXvaOBCElRB8gAGbNiGFFErucr2r/v8P7Mzs6ouPPG26DiAZ7evR7NpJQvzDCDHceVTDZnJ2/l55kwd9EDANnR1TDP/CkSczHF2Y2RADm0yU99AC5inHh2nCHGfx/JyAhfIejCNAv8Q382XPhf2SC5f9nBPL0VDJRlspb7LWhwDDyO/HQQuXvD6IBuDhYvyYet760gPttdtwuGmybGhyMqDyoHeHZj0WDiOXjYNl9V3oBeg3UrbhPi0qD/rpp+mULwK4jNf6jKzNElnL5YYsDud8T4DKg6reJoZyPhtNzgEAm4jtaJRF44FnTV1MkmNZbq6xrnqQdU/bjktyuj7bBEjveXUfWHqqtx9JjsTk4fRTAtR9wGTLSYBWztm9YHHhgbrUmk+H0XQ3cOi74SKLsz7QFusyKou+YeMGkAMV4GYfuIYEwIkkRtPcBwUQuu7x6XHoumSH5FqWeMYyNGgWE7sp5cH2efwyPj1vTaquX7J86OlFwaIChG437nBHonICCJIMaQCaWCzsrjbAHOkGyPWuDanElC2sGkD6DnbQjxEfPO+PIVNAGqYZ0GzBlmLh9pl+fHkuhuCVhgSkMq7XBZD6QNuehz380HMMTwJ9g/7IS3QvLFarxXoy4Qco7IPc5hSzDzs8VGpDeC+4M5ygAEidTNb8IACNjn3v2Oa2V4oFoOoP9wZjTCwWa7+bQrwLs8eX3RBmdxmAQ4bk/jBvnuSNRVXGO/TBy+AAK4gB1B84byYO47ArJtZlBGCggi4BZJcAwRuMwwEHvrtSRgGgAIBkPABWkizG7xBOLKpWTgBswdzOnUiAKpoAmpxF8QAK+OSxinhJvPnMXE6uA2bJAwzD7uVxwNXMEG3CFOSJ4uG+PJGQtfMyQkzYY4zOtpoyS1UwBQWwqJ4HVSMZYD9gMQHmm5fREKkKtYKvW4+vAOBegAIsZklyQTg0G9PvhVXVB+gyi608IABiWZJckMvfCw3gcDgejsfjgYAOJu4BgCHV1prqKN5VQA/kaGMuq6PzitqDra5/PEgBy0iA1bSUF60sbxLgfmJ/rF0o4JXogV02NRjB7FaBFY0C9+CYAJSaFBQAwUVBiUZBYxZo2oJ7wDHqeg2gEsiD3BLWFBXgfAslmkbKYrwkxYOkQIBvMZ5eX08JUAXskBupKVTGDBgS4O8YX/XDaAF+eYQMqe8RqvEtWOpVgNcDQipDZEfgg9erYOL/0fs7Cm5VJ8Y3/JxONzyQAJXkVnVi/DfG76fTd8v5JQXN+Rj/A+PtDRjGuYJSBdwjNvGhBOF8jP/baouPKPhhqy0uPDAXpEAOHKhAWvgmBU00gMas2wqaaABNpJIUO/j2G4Bb98hZ3AZUoZYwRz4I8MsjrgDSw+2dKNW55kH6o/edOGvlJoL/J/rhCP6f6Ifjl0y8HTH+BKVWao69JzKIAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "block/integration_v4/parcel_window.png",
+      "namespace": "aircrate",
+      "folder": "block/integration_v4",
+      "id": "1",
+      "uuid": "baaf7557-3538-5375-8437-241097db249a",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1klEQVR4nGNgGGjACGNcXl3//+fPn3AJaQ0zhqdPHjNIy8gy/Pj6keHt45twOXZ2dgbd0EawXhaY4Lt37xhuXLvGwC8oAOZziyoy/Pr5jeHD29cMX7//YLhz5zZY/OP7DwwaWlpww1iQnbPlKQ9DmLkDmH3m7S8GBgYeBgYwzcTAoAYR37JuD4MGQj8DigEmliYMsVG5cG9hA74h/v+R+UwMFAKmUQMYKA4DFhjj4+fvDGdOnMGIJmwApBbDABAocZVj+P37LwMrKzNcDBv/2w9Q4hosAAB/Xkixcogo1wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {},
+  "credit": "Create / Minecraft derived; see INTEGRATION.md"
+}

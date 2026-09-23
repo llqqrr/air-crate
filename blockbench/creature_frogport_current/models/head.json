@@ -1,0 +1,7 @@
+{
+  "parent": "create:block/package_frogport/head",
+  "textures": {
+    "0": "create:block/port2",
+    "1": "aircrate:block/creature_frogport_port"
+  }
+}

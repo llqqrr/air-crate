@@ -1,0 +1,2161 @@
+{
+  "namespace": "aircrate",
+  "runtime_prefix": "block/integration_v4",
+  "source": "Create 6.0.10 + original engineering-script-v2 references; CreateDeco commit 996780bed4549d7b1d0dec65f06d5129e69330ba",
+  "mask_bits": {
+    "left": 1,
+    "right": 2,
+    "top": 4,
+    "bottom": 8
+  },
+  "files": [
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_00_down.json",
+      "sha256": "dd3d655657c088ffda42cb45acfb3567bae52c28da4d8e07a121a21c34f28215"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_00_east.json",
+      "sha256": "0308bf04afad71a2558fdfaef198310d6ea35b9a26e0b9048f1a3aad3140e67f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_00_north.json",
+      "sha256": "25a7f38f4eb4b9e6551eeb50658b0117088c9258b2ac9d809be1c46cc0651544"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_00_south.json",
+      "sha256": "7a848da65a7538d52688d4df58619403288a82ca9fc5b08e7a6f336952573b42"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_00_up.json",
+      "sha256": "368acf9b6214417c7d1d1167f5d79ef3ac7c0e7e942c699542f7f376c35ff4aa"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_00_west.json",
+      "sha256": "b57f85333af1d5327835348ceb224dc0917c305c233383fdec4d0dec09e68e72"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_01_down.json",
+      "sha256": "be59881b9351c96f623435c04406d7c54022662b95873cdfc23e39c085bcf485"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_01_east.json",
+      "sha256": "ec06a519f38c3ab2faf280aef0d5f5219e44afb35e174df34e6bd47ac32ebfbd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_01_north.json",
+      "sha256": "21ae0b5fba15f995a36c2e33ceeb73f8537b1e7b83d005ea91776418b83b4c04"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_01_south.json",
+      "sha256": "d51ce8abd2cdf7a03c6638d9430a3c11cc2a3437c1ab35bd1feec7c5930d9936"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_01_up.json",
+      "sha256": "578e5b80b517b788038715fdb3156b3959bad1a8c429c908d21841ff4e129a56"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_01_west.json",
+      "sha256": "6bb09d273f06a93d848548deb3dd27009aea7573ca736cb777a09ae9a3f2c245"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_02_down.json",
+      "sha256": "120a0ea218451076a03ca6d5da7f511ccee683737b7d151c16b70a7dfc10e469"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_02_east.json",
+      "sha256": "b46aad5dde7737de1cfe03023a6ee701499419e41cdd7351f241e5144a0d05cd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_02_north.json",
+      "sha256": "29a5b100c98aacf444d2cac69c835c9c9cc139e32ea916eecb7ebfa6c64f26b6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_02_south.json",
+      "sha256": "06b513e963ff4d86f1bb3c6768d99ae1a71300fea4445e2d6b97ca8d9a2f1781"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_02_up.json",
+      "sha256": "503e92c78c573e65a3d38af357418fd1f099b1ff242db552532542c6a4a82b55"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_02_west.json",
+      "sha256": "e37912f625c90e403e6ea7d6463108edc0d6c98403f9a31043c91620b67190d3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_03_down.json",
+      "sha256": "06a29b31f2b806e2f25018803cd8b50939f3d9e1cc7b74ddecfe3f216edaac59"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_03_east.json",
+      "sha256": "99b06d302565690b1a09e57646a4166a21eaf72569ddf976eb90b40e6c889c83"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_03_north.json",
+      "sha256": "556619f6ab27915d3939621239135353382b12370e1db9394148820033c6ae99"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_03_south.json",
+      "sha256": "2358159c64d2126320dda5372409bc7fbf4bb1139ed6cd6af2888081c1f9b6e9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_03_up.json",
+      "sha256": "b8ff4b24bdddc1912ed1b5de7280cdd9d5af1459183892d3fcd5cc15276174a2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_03_west.json",
+      "sha256": "8793ff7ffe169724a4c6e6046f27f6b458fd5f178a9db343b7c0cb57078c8b55"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_04_down.json",
+      "sha256": "87a846938cf54f066df5fc69113178401fecba8bd73db88684e75f0a95999131"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_04_east.json",
+      "sha256": "85fd62404835f695cae1cbc373a635f72bd06f891d842da47a06ae22894576e1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_04_north.json",
+      "sha256": "c88272bdb00c556dc8cfaacbee1ebeff0563fbb2d620f286c9a7cea151271b42"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_04_south.json",
+      "sha256": "37b761ef797e18dff7d39f1dd5399eac7f4f230db593cb59d2d9ad23f361e9f0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_04_up.json",
+      "sha256": "6d703c1eedd2f06f573bc0858dd3e89bee64d17b6c26d11fa9c803822b38508f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_04_west.json",
+      "sha256": "b3d4bee98f9d027d1523e90f273eab9805bcdc1b359c925fa92d361b50cd6100"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_05_down.json",
+      "sha256": "232af036619f1773a8473f21e797dabfd4bd105a7d283013696f89af50ca10e0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_05_east.json",
+      "sha256": "8ce221ffdd880a7057759dcefa53ea4035a23d852a4efd678af2c6fae8892c04"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_05_north.json",
+      "sha256": "f5d412e4dd349268a2f5c71341644a1e6040cbbf4c68c05df5fbd83b7d755203"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_05_south.json",
+      "sha256": "d2f3e99a3979191b6a48a851bbd725afb98d88a1f1134efbab143ae602ff3f31"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_05_up.json",
+      "sha256": "2ccd51026f77379334bea3e130bedb0d9036950883f3de86fc518e398e43e3ce"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_05_west.json",
+      "sha256": "208c11ff50194984f1b18483412ab7c6dd2c1d66577c8e0752b880dae575e5f9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_06_down.json",
+      "sha256": "7a0b14ccf21ac558a676bcb174c5e0b1d83d1b26fbb478cf06aec1228c5b414a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_06_east.json",
+      "sha256": "73a06944cf63a56be77453e3cbbfeb200018bff9fbe7727ad077662972c27720"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_06_north.json",
+      "sha256": "1e03674102f7d8234241a6150136fecd76008644ba18d847bdd98e32ff4ae3e7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_06_south.json",
+      "sha256": "3d21e827abe2664156297711b75dbb20d606c4c47597541a29fcc3eb52071f8d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_06_up.json",
+      "sha256": "a02a69a08a4975aec527309ff9a35a1b0bb737764e157d7bb56515410a4445ba"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_06_west.json",
+      "sha256": "7685d31331e8bce16dfe26e9957338032117f6d43f2babe63268ebc4d7d0163a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_07_down.json",
+      "sha256": "d5a4e964a91ddb2763cbf2f7712bf4538effde8e660b86d00904159a4f07d8cf"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_07_east.json",
+      "sha256": "71adc33d1b6ef0243c2e2a63773e08db43006dc1473d09ffbf95b1522c8b1114"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_07_north.json",
+      "sha256": "1dbe56a535134816d427e54031d78c03325294f3550560f64bbe5a525d54ba51"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_07_south.json",
+      "sha256": "39e6df05502c155fbf8957ddfd877e748830d940f431d7c114725f3c6f1892ae"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_07_up.json",
+      "sha256": "f0204f72d107bffbdf8eb039d97346658cc7d9ab5c805b0521bde9357f5545bf"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_07_west.json",
+      "sha256": "a101d59aa7ac0fc023827560b04eb7808553f2bf9ec5657cefe5ba4c91a9c82a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_08_down.json",
+      "sha256": "45088ead224a94250666d4759f1b53095b85ab126d3f47d9799ee234cdba7a42"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_08_east.json",
+      "sha256": "33a5e787664d4ac1b141f7a40ce849c95ba83a6a2194af56a61044a13a7dbc14"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_08_north.json",
+      "sha256": "b736d01c5db91390be421906604b58e02216244af85bb5e32f048a18774630a5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_08_south.json",
+      "sha256": "310557a565f383d141ec398032d8c92c09a9a33171b4108ad17fc686a3197415"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_08_up.json",
+      "sha256": "0330f7ede4aedf9d7d5a1dc9bdaf7012c8447751d75aa73e989f58f7052442b8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_08_west.json",
+      "sha256": "98da82389134b65819b4ed83d550fc668867bd723e61d4feb448ff6e3be031f9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_09_down.json",
+      "sha256": "fec65de398903b55201d664c049e584ac71c758bfd1f654c204f56d179a5989c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_09_east.json",
+      "sha256": "d099814e222a9ece29b9849b188f3ee5f137b96ec600b48dfa8291bb5c807ec3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_09_north.json",
+      "sha256": "873353c8936e99b0f4d4d1f31f8ad1897a9ae1946d460889f8ddcf42f275d7e5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_09_south.json",
+      "sha256": "c60782310b615ac3d99b3066bf0c67c20340667639cc16b049b0c026146960bd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_09_up.json",
+      "sha256": "4ca2d56a0b110169db9ae8cd9710e4b38d24b98570bcfeb2f08829bf2ca598e1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_09_west.json",
+      "sha256": "4905559637718058eb53ced779771fda672821ccbf50ee8800dc3bc05956f248"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_10_down.json",
+      "sha256": "a5482ed4585109afde0105372d2cfa78508469044b5d2f3af3543a4954711c47"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_10_east.json",
+      "sha256": "d9c8f1268f5e62580d65e6214730165f715b13da86a3aba20e8f78542e4c8294"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_10_north.json",
+      "sha256": "81b56792137567bfd1d4aa184ae171b14a1662bab48432fce749ffa63f06104b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_10_south.json",
+      "sha256": "f4fe8260af65b4660cda6a8a778c4f1f1ce59099536b2fdc62a52e6902f87a83"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_10_up.json",
+      "sha256": "ba385868ae86b6d32ccdd83d7dde9db5f712c54f13938c9d5dae18de455dff52"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_10_west.json",
+      "sha256": "4a1fbb778ec4c752c699c709589ef07e5d9686bb30c2c3afa24b5d966e6301b3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_11_down.json",
+      "sha256": "7756911fb07a16b6dce2b071c7e42b622370238931ecb616254cf932f77589c6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_11_east.json",
+      "sha256": "44aef3f2fd955acadf6d43522b59f272128e1a54196fc0cdd4b5b7d689fc6862"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_11_north.json",
+      "sha256": "2d0cefc3313dff7e44ae202df643c314b853bfdd2fd82c0a3589e1f73f9cca07"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_11_south.json",
+      "sha256": "2ceefcb9ceda4b11d48aa494bba03ba384aa56b0fba28c1d4fc2fad471915acb"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_11_up.json",
+      "sha256": "1593bac58d76de4b891567a376427e806aec7a5d29d974d3b103ca6d6b1a32b9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_11_west.json",
+      "sha256": "2de1720ab5101021527e2a76aeb6e0c7e8fb05d5df6253f9704b7bd57b2b1375"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_12_down.json",
+      "sha256": "9780f8e24b9bb70394f1305fa31c89e336466ad29cc6d43972074e0858e247b4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_12_east.json",
+      "sha256": "8cae20d97e6b1b158a32021e2e6b82c737854939215396ab1c8cab51626ef15e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_12_north.json",
+      "sha256": "ef8ce678ed2145584e691639ada9dd6f47da3ca96a34b76394eb631a5a407fbe"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_12_south.json",
+      "sha256": "950b5625a3bebb6bae254cd418098697219c0765f94963772f726b938c120e1e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_12_up.json",
+      "sha256": "1db193b3aa02ed46e6f92ac2fd70395cc81917e22178b10d61b4a80446cb4601"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_12_west.json",
+      "sha256": "0095147fc9a796151b67f789ea3576f5f91c2de35780538b811a3b5c23841d40"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_13_down.json",
+      "sha256": "445448d4248d184157bfb504cc85a8aef799492aaaf9aae89777eac8a5edd79a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_13_east.json",
+      "sha256": "d99dffa3ddc3faae9b6b599f1de00b90f27fdd0f39912a080a4e61bebb6b89fe"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_13_north.json",
+      "sha256": "f88d9f76b81394ea322774792c9f9bda3caa6cca1845d55e72cab5686714c247"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_13_south.json",
+      "sha256": "ba431b2d2a05aed2c6f3ea729b5e2a1e55dff2b9a03a03af96e4ed820a574329"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_13_up.json",
+      "sha256": "296295d403789d4e5ec309caf29b57325b3efe6dde9a64b8d0f4a96a583543e7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_13_west.json",
+      "sha256": "e1a589126f14fed0330057f491c21445d4a2bb593c1bcce6b13350b07eac80af"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_14_down.json",
+      "sha256": "fe254e236a50d44331a56ac9a604ce36466eb307ba0d8ff50deb60839a027752"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_14_east.json",
+      "sha256": "f26fc7d01f1e9fe1e164dbbf04427f0f2d50825625053827566f8c764e841253"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_14_north.json",
+      "sha256": "c55d67c36b022e6607bde97fc455b5ccf398d2bc74612d6daecb73de613f0d44"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_14_south.json",
+      "sha256": "9950167d7809f8b23e8c5f506e21f83b9a47b50facf2158eeb3a9eeb66d59c1a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_14_up.json",
+      "sha256": "89d7bbe383211848ca03586ae2e3372d5c612463659cea7fd512fe56bf587c46"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_14_west.json",
+      "sha256": "a68f47d4d7b70d87c0825d292fa01fae830ae7d54d00067fbe8af6b61527ad30"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_15_down.json",
+      "sha256": "c6cb7a08338bc99db3a8ba8efa4d9c809fb0b03ed6d3874c424b904350b55fa9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_15_east.json",
+      "sha256": "73291c2efd8bbdae5f64b296c8ef59c37366d086ca9ffc25e3966dff058e8ec2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_15_north.json",
+      "sha256": "2471444ff9a77164ae204a20a6f61516a9f65244abaee3a44265374f0f98b69e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_15_south.json",
+      "sha256": "3e8a7fd805bf0e2e29ec2f9b8cda8efbff9350df8f3aa555989be386de4a6eb0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_15_up.json",
+      "sha256": "bddb5d88cfbc87345da3b776b416a9b4cd592a653dacf622411f2063811609dc"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/bars_15_west.json",
+      "sha256": "5c9b6b808b544b1edf2e5b06f60515fef9a9f0b63bb684645a5487ac84f004f2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_00_down.json",
+      "sha256": "78b9ba58d1d1d6a794d53ac29eaeeb4d4cb110435925ff65fb8f72ed17dc3960"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_00_east.json",
+      "sha256": "3269506acfb5f426f418cb9aaaa917c611ab5b64b0130a79ad15d7f4c8f8293c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_00_north.json",
+      "sha256": "00a4e7809c150ab2fd6a8e9d35185d890e0322588598e27efe3de591cf327112"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_00_south.json",
+      "sha256": "04868033905e3c463c9f95f99330242933be9f741623af52facda9c37f1a48f9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_00_up.json",
+      "sha256": "e449e3f49f1cc9353b54be9f6e79eb298729adf99545b0326a0b7d71b34bd5e8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_00_west.json",
+      "sha256": "4b724b75807db7c8de0585ed89221873b75781522a6822f16c505a5f0ab068a0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_01_down.json",
+      "sha256": "e476d732bebc59cea8777967f6bbbb9d7e9e9ec5284f451137abf1219ccc2b5d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_01_east.json",
+      "sha256": "31ebde40240e368e8177e355e28ad1750255d989c3437bc739f3603d2a80d59a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_01_north.json",
+      "sha256": "6497efa50a3d99b950ca79d80e782a97fc7d50ce47ab4fd2275efdfee0c9a57c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_01_south.json",
+      "sha256": "4d7eb3315ff45df127f884ba6815d58d54c080a11d02075c3db1c253c4d47599"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_01_up.json",
+      "sha256": "0dd3e1dceeecfff47fcf5287fb902f70d25ac476b82ee08a3f59c6eb6fc7b219"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_01_west.json",
+      "sha256": "2f9dbd84d75e0f7f3e82f4cb08a4bfeab099f161bf4fd526fe481d70cf7a04d6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_02_down.json",
+      "sha256": "a1744e80509843eb523f7ec39222cd87df34adda637cc82b9c962cea88733e6b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_02_east.json",
+      "sha256": "6f666678b96c48f3e188abd34b14341400d66eb64cd6b86934ba4af73971ebc1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_02_north.json",
+      "sha256": "739ab180d4c34e41fbca2a91f0c9383f27515e91c4f29a548329d67cc49a937e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_02_south.json",
+      "sha256": "a3b4473cd1c256a051028ea4d07e3c8136cccf42a2d7378973f5dfbba850c0cf"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_02_up.json",
+      "sha256": "9418346ef125153168d55088efcdb616688365e0e248a936c33a42205fe2b3d7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_02_west.json",
+      "sha256": "60f440f04afaa2d32520cef011b9f57e3f9456f17da11de1e2a9a67a1a7f8d8f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_03_down.json",
+      "sha256": "cc2b2d9f40f68989a8202e30152b80b676b0843589dc78632e69203cf63e3d9d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_03_east.json",
+      "sha256": "d41788ffbbf9792c9c025c40a3fc583c837fd695da5ae8e57d52284515a336b4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_03_north.json",
+      "sha256": "308b7b71c32e4c348c89015a46f7f3527e348ba415b316baeac837e58fff1a7e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_03_south.json",
+      "sha256": "0e95191443a58491c7a7eec2b8880f6e497bfaa541b5ec83fcd7e0d796c9d961"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_03_up.json",
+      "sha256": "33bcf34271d8593a6713da45adbfac35bf6707c4f2ff1ebb4c093b96f69de5d4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_03_west.json",
+      "sha256": "00bab59feca4172deb3b7a253ac17b1834700c7d3635cc5d0421ffef21341b83"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_04_down.json",
+      "sha256": "dc6b7690e4a709552030d1f120b9f232fc1cc8574b7bc72db63cded0b6b34401"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_04_east.json",
+      "sha256": "bc96daaace55295fe1cb2567c6ff0cc0a9d2059547eddb2574f2011abc76c066"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_04_north.json",
+      "sha256": "ad9e224a59e0d912675ff39c94cbd30f12f46266ef08d86bacde5b2b48c52f6c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_04_south.json",
+      "sha256": "ebf6d57fac41de89117bd8a9e55da2fff6fbec8da18401410d10d22d9cf0d751"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_04_up.json",
+      "sha256": "90b8193e3f9b9409a4c432214a9ce25a3299f35cde3407aefad8a217c09c7f3c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_04_west.json",
+      "sha256": "4f52bc1275c436c7ab69987d7b4e9d0ad9f8471431429152eb20bb815ee35284"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_05_down.json",
+      "sha256": "c66632eb596f2ccbdd970d838f61c09ab67ae4bf98160fa8395f177452c9d30d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_05_east.json",
+      "sha256": "d56d7ce0e2f1f29b683c3c7262223ba4490b940e305142c9e5968e81962995b8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_05_north.json",
+      "sha256": "086a461315c1055f6e819231092dfd828203b8cf336afbfffa23d6212191e48d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_05_south.json",
+      "sha256": "bee4c0afd097ae91dd68071880fd680d61c4bfec6df5ab22ecfbe53b8f096334"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_05_up.json",
+      "sha256": "ee649c6cc9719d3832e4511850cee804d614a2251bad8a683f6b918b84cc9464"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_05_west.json",
+      "sha256": "5ae415a96fb929472e64342f66fdd138f352907c7a25f8ff08e9a4c7cd1188e4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_06_down.json",
+      "sha256": "159469b516384dd641cffd4765fd7477105113dc5f2abde6815e79b5d50317ab"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_06_east.json",
+      "sha256": "8c20100e98300b92f165ee5054a30b0ffe385ec3f0e0e30236dd8a47a2058efe"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_06_north.json",
+      "sha256": "1d6399fb199cb2902f10c7dcdb7eb67b8cf6bc37f0a662c2122cc74477add971"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_06_south.json",
+      "sha256": "de24ee6113859cb3113b8c11b2efa22732bda331c6894a7ac1ddc22e2f5dfafa"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_06_up.json",
+      "sha256": "2f9438d8dec15f20b6aa327652df427e7a116cb3845c76e7d4c830680aaa69bc"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_06_west.json",
+      "sha256": "57f598251ed77d8f2f86ae62dd9b536c03d0cf5bd7457d590051f474aba90c23"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_07_down.json",
+      "sha256": "0a327bba013fa7d58cc159f017d0befcf2408f18ab7c7486518e7ea7e4fe9518"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_07_east.json",
+      "sha256": "ec4f24c1cb08c1b236523f46162090856d4a4c99b97081a5b467fbd9388729f0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_07_north.json",
+      "sha256": "ae72db700463d6a8d9ad8f0cf147d40c7efee3fe2cdb238ad7b9e5260c55aab7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_07_south.json",
+      "sha256": "680c7cce4a05e1b2563bfafd8b365167e59c593ad4bf18be163e51424d6d28c7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_07_up.json",
+      "sha256": "137ef884dd187a9df54712fbd36256e9c1e6e7123a9aa559393472379d98f3a9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_07_west.json",
+      "sha256": "84a713a0329343df797494379f6fc739ce1dee2c8931de639d80137548078519"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_08_down.json",
+      "sha256": "7cc61095ca2a450706488038a4333a452f7d0d1008479de7c154348ad538626a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_08_east.json",
+      "sha256": "0b1210d5ae20499db0063d01ddbdc42f8ba83d93bcbf594b00ed17291e6cf603"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_08_north.json",
+      "sha256": "8571f591c79d8a51986219af0fca33a3423176870f4c3b027e458716a378ac69"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_08_south.json",
+      "sha256": "3865fd8e1320f2f10c48ac0b56faee483cba60bbcc6386d0b23f4891e2c6ba88"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_08_up.json",
+      "sha256": "3f1f74a7b0484611b8e19afcc86f334ee4e964cc93cb76856daa65a617333046"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_08_west.json",
+      "sha256": "7f0733baef59d6e5f09aec1a2f2c4240c189ff3e9f8004b2b837396666112b9b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_09_down.json",
+      "sha256": "5a0c8bb8bf5e0cdc90852fde6676ebd4eba45750f52141053ed6fd3d4d808316"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_09_east.json",
+      "sha256": "2e1491da29463db59934a29962bb54fb7e1879e8680181163ec8108b192ee03c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_09_north.json",
+      "sha256": "7870a287c4513960dc24b0bf92368c0d2394e4818e8ab1fd68b5b292d1d80c14"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_09_south.json",
+      "sha256": "63e3b4f02f815f7214ed06a2db2045952b5976acbedaca51e7957ca4a0c3d3f3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_09_up.json",
+      "sha256": "f5861f8eb8afd7a3a5525831a6d8c9d4992a48417a7b00db87d138862f7233d5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_09_west.json",
+      "sha256": "761727be73136a76c353d515a9886887c460b1dd836aacd1cdb9bfa5365b5bee"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_10_down.json",
+      "sha256": "4d01408dd97fc1c5adbd755f9e0022fe1fae9ee714bc27f4906362e92189355a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_10_east.json",
+      "sha256": "4fae2989621c497a265441a3650583756350c8730c4e37c232b13567baadbd1b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_10_north.json",
+      "sha256": "c6b7bb3569e8d06b94c274333dc7109acedd39997603155d6d411ade713fb58d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_10_south.json",
+      "sha256": "c0185c28eaae4b747d4e1dd4ec3e84f817c866f3e5dfe4e6486d9ba5ff1e8731"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_10_up.json",
+      "sha256": "3c37df23db62606b0c5ca81049916d481157456e7f11c532028a33b823b6778c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_10_west.json",
+      "sha256": "b4bbe41cce5a05937f63be4886e912d5db667db921d2160b7b8c5b7f26db65e6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_11_down.json",
+      "sha256": "3cb381043b9912926271a06095c0f100dc91294892a1aad13737befd59cd3b79"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_11_east.json",
+      "sha256": "28ef82524696c657d1d95c71e498570ea15f17e19e9c3c81325f518680435ad2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_11_north.json",
+      "sha256": "40a7c8ca899fb3eb865e5f2f4833afbda2335c307c77dfd67c771050b09a9634"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_11_south.json",
+      "sha256": "e7ab7c933a439f7937184a93b876d3ad801caa429d051e4ea2605f499a42cc61"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_11_up.json",
+      "sha256": "61d0561428d395178eab6ab73d7b79bab5650be0711978b99a8d526420156b4c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_11_west.json",
+      "sha256": "9233d6b717556cbe6e4ea3a044fc6f649b5280a101b55aeae10d841bf4593b0c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_12_down.json",
+      "sha256": "a2684b53570d71c33b6c4b9a788f6fd578b43f459cc973bb963f65e8b9ddb3dd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_12_east.json",
+      "sha256": "e50d40c41b6ceaf41782b926e1fda5e8796595bcdcf3547319c055b425b84701"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_12_north.json",
+      "sha256": "3a9e0e9c321eb562c0dc992ba13414b1a3a8103e5646a9abd441e71a96d35f2e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_12_south.json",
+      "sha256": "6a318d81a9ce591d5df9aa976b66281d6c3a157c778daca1abae433858078d33"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_12_up.json",
+      "sha256": "9a5863b3b86ece9217aeb7c24bc0938ad3bb50a68549a30b76099eb1b10c0961"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_12_west.json",
+      "sha256": "b0e0867b29e98b5b68b45ee76fbf92e7b75eee3f238c3319f3bffa92f2671754"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_13_down.json",
+      "sha256": "5f956d09c42187aa9d6d2fa6826e2ceb1d3623a17381e416877c8111b2e692ab"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_13_east.json",
+      "sha256": "c5fccf9bd1ad6e8dd63ec97971d0f2c3cc7cfcc466f5cca7c5dad07f35d021a1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_13_north.json",
+      "sha256": "cfe53b638fe96b4f0a1783f8dea454221f07a12a643597c23f6e609c3e35b04f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_13_south.json",
+      "sha256": "90550619938b4ecf4e0c9a44f4cbb556ceb578e4bbd522852ac23723f9c58638"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_13_up.json",
+      "sha256": "b30f1c5e668b8eb53a5886bf4e75dbff4548dcb939a5bbf48e13d225b4336c6d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_13_west.json",
+      "sha256": "615e603d99b06bb5685c7471ee97b6b8dad6c26b65d6ed0c6194edf0854a332f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_14_down.json",
+      "sha256": "ca2c8aa3034afa6aadb584dea41907f54d9cdbde52d39795eb8ef6f22265cff1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_14_east.json",
+      "sha256": "b7ee261c6618cc4ff600759afcf0bc44ac517f15330d2b739d019233e21d1da8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_14_north.json",
+      "sha256": "34179987402c37c3ca536391a23a1973cde81a823cd842dd2827b9f00f026f38"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_14_south.json",
+      "sha256": "a39c30434ae2d72d2a21072ec3aaf9b5a63fdae91f8f736a2c6c9a5f81807d15"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_14_up.json",
+      "sha256": "087441e12b62a359bb22139c2cfc4c3ea4d1716a7be5f2e6b9f10720ec25a804"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_14_west.json",
+      "sha256": "b0e40eab69a28d430ddf665efef93684665b3189ae14135bbc120f65e9fb8aa2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_15_down.json",
+      "sha256": "e770291115d51d81ca7b0fc090978bac2ec3528da6046f95941107a58f02fcc9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_15_east.json",
+      "sha256": "1d4989e54871295ec0a106268272c34a74eec3769e4546577e75aac7169157d8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_15_north.json",
+      "sha256": "e9b53ea214492585e8e1505c26c653af19e3f0d906f242323e2a6d78a78d7eb6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_15_south.json",
+      "sha256": "2deb89ae5db945ea7e80239fd2bacc86680e264691303fc88c3ce79ae1c1835a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_15_up.json",
+      "sha256": "4423633f3da5d29585da39b330917303f94dbdfc8e8ed60cb79b728ef5a0248a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/closed_15_west.json",
+      "sha256": "eaeda7015a4b5d89827a9d6adf3967502e079e9349003c4bbf55ecb6d9481140"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_east.json",
+      "sha256": "53fd3162385fbcd46087bc914777f88bd081291722ba1c387ff6ae5cf6721a62"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_north.json",
+      "sha256": "a86ea0bd281f548d174eb64c06164f5c5d87002b5f583e6eced66a853bab0296"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_rotor_east.json",
+      "sha256": "2673408746668361c5d19f73f1f5e24de39fec1e13110c6691b6eb5832ad686c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_rotor_north.json",
+      "sha256": "82914aca729de5ecd88e31c32712416ab72706e06bb3300ec1d23e4b7811e302"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_rotor_south.json",
+      "sha256": "ee67d0ea3a978149ccd0a2db4bcacf458fc1398abefece10e320afa4b66d7759"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_rotor_west.json",
+      "sha256": "787e64517579dcf5690b00df543628ad927692e0402a75137621c3e9b04c882c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_south.json",
+      "sha256": "3516f07e8651de1cc23e7b5f8764a1e0b34bfcca3145f42939e31fc5e7a6c414"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_static_east.json",
+      "sha256": "2dee60d217e20c56f1c1c73273f601ea9c85df07f317fe661ff9ae624153641f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_static_north.json",
+      "sha256": "85337bfaf9aad5dab41d808eff80b386e6c254aef06c50ee1d5b55af80b1ed2a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_static_south.json",
+      "sha256": "7b45d4e74724af9433b729da4e3a619ba2e04c6f3972437afdaebbf521044e8c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_static_west.json",
+      "sha256": "ca7762959336262741e68ecb4785bfaa61ac4997bdcac13950259923fcebf4c1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/fan_west.json",
+      "sha256": "207c6ea634cbf5441e12a7a725d20531a434bc486d25b75db6cca914f70d810e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_00_down.json",
+      "sha256": "e3dd8618934f8f09af83d8fb63b7679305a01ea4950072eb462dc3cd045d9574"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_00_east.json",
+      "sha256": "068fce1e622d489e2289d946cbeb88a65e2a2f2fa03109734e434edfeaaff320"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_00_north.json",
+      "sha256": "05e3f0930de9047fb980d1ed6e11e22af26cecdb6a75bab02110a4cb19bf650b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_00_south.json",
+      "sha256": "8b1e3e7e8a46a7dab8c438f021c666c15d2c12f02916e5669db3fe08798fbb68"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_00_up.json",
+      "sha256": "67650642a91b4dfe13eff32b45da77dbd588c9a740ded67632021540b3bba8cd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_00_west.json",
+      "sha256": "5868bf77706ddd0d14667cc65ec676cb5c0f20516fc5622c3aea69af4468aef8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_01_down.json",
+      "sha256": "2a597f1e5f787c560268724e9f8205f3f0d9c82737d418d21c532209b60bbe05"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_01_east.json",
+      "sha256": "a100ec8f81f18f7dce98ff20edbf64b6fc44bb96923475c5eb2a971992e43800"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_01_north.json",
+      "sha256": "f0e9c19ba716b7ae9c373c7ef31c0ee1abae8bf9306dff3271a358739f03ea2f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_01_south.json",
+      "sha256": "2fa686e41fa78ad664e06fdd3ab70486195ee32f494787c2025231933426a6f8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_01_up.json",
+      "sha256": "b41d91c0b585486c049066413595f06a17f12e4988338f31ca693ea21c0cfc1a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_01_west.json",
+      "sha256": "659b001ce6df16d6d03428d2aa1e0bfffb21f44a078926650e3672ef71d597f1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_02_down.json",
+      "sha256": "ad22c9276fe7f296f2ce426a35aab241a27074aaabc5e86cc637ad8694816774"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_02_east.json",
+      "sha256": "aadf93d4841ee778fe2abfea99b6aa2267662989f59b598615c03fbd24613171"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_02_north.json",
+      "sha256": "0e0c59986cc7a5b5717e6d4ebcdcc2b21bec9f647b326c647194826b5c3891a0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_02_south.json",
+      "sha256": "44df57d305e3bd3f5ccdc5cefa78e375024bb4095c1eb5928bbba35a7bc0afe7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_02_up.json",
+      "sha256": "8e912080c0b769768a018dd9dc520eabc0ffab9a4b6d6043af1f52f6706a540b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_02_west.json",
+      "sha256": "33a0abb0f3f471198c45814135105ac963d5d049c80c28ac170f350f0fd8f74d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_03_down.json",
+      "sha256": "b20f9e16a513ad35d6dda5aa08b58e70a2b8222abe6eb6649b4f3711c5d2662b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_03_east.json",
+      "sha256": "7e7adcb61829b451eddf847053387bc71fc705852f7f2b83d262d3f1dccdb59c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_03_north.json",
+      "sha256": "69895a6909fb0e118496351c66bdf21ea325ae3a8d97c648fb729a215e0eb865"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_03_south.json",
+      "sha256": "570f3a4a36aeb2537be00dea0129881fc80e17c2ecf7a4cbc29623122329f5dd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_03_up.json",
+      "sha256": "3628dc94485cf23c81cc7c5988093cc4fbfde9e651f7cfea5af164f5f5d43e62"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_03_west.json",
+      "sha256": "0291dca2a42a1c10e00eee3ddbe19a321573bda0e22340c2b66602abed3b535a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_04_down.json",
+      "sha256": "7e57d24b2d772e939597eb62d7d5b14d6f8436b0eb777c131891f5fed648eaa7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_04_east.json",
+      "sha256": "6faeb3bb5cacf28536b2b2993ef065c36e7ce8b85dc3fdac19970d28f4623c2c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_04_north.json",
+      "sha256": "e4fa1d1eb83c853f0e29f6589b8eb2bfbd7cfd05a9ee75e837e3cc714c3bd112"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_04_south.json",
+      "sha256": "f31dd4b9cddb8c3b5cde8fddf8ea7d0d0151c9be47f54a87d79d7e794a514a0f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_04_up.json",
+      "sha256": "c781be4071a4ae7311c828c075039c92e8f4f3e3b9f2782c939f047c0d92e456"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_04_west.json",
+      "sha256": "1ea73e8fb6c179e17bd23e673a028ff683c72e7fb6c6aea43510977cb61abdab"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_05_down.json",
+      "sha256": "d1e61bb945c34707deed448148c0b93e3b40035b42f1b3172af760a70a9539a2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_05_east.json",
+      "sha256": "08e4e2b35512c57e6a4b47fe503f3a2ea6d621a163bad669e92d16c57bd66ede"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_05_north.json",
+      "sha256": "940f04ab930d339c97c4db8ac432b27af4843da963cf4a1ecd1bb1d1f14de4c1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_05_south.json",
+      "sha256": "e2fe461a146e8ece0580fc0e0b68a229789adc5e02498f916b83038484f6adbf"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_05_up.json",
+      "sha256": "ce2bcdbdd2faf26f6257ea1fbf9cc730137d8a6b5be2c792ae7040bd1cb91637"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_05_west.json",
+      "sha256": "45b39a6fc64625e39d78c81e78a680148f92bbc66c71eb51161790484c4514f7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_06_down.json",
+      "sha256": "c9751eaa8402fc45a029ad206697f74fd41ccbb706c483964793a6d74ef935fe"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_06_east.json",
+      "sha256": "b6aaeaf8bd4e598f2dcce32345292fd679c50d1ab5f209279396763fb523f5c9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_06_north.json",
+      "sha256": "cd66218e32d17449541d57c81e37b5458cdf020a4ab3e8ebbcfdadf45d53ca3b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_06_south.json",
+      "sha256": "929b63d9cad5bb3029c17eb4b2fb1bacda17d53fa275c9e6e94a461cbf27c5bc"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_06_up.json",
+      "sha256": "0ef3e6c29a30364c4cbd78a15bc6d26eddc47581920b6f76d4705f5fa7ea4174"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_06_west.json",
+      "sha256": "0550ca5585430db2a5d1853451762c0119f141acac17a79a50d5aff585de3027"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_07_down.json",
+      "sha256": "ce01b49faa21c93c65034e4ca619e5b173ce070c546991e407529b88f97b70fc"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_07_east.json",
+      "sha256": "2943f516be667acdf3867a3ef99f68db3b2ec0635865a92c2a26b445c481ef2f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_07_north.json",
+      "sha256": "983d7e08c0c82f8d8c735cc42a70dd364c50bf2d340ee71662638e0a251b7360"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_07_south.json",
+      "sha256": "ec58638e3a095b9012758a17603586c041832f01d682e493b45e85b1ec66f769"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_07_up.json",
+      "sha256": "022e5fa5c08c72b40fcf4519194e68f4beedb012784c2d526e24011538bf741d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_07_west.json",
+      "sha256": "92e47738ffb527c83869a2cc58a22121c55b6f4b34c6e01ede31bed796501114"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_08_down.json",
+      "sha256": "bff914992af7dab43773e780b157faa07e6144266b30e4e0bc96750579ba2a08"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_08_east.json",
+      "sha256": "95c759af1517b555423b0677b7d44fdc25d7609674f3a1e56c7fae4f7fe169e3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_08_north.json",
+      "sha256": "c23f592e0800f1663bb735ceadf15d453889dacd6092a79b8de3a673ce950b13"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_08_south.json",
+      "sha256": "a74bbd2b65bdcfd5ecf0249a84892a2dfd7260c426d550f290965ed4aee6eead"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_08_up.json",
+      "sha256": "2a0e46273af131d34b9943cb50d904edc49446cc19eaa87d541a7efc2be393ff"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_08_west.json",
+      "sha256": "336bda2d27fbf2b07bfc4cedf2dfb9794322e0583ea61ca0eaf2c61f8e441e9c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_09_down.json",
+      "sha256": "75f58c196cab736f5ad42242f942a0ec57d831c4c7fb52fd31a42eb8479ad9d5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_09_east.json",
+      "sha256": "f8cafc9d35feefc5ae2d6e9885593abaa6fb2286b3e10d97eb2cf33f796fb688"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_09_north.json",
+      "sha256": "0f8a30dd8b6517e98e1c671210884a300aff7c4f2d2715826e376abd8eb29524"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_09_south.json",
+      "sha256": "4fba67a55dd4da95b47a61788053aa98bccf100dc7d48cf8543ca98ceb7d8341"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_09_up.json",
+      "sha256": "3420a69436e1a9ad90267f4cb8a30a4d48cc17bce1da7e380bca47c2d19843c3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_09_west.json",
+      "sha256": "92e9a51438cb46572d7d3d156a961155dbf4f726b8adaca1d212a78ab3e1c8a4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_10_down.json",
+      "sha256": "653e6cad4b29cfe52e302d74e0c50bfad788c23f548afd99ba3f61c2f9325085"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_10_east.json",
+      "sha256": "767283e92081579cdb61be95427d1e52556181fcd39837d17b0e82441a5ba6da"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_10_north.json",
+      "sha256": "477189ae68ad92869aebd5ebbcebc1d8415289156f28c04aa0ff10c5e2e74b48"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_10_south.json",
+      "sha256": "d887c181b3e02b00ca04045a6aaf45e6b908b30450c9ebec51300f1c56024127"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_10_up.json",
+      "sha256": "9e13b83b08ae99c23b7806a714a555d4fb2b118a1058479e7a085ee7197b1f1f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_10_west.json",
+      "sha256": "44663dd67cd358f7730952ff815f53daad410905aa45b2bc5a1801f0bd08537b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_11_down.json",
+      "sha256": "264bcff5ce2463033d061a5a70ec32b7b52a1f863fbb7eb87ecee9b4e8926bab"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_11_east.json",
+      "sha256": "5c5bed148450fda88134716ab2fbbfe2abc974394222153ef8ba1fd03b514ee1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_11_north.json",
+      "sha256": "e5ba635642f8c064569e136d9c46976b82a2c9f5f4cae9bf471c213b0e2c1277"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_11_south.json",
+      "sha256": "ef975d97929e189da0e9a3ef6d324b5357ad7f1523566c4363f4a156d9cf671d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_11_up.json",
+      "sha256": "425a92439be5dd32cb2df702454046b422e695629e5cfcf6f90d0c249a90c234"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_11_west.json",
+      "sha256": "151e03a125b173ec36103c49ca90619c517b34478ba045b76cb8008214f1c883"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_12_down.json",
+      "sha256": "762b60b920fe548963a14b80f76168ee27da7f969b96325c3fff877d88d2df28"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_12_east.json",
+      "sha256": "d87463a14c97cca8a2bd68f3562cdbae5371b4b95e4cb6e737155fc420acee02"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_12_north.json",
+      "sha256": "3e4d658d473404f938269fd2fccaf28656664bb0dafcb3f8527f181e9d74d66e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_12_south.json",
+      "sha256": "bed54380437d0a12718c27475a1addaa89be326213235579797435265b9bfe35"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_12_up.json",
+      "sha256": "2deadd6625363ee262684c76cf2cd2a969dea40ec2bcc2e9fc14b80e404bd986"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_12_west.json",
+      "sha256": "7c0e73cbec78905545242c05c980a2c6d1571576fbbbe385e7dc8e2682ab8a24"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_13_down.json",
+      "sha256": "4f029d19ad712c676b7373c44b2b567988224436f302a786f5145c536bcac0ce"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_13_east.json",
+      "sha256": "0b34560e80490ee088a1fd0d142b949b9e567f0f0100d92b8f0e991dd8b529da"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_13_north.json",
+      "sha256": "4d24cb48c92f744ba6865ae704c2185b9aac7177320013b25f16ad0b81b3e398"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_13_south.json",
+      "sha256": "3d35c5194364b47c7faf1a9edc9b4a55650c3f1bf66195a5c673fe673a377293"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_13_up.json",
+      "sha256": "d943b51466c43446ebc77117893c3091f0889ec6906c620a05db665ba9f756f7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_13_west.json",
+      "sha256": "800c95495a6933f0d028f541f8161f95f2c7f0a1fd797a83f33583ebdcdaa66f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_14_down.json",
+      "sha256": "16567c808f66d0277288883f6b7ea914c0548778cbf118d012294b14f26c363d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_14_east.json",
+      "sha256": "5809a9c358470313e846bf79f2215837f2643f6fe46d738cdb6851b8eb448754"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_14_north.json",
+      "sha256": "ff7fc0059c3c5b7797b881c7be3b8bedb5d984c9cb53aa12f5e6b268a5b78862"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_14_south.json",
+      "sha256": "4c8d656fa792b3383f997b312ef9523a173cd58735ba3bc78c03e3b594e69d53"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_14_up.json",
+      "sha256": "65ec06fd0426c0abd7b4ca9a24ccfd8603904353a535dd62770ffeac43a86312"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_14_west.json",
+      "sha256": "9639fb5d2a43e5ce85131a224c3aa75bf842489ef782590175805d20f045102f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_15_down.json",
+      "sha256": "349741444d05e9da38687775b64dbb13fbe4a713f362ad3cc568f7594b5d579c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_15_east.json",
+      "sha256": "0e045dc5c1da6d57da80c10e35d9e1a367c9300250c8a0f19e7759255c62d8a5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_15_north.json",
+      "sha256": "2bb0519b67fd7595b48aa95cf3b127d37be4b5ac1045c5612b9aa9f8662843c1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_15_south.json",
+      "sha256": "53c4f4a3bdccf8198c9319f852fac112f8eada43bce339a010bbcdcf65d9364e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_15_up.json",
+      "sha256": "e4dd61121d33730a1d1e8e76bf8205da2cfc1f7e0e97a5c5d84eca6ee1a01da6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/glass_15_west.json",
+      "sha256": "9b037890a3c34b5a7b994f4903cbd13fb03fb09dc433d7b282139d78dd114d3d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_00_down.json",
+      "sha256": "23c49f0ddfd8e9dd34e153420f9536b2cdc340f3a95d45c852e99250637b70e3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_00_east.json",
+      "sha256": "242a838d5071fa0073fb3fe4f54b2cbc8eb4d86be43dc36d0e3178ab0e5d7e3e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_00_north.json",
+      "sha256": "835bd3a62d68dee124c440d9c67ae2e3f510bdb74c36d3d8c38f8b99056f71ba"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_00_south.json",
+      "sha256": "6fbfe21ab92154d4af24ea3ff7148d39ccfb5151efd4fd5f812025dfea5fff3d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_00_up.json",
+      "sha256": "da98d6bf91d67823af8fa2f0f05cab6f494cac90915175a5fc5cdf08364d18fb"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_00_west.json",
+      "sha256": "04129acafce71ede54944926465335ef3c1f888a7f6a81f8edac5b45ff9c2d18"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_01_down.json",
+      "sha256": "9f002ac4662b41687cea3addadd8e330d2f5b55e117dfa660813aedea40786db"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_01_east.json",
+      "sha256": "d5cef0704fe7c8999184a68a22fb5639490c04cae0527af9637a35a88239f974"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_01_north.json",
+      "sha256": "61721d752b14de66d043f9910d754c9339739f255c8f11649ab48f434fadf2d5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_01_south.json",
+      "sha256": "d3be01f4c6d21db968d304ef244ff657dadb280ebeddc284f223851314703cca"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_01_up.json",
+      "sha256": "b3b6f17c0a5b2029e069f09bd2a72e8ccc09dbcdd140ae9f16bf39cc2892d4ca"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_01_west.json",
+      "sha256": "80183eae27cf3f4d689bbb0b07e48d0d711cf3f929a2c0ad2237afab5e1bfbbd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_02_down.json",
+      "sha256": "5b31d51bd5cf2c6a9146ae24cbc199cb061cf1bb533ac5c2b503f265771f39b7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_02_east.json",
+      "sha256": "9a6af65f6a88272a8e0ae5e8769dea98def348cf02c41abde1610f026d2026d4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_02_north.json",
+      "sha256": "c851876d5aaf28770d216f3a29769610311a0bda3d3e6f0d87037b4e759f0aa2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_02_south.json",
+      "sha256": "3fd885fc886a991887f318aad3fe0413438d554bbc7920ab8687fba3ec5f2c2b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_02_up.json",
+      "sha256": "24685f5ba37cd2cda4d6d39cfd3de005c332258fdd00ce44d3f41d6499daeddb"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_02_west.json",
+      "sha256": "81c7c8e3fd5d847487764773264e25212b8a1711cdea6818c32c5fb3b0be0aee"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_03_down.json",
+      "sha256": "c14ca8c16a4b75b326dfa09b9f5f76285ad1004cb002bbfd802f059fbd3ba03b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_03_east.json",
+      "sha256": "4394406a339e8d42a3d024f29e47775d3da381d2d03ac94c5c956aca7726b7eb"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_03_north.json",
+      "sha256": "69cfe00289192ceda205ef79a182e020c0825285875b1c84e51b93dcb299abc4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_03_south.json",
+      "sha256": "87bfe8a24fa8d4f03b2e9631228a856525835afd2e6074830d5b5aa8f1477055"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_03_up.json",
+      "sha256": "a97fbd3b2bcb01adb9fe05b378624357a34bb7e0e851e7bf7515bf4d9d650a2a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_03_west.json",
+      "sha256": "d575ce0150951315508f6bb422bb0835d254cdd5b96bfff4ffa4e6744a9aa08d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_04_down.json",
+      "sha256": "ef29d5717851f326e025eeb90db14756be20dc9cd519f717894b54112b3b63b9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_04_east.json",
+      "sha256": "082cfa111451c499e927fcfcde5357c1a9d430adaa314c350999ca810c0a6c7f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_04_north.json",
+      "sha256": "4901066bc0c47ec1a8189451075ec8a0642f7e097e3f37b34ced11c3e240a0a5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_04_south.json",
+      "sha256": "b3eaf990278f9ec2292383a7897b4a4432e5c9d4e1c07a9a92603efe08c0c035"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_04_up.json",
+      "sha256": "d1005a51f785a5590b3b92f6ad54b11d2a22f29a798e4b808bcfd267504160ce"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_04_west.json",
+      "sha256": "615e9ac208e9bb680d4ceaaf37d64414c51be9d9dea0900c60eacb960a0cec21"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_05_down.json",
+      "sha256": "9318ca0740cdc829c059aa420b4128e592629a9b2a741299085ab146e9b1904c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_05_east.json",
+      "sha256": "d316d6c3a2dce472daece4870089e3f88577ef0f7f258a154272c718f24da7b7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_05_north.json",
+      "sha256": "0380616120d0b2e81c9fbac109f11cb1b3695440d255e650bb7ec7cbe677e1a8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_05_south.json",
+      "sha256": "de8fac98863b841e789422bbab62c1441c49f5a1c3f45290a1115665f9341dc0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_05_up.json",
+      "sha256": "f36982d4c9b46349e6d4911f64bc50efc474f1344de1b4101855df1c53e696dd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_05_west.json",
+      "sha256": "643944b1a2a3a79b3d4ad189a561966c050c98285756023012dcc2c5afb8c28d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_06_down.json",
+      "sha256": "2b875d5ab584762328d230c89d86d6eb3b375acfc3d07b50b2327e996039f207"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_06_east.json",
+      "sha256": "d92560c795b39a4d1d2a19c4aa441d9720940b1fb96479ecaff3db8d5892e775"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_06_north.json",
+      "sha256": "4378c74bf12cdac9c671d549ae14d172baaac3aeaa429444ed4f42dfe2d435cd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_06_south.json",
+      "sha256": "8022fe1a14c98483391f1d5ff91d260a2eec0253296dd9e912ac469387d0c438"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_06_up.json",
+      "sha256": "e01a54ab1dc7e1dfa78bd6a746f36a2e72b765c42e4a7208514219eef8a0fc57"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_06_west.json",
+      "sha256": "af5ab0f33c0fc3f3df5ed0974d1af70db137d187ebf9a21092c0d520074d99e5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_07_down.json",
+      "sha256": "39c8e6c8bab3434e122aa7c936ab919a5a5e9299fe353807336dd91241676e4a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_07_east.json",
+      "sha256": "adfd3349adf991affadc123d5d873265f17ee23643cf94a9fc7f61552c890807"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_07_north.json",
+      "sha256": "016e9437874cf8cc19d4cb689e3893cb112842373f3d83e748ae79d599359246"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_07_south.json",
+      "sha256": "c48e34e6d9e10537410b7a15629c480430f8d40d01bd5afd7a5725f6d85dec41"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_07_up.json",
+      "sha256": "2a204fac323688ba30026ecf9e1eb6f865591f360337a1d1d3e3831caa099363"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_07_west.json",
+      "sha256": "f5c9ec3d17c7d0c63b25d4f8882b86d27f20b9ed08d07165eaa65394f7cd3ef8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_08_down.json",
+      "sha256": "64389c9b0a2c89f906670e388ab32e8c89bb4d85d20128a6cc103e6beea99836"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_08_east.json",
+      "sha256": "d10a57460081945c8c80c62c05ad639bb6abdf80bc80c61205555b9998403b92"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_08_north.json",
+      "sha256": "f5601674b17bb78901942f0b06286a00b68a670fccf8bf62ad01f89b34e10836"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_08_south.json",
+      "sha256": "860dc1a963221e80681057dcbe49acd05887259f05f98f0d74d8112ed4237cfd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_08_up.json",
+      "sha256": "78f528784006e4fc8f29d80ed6ce07e4d8d1f650427e9e16c37f2a43dc83b38d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_08_west.json",
+      "sha256": "2883cb49d076a062fa432b0bffd8143a873077993cf9ce98a99870bb5fa30bf4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_09_down.json",
+      "sha256": "120b2e43fe111d8c580b8c11e011d21e59ebc9c91cfc537e86f225f0c43b42c2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_09_east.json",
+      "sha256": "c32fbc6ed20bc72f384c4e933c6082196ac69fb7d2489b9ebccdc7f7e87c3777"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_09_north.json",
+      "sha256": "b57ee79b93c244bf29625afdd8121cf56fe4b8b388d1dac616fd4c697c2659e9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_09_south.json",
+      "sha256": "b0d9c1906454f1ba06c0a6cafc1be79fb2bd008679e020557cf5aa683ddce2b7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_09_up.json",
+      "sha256": "fcc91afa08dff55f1dd052a539fd0b08798356c5805fd80f641f0ee9b17873f8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_09_west.json",
+      "sha256": "ceca1872b637bf20f648042d1e7a171f9b76757c0f8aa2e9ede587115f8728dd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_10_down.json",
+      "sha256": "a23b2ac98eb99d099b1acb21116ce5639fccfa15a06370a1ad649849b45b3e3f"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_10_east.json",
+      "sha256": "ad79830ddfc13aa487fe5110e0f857f1dd6c26beae999932825d3a78feab8361"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_10_north.json",
+      "sha256": "0750b3abba1c3243f614739fb48dee533a6402d8e809e16ddec4083d4aaeaa83"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_10_south.json",
+      "sha256": "4a726751f25e0cb90f65d9d124f43ea71f5eca8a1f92b162494143a9a4d5c895"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_10_up.json",
+      "sha256": "7403f9217c1a77adea0619ad51ad913bc39d68bfd58d84058c12f0af3f6a9dca"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_10_west.json",
+      "sha256": "16d094ea06632acd919258ea9362aed8f4ab901b095e22259e30a2c2cff9b609"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_11_down.json",
+      "sha256": "6062ebda9435a96a3528c9dbd3eb42b213341321172446d5d6a10cbdf3e85b1b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_11_east.json",
+      "sha256": "928afc027b202a6f64e41d6ad09a976c8a1d7dfaf304fd2f9c713f172c72974e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_11_north.json",
+      "sha256": "23f9074df41a9cce7cfc96b095d71da8d04e132411593cd596ee09f9fcccf168"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_11_south.json",
+      "sha256": "8288f2af0958f3bf806501dcc97af590f64df3769e089953043e8004d0d00397"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_11_up.json",
+      "sha256": "4db5e1113d1828284d4e8db70c312678e394237af61fe7eee0d45d392d63b564"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_11_west.json",
+      "sha256": "6f33d705cb5f3adab49150909ac01d8f0bb5d2175ddcf154530202902a17a2c9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_12_down.json",
+      "sha256": "3268ca292d9ab2bc43b9e4ad06329593720b90b1b3bb1bf7377fe2a2120502f6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_12_east.json",
+      "sha256": "e6c9d1ff122152bc0ecf52bbe7f115b1e787ec0a06f68364b4070928fda0205b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_12_north.json",
+      "sha256": "6c745ad4200150049047cef9aa02c2f617d41cefca5de38ea7730ae9e46eb440"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_12_south.json",
+      "sha256": "81ed1e1d413a7c2cec49f20c1939592485fa05747864ebf25be16102c9e3bef1"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_12_up.json",
+      "sha256": "035c0b834b59f35f287616f11383fbdbda38df073edc95a95d201cd044104825"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_12_west.json",
+      "sha256": "85dffe4a9cd63106a6f35c9caf6bf8d94d4ae82b4d5438ff02d264d18c807e6d"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_13_down.json",
+      "sha256": "9fd5c53bb6f45e59f0e1f54989700483669b77442b29055406fbdb690b808697"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_13_east.json",
+      "sha256": "f7ed09aa972b55b94ba78c55083370c535027e87e383940e28cc7d6bc0a25873"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_13_north.json",
+      "sha256": "79c5d363ce6511aad28da1d53fb3a4e54e58f1127feec808b334428a473b36b0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_13_south.json",
+      "sha256": "22225cdac94bce7f240f0a56f0afd0593f52eac3ef67c8d8098382555c113068"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_13_up.json",
+      "sha256": "0b47c7a2bdaffe5a317880c96cad425a6a6041848f0ff898874ac02d3934c255"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_13_west.json",
+      "sha256": "3d36910d44ae94665fbc63fddc1af12b45621e947129e6faf75efd99034a19c4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_14_down.json",
+      "sha256": "915571dff096b4bfbb0d5e08ea50f52569e6e6bedd3aacfa3a095d266a55672b"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_14_east.json",
+      "sha256": "e6bc741a2c950cb7d064f595c76be11526c950f722dc3b977af5bfa3f842bf23"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_14_north.json",
+      "sha256": "9d981e696595bc963a6ee759b10f852869682a1750ad21c8f43b8ba4e2a4dae3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_14_south.json",
+      "sha256": "57fc0bd320c62d52216e5085c67f9f55c4748a834f84b2c96c0aa389c9ac62e7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_14_up.json",
+      "sha256": "f8455a431a503421c7f8e394c8ca3e9bc98aab07826061330ae1cfaed1796e99"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_14_west.json",
+      "sha256": "267b3d37037730aadf0d087251ec65fac22cab276948ab28a21c5919397804f0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_15_down.json",
+      "sha256": "16bf07ad10c6780213a08d09df375bc66d0a5121378652a981148f2ee52e2363"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_15_east.json",
+      "sha256": "84ab70adfe8a3fba143cfabf99a3265af83b14163cc5020ddcca70db17ad93d2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_15_north.json",
+      "sha256": "d13c124c3e0ddc07be306aeb8d6d0e38a2eddc0f5dee5b732d4888d186017af0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_15_south.json",
+      "sha256": "f01b1fc9c4bba9168fb4ad39085fde0784d8de7013910a4995c205d4bea93673"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_15_up.json",
+      "sha256": "cd9e7b3cefbf65347c84dba599f6e264d98fe51b17a8549da19db68d49245af9"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/panel_15_west.json",
+      "sha256": "29c0608bdab0e5c3844dbe9f5ed1bee8edb12dbd2df3f3d0b8ec109c1b308ab7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_05_east.json",
+      "sha256": "71e5452203adfddf4c0c3105b7883b9515de78e5599c3daef595717ff663926e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_05_north.json",
+      "sha256": "e6905c276c4b0e462681a7463e63ce1586ca8eca774b91451d7663578f8f8ab4"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_05_south.json",
+      "sha256": "34b1f2db79dc979b433a2d275a4a8340d1595bdd4055df1aaa808b2951c58f79"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_05_west.json",
+      "sha256": "15d341d7ee0d2772a5bca58cec590019c82ba6f0b06e73a833621a5bedd6d377"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_07_east.json",
+      "sha256": "9632bd70d5b51ed49bf1848d13fb3a11aaf44b9aa1ade931cee60235317a6467"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_07_north.json",
+      "sha256": "2a329a9806abe7a78c0bf03c00c8a7fc187fe1846be789b444b7507a5c684fc8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_07_south.json",
+      "sha256": "11e68e760ef3d0ed8b8143c571d7b76b3db50d1932cae3e700cecf0331ef5de6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_07_west.json",
+      "sha256": "588fc9eba226d7393c6b54b13a1fc1ab9ef429319e0a5644e86f449bebc50fbc"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_13_east.json",
+      "sha256": "0786cc63d345090746eb9d151d8d4c0d8d1743125071626ab144797710ac41f2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_13_north.json",
+      "sha256": "56bc4b6307a9a7c52f91f93a4bcabbabcabdedbc765937c6a277a451ced5a707"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_13_south.json",
+      "sha256": "5e30d63ef200095e94d1cdd326568069f5cc8a8c35cb3eb1fc673ee11d7e0674"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_13_west.json",
+      "sha256": "65e59049e573079cadecff7dedbd59da191afa53382a5e53e3f0dbb793f95e2c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_15_east.json",
+      "sha256": "23ed2d8ba2c32801b6a6cf7cb03b292bb94cca73c2852ea880dfc4e4fba92f82"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_15_north.json",
+      "sha256": "bc735bf7844771f62312e7e6536138c4cadc31bb6df8def412912c6a49a49ea7"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_15_south.json",
+      "sha256": "f20c81488acb2b9846cace9984c220dce82d1abe63163d1db7a0a5a25b6b5372"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_15_west.json",
+      "sha256": "4ebccec102127d5a39e26b27c1bc50475b5e8975c99393d775768ce8bfa8f020"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_05_east.json",
+      "sha256": "68a8c4416a7977affe9f49c169b7bafcb913eca1224796961e55e202f99a8bfd"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_05_north.json",
+      "sha256": "bca7780f1f43c76c0659b71b7c7d7707fd0090b335159bcede51867f443fb518"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_05_south.json",
+      "sha256": "fc3be8b0ebce24bf5c575c6fce1ea28ca7ac633f9fdf9154c9cbfe4bec2cdeb5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_05_west.json",
+      "sha256": "7be9341c58fdbd2156fe4f9886649860a679a44c88e9a3fe1287df1bd5f35adc"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_07_east.json",
+      "sha256": "0ff99f1f72ccc1fa7a407b045771bf1935deb26e518913ace1e2f82927175ba6"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_07_north.json",
+      "sha256": "b5b6f4c72fdf06c4a6389eeee630176a21b4bae1b4d94682aa464cd05fdfd73c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_07_south.json",
+      "sha256": "fd355eb9a285139e734a719ebf667712dd36ecfda10ed26f74da317b6290aa77"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_07_west.json",
+      "sha256": "22d59a109a7d6f00574613789a9da95000354d0ef64f790398ec4a66ce4697c3"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_13_east.json",
+      "sha256": "f5321308306d2a6ebd42524a7564247958fbc1e1c65e618163718552e92c53c0"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_13_north.json",
+      "sha256": "b54b67fc24a197eeb97336df1c8a8a9196c158e795eb3f71dd4d28f919d3e9c8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_13_south.json",
+      "sha256": "8cc7a51dc6b5e1cbf1b386477c4f843a13f4d99dfe7b982a72c96c4e65ea8e01"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_13_west.json",
+      "sha256": "52b66c07ad4eddd96c067c38e1d951268d34d63ba9b8b685958a0ff0c2fbd9d2"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_15_east.json",
+      "sha256": "8001a4de361130d0a6ef1f4c7ceecc6cc686d839ca90de683b2b01946f894c8a"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_15_north.json",
+      "sha256": "73a4f9785cb1459ee55e22c099079fc5e2d24a7a83a58807a4da2c25084630a5"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_15_south.json",
+      "sha256": "34b62db9d975f4e7f21f51ead8adfbdb13adc607c04384f9f065af457bda58e8"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/crate/vent_static_15_west.json",
+      "sha256": "e77592257e6e9569add57eaed2fcc6f6f7d0bb1a3546993c079e840f0a5ce212"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/fan_north.json",
+      "sha256": "a86ea0bd281f548d174eb64c06164f5c5d87002b5f583e6eced66a853bab0296"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/parcel.json",
+      "sha256": "70bf0cb6c132a37e1014ed2bf642b08caf6f05af19fa19c03a74cb1753a2b10e"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/resonator_active.json",
+      "sha256": "124d99c69bcf03f9c740200318eaa03e9f059765795f0b0e18680c7c607cf016"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/resonator_idle.json",
+      "sha256": "9bed9b7b7f5c8ef569789d369f404c70de8e3b3646e6decf6f474d1f7f1290eb"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/resonator_item.json",
+      "sha256": "ec06e8ffbdff2e74e17cb7a12a1ceb26200600e244621ddaa4b6bc3499e84b7c"
+    },
+    {
+      "path": "resources/assets/aircrate/models/block/integration_v4/resonator_rotor.json",
+      "sha256": "b107bf94bd3bbbae1e64eb0f87ee2b2a898d4051ac02ee62218218192c52c68e"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_00.png",
+      "sha256": "9389c684b4ec45cb579606c079a16f085b734ea64de01daf39e8bfb9448e2b2b"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_01.png",
+      "sha256": "31c072d8efc4b9cb8fc3c08d04fefac7c3d5e3baccfeede0f4c92fcd8431d4be"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_02.png",
+      "sha256": "65f591ad941c5aacad500e90142eebbc3ecf5e8c837cda2458e0896554c7e725"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_03.png",
+      "sha256": "e9b32628882c4fdbc7a27f42509aa75fe44e789a0eccf3d5de34c094d90a85d1"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_04.png",
+      "sha256": "4aea638b4da0b5354c56b41a3ae89a54104576a65cdaaaf84c5d3f788e570ac7"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_05.png",
+      "sha256": "71c23d0c3d440e11bd3d9a36a527fdf6a5fccda1dda54590bca3de51e15986fe"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_06.png",
+      "sha256": "2faf02a8fc8ffcc41a2f8cc510348aae760b6471ea709e7f4a6bec64ae8ad017"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_07.png",
+      "sha256": "3037435ca3271c80d9d9ea36061e0bc9a5749cb935899db998a8b1fef87d3ee0"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_08.png",
+      "sha256": "2ccd9ac7aaa48dd34bd0613718014664db80bbf748e3b4fa1907c20b7a6d9aae"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_09.png",
+      "sha256": "eaad8aa67afc91d4d09d87088035b47d26f359ea958bb3ad4dba8bd18e4d66c8"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_10.png",
+      "sha256": "912b60b02b9ea023d466f42232dcb699242f33395b64d2e89316a29fcb2f7bc7"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_11.png",
+      "sha256": "f2d83ae9b560d6de41f3130e44af71c28b2ff95a0d7d37b605adb888df275008"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_12.png",
+      "sha256": "4da906079760db46f650f4620b7bc5bd3f02a0d30a89b962f08bb37dacdc5f9b"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_13.png",
+      "sha256": "03f20da0ebfca19dec2fd3d9fdc2a6794f1616decbeb9bba8f700c865db4ed6f"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_14.png",
+      "sha256": "53dd657f534fb55eee1f974195fd27c6608e9879a7a04002dd6a54cb7b6f8e88"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_15.png",
+      "sha256": "99e53fd529f61b4b347820f8b225077b527dfbda9d7ad9d8e22f62b2fbf363ad"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/bars_inner.png",
+      "sha256": "9389c684b4ec45cb579606c079a16f085b734ea64de01daf39e8bfb9448e2b2b"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_00.png",
+      "sha256": "0dc6626c8a0658ef9159d6371ad80864442d41b80844ece333166211a94bee42"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_01.png",
+      "sha256": "458684ed4d87fb0125c494f5f2f53bb8ec96b15e2e7ed04bb3b6edfb05cec882"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_02.png",
+      "sha256": "dd67fb0ff338702f3b7fc1f9fc3e08fcc652c608192c5871c3f52da9b8c95f82"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_03.png",
+      "sha256": "b12e36214f29c7681eba39a648c1e6cc5b5796c79a755ecec13a6bed1c69a5ab"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_04.png",
+      "sha256": "ea0e36878d8d51a8c0f9bfe48d6ddaeee8a4c29a450570023a6b82d5a335f9b3"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_05.png",
+      "sha256": "898cd69ec8b9c7b52c7ffc353e451139f2b551387d2d2c477e7f8d893814ef3f"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_06.png",
+      "sha256": "6514864f200b99f1d102ad045ba8fc6c046facb02fe249cb06fabab8d682ea26"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_07.png",
+      "sha256": "c6afd4069fae14acf07ccf3b33b23d326eb78d4f6afafba16760919f28304dad"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_08.png",
+      "sha256": "e725f7d0aedf9ec9a665c578e8f3cf17f4a4b051aa7123182299773db2db19a0"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_09.png",
+      "sha256": "40e172fc10024169abda6802971b3f4d8b471b64795da4edca223cad7d80e113"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_10.png",
+      "sha256": "55a8952890c35363a77b68587de1d3ce6fd0fdd1e667567cd2deba0bcba48fb1"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_11.png",
+      "sha256": "e46246d2fa84945ea91b8260e9abfdaebd8cd9f5cdbe9c27deb8add798fd5fed"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_12.png",
+      "sha256": "e5c65f575dbbc5e8b722f5bf1ea47a057b1ed10e38de7b41df697ff4775e9ea6"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_13.png",
+      "sha256": "b5a0d940b778aa106c784f64e310dc0fec38d8ec2fdfb4896106c2131d73cf7c"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_14.png",
+      "sha256": "681d4aaed6425c6ae5800265ab715a47c344f49fc69450e7f8a2795d2def2e54"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_15.png",
+      "sha256": "b84a9492226b5e247a4583780229baa1bde74e4759c3cdc152de81321fedea16"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/closed_inner.png",
+      "sha256": "0dc6626c8a0658ef9159d6371ad80864442d41b80844ece333166211a94bee42"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_00.png",
+      "sha256": "232c2eac760eae604f9dd43352c0b272396b7cfaf220081b54583b6d0cbc2320"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_01.png",
+      "sha256": "b9effd67fb96697a200b680a2c95f22f24bd67983b43e2c2458d9c62153ae773"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_02.png",
+      "sha256": "1be36248969d2f5aeda163aa4e929bc2a9563d0adfffb88e1b1410a95bea8327"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_03.png",
+      "sha256": "fcf8f5a90b0c31afe01d826edf3edb86668879cb321d4f79cf318fe4bf8fc613"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_04.png",
+      "sha256": "45663bda3e54c9142c8f24a2de862f872b8dc434fff61ab545cfa34ac70a667a"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_05.png",
+      "sha256": "4cbaba72d853c8bdd047e985a30fa88f74f22f7f932d490885b0cab3ed366a29"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_06.png",
+      "sha256": "0bea1f39b8d27abaf9b89fa57b2ca1cd4730ad1f31e70d78c9c7d5c606aebd6c"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_07.png",
+      "sha256": "94d3a93310267a09f68e431360e2cb7f96300cb04821a73f6c99d7db58050742"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_08.png",
+      "sha256": "ff1610135c4297c4a340d72464fa654a6202925b5ec10d8245c9773231969937"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_09.png",
+      "sha256": "85299c2cdedc74ad67588e280b92ce71842719d1ec47db1cd490709e60f70afe"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_10.png",
+      "sha256": "0c74115a5ef992242779695a10eb7e07714a82fbe6e7fa5eb2b63262240bb6f0"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_11.png",
+      "sha256": "86aa9fcc11d5ec5f99ef868af5f4a12c7aa4facec4ded42ab5365599aded9abc"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_12.png",
+      "sha256": "659c2f742c6bc378bced497df367059d204c3b3d0d6197feea39ea7ee7055f35"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_13.png",
+      "sha256": "2f930ab95824ef045dc75a1b0b9816557e86f2031dfce89cd9e80efc4688b098"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_14.png",
+      "sha256": "19c7e9e46e2d74e9f56c618299c8b0b03c369ddab6bf9657a139b917a76972e7"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/frame_15.png",
+      "sha256": "5b553c29837203c787529620bb933cec6c8bda435840e53687abc9fb01ebf804"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_00.png",
+      "sha256": "232c2eac760eae604f9dd43352c0b272396b7cfaf220081b54583b6d0cbc2320"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_01.png",
+      "sha256": "b9effd67fb96697a200b680a2c95f22f24bd67983b43e2c2458d9c62153ae773"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_02.png",
+      "sha256": "1be36248969d2f5aeda163aa4e929bc2a9563d0adfffb88e1b1410a95bea8327"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_03.png",
+      "sha256": "fcf8f5a90b0c31afe01d826edf3edb86668879cb321d4f79cf318fe4bf8fc613"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_04.png",
+      "sha256": "45663bda3e54c9142c8f24a2de862f872b8dc434fff61ab545cfa34ac70a667a"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_05.png",
+      "sha256": "4cbaba72d853c8bdd047e985a30fa88f74f22f7f932d490885b0cab3ed366a29"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_06.png",
+      "sha256": "0bea1f39b8d27abaf9b89fa57b2ca1cd4730ad1f31e70d78c9c7d5c606aebd6c"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_07.png",
+      "sha256": "94d3a93310267a09f68e431360e2cb7f96300cb04821a73f6c99d7db58050742"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_08.png",
+      "sha256": "ff1610135c4297c4a340d72464fa654a6202925b5ec10d8245c9773231969937"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_09.png",
+      "sha256": "85299c2cdedc74ad67588e280b92ce71842719d1ec47db1cd490709e60f70afe"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_10.png",
+      "sha256": "0c74115a5ef992242779695a10eb7e07714a82fbe6e7fa5eb2b63262240bb6f0"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_11.png",
+      "sha256": "86aa9fcc11d5ec5f99ef868af5f4a12c7aa4facec4ded42ab5365599aded9abc"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_12.png",
+      "sha256": "659c2f742c6bc378bced497df367059d204c3b3d0d6197feea39ea7ee7055f35"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_13.png",
+      "sha256": "2f930ab95824ef045dc75a1b0b9816557e86f2031dfce89cd9e80efc4688b098"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_14.png",
+      "sha256": "19c7e9e46e2d74e9f56c618299c8b0b03c369ddab6bf9657a139b917a76972e7"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_15.png",
+      "sha256": "5b553c29837203c787529620bb933cec6c8bda435840e53687abc9fb01ebf804"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/glass_inner.png",
+      "sha256": "232c2eac760eae604f9dd43352c0b272396b7cfaf220081b54583b6d0cbc2320"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_00.png",
+      "sha256": "d4c19dea6a25c4f1a63483692df02442533b048f5ef9d0dc2885ddf63128596b"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_01.png",
+      "sha256": "cd9bb6e5d7d25e160f3bb5c989760385ea0a12a969ca4af779163f68f50d79d6"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_02.png",
+      "sha256": "0a755309a9cc71c66decd0004473ff060d62dc271a09975f71f15f2fb1b5c34e"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_03.png",
+      "sha256": "299187a5f166f772677a5b6545eee00e308606852072662253d864dcfd24a215"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_04.png",
+      "sha256": "ea7acb6710ad45ab406cd7b570a0c335b4ea90d84d76fa994fbce93b7e323fc5"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_05.png",
+      "sha256": "0e8b3190e4dd67ecffcd4a239421d51cb5dabeaccacef9f9f30e7decff913f66"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_06.png",
+      "sha256": "0a328042ece23369b225c0c7bb80840f7d4cfa05f84f1e10ff19787239e25f49"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_07.png",
+      "sha256": "ddbd05437af4e9ddbdf2338a1a7caa2e6408de0834efe1353b00624627463d43"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_08.png",
+      "sha256": "fcf548db8099d2b7de23590dc0662aa687477014404863da8185736e52132140"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_09.png",
+      "sha256": "fc7213b7987aa4bf26b9d57803905e29c390add4207fefa4d624e88c26d45181"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_10.png",
+      "sha256": "582d0bd35fa7191439d3f6b2084c6f37eb3f7429c2e87c3a5bdcd864d6cf8648"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_11.png",
+      "sha256": "d836fcb3d918a7255b2758bb6a7715ce3b7d598c73af87bb4495f31b2ee2cda5"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_12.png",
+      "sha256": "5f9c09d8a8203b9ee6c63b961076c3766d770b4b488f03c7093eced56a89520f"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_13.png",
+      "sha256": "305003fd8dfc0d038475d0d9b9579783f231a4d5f439d97264fe275cb59e04ef"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_14.png",
+      "sha256": "fe5619ea7787acd30d5e5e2584bebf73c415329641b5c1acd38726f4f99e8182"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/panel_15.png",
+      "sha256": "f0db4641b5705fc9d618ddc09f7528c6c06ddb774c0afb3df468c093c90dba9f"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/parcel_window.png",
+      "sha256": "2e36c10d6a307b29033dc3a13bb244e8943b9b679c4b9198899b769e08b52c41"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/resonator_casing_bearing.png",
+      "sha256": "22d1f772cec9e406b5d4bda49f47a23832823a952f4c1ee7ad64f3c968a469fa"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/resonator_casing_side.png",
+      "sha256": "acfa40712c2f3f40e5216780b16018af1bdc662f067376ec3e9c29544ac9f17d"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/sculk_active.png",
+      "sha256": "d13328a5a82af02ed966f56f05a2fa556414827789b87b7b8a8b8414ce470787"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_00.png",
+      "sha256": "b35324a1b650c1ed9bffc489fd6bf1d7c1129fb1737162da2569cd95c294f243"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_01.png",
+      "sha256": "c445dbead694847758c474a371197886ef4177819d2ba58d6b099c89a10b2879"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_02.png",
+      "sha256": "c49843ffc10dbf846f9fce44acc8b754dde3c92c01ba563672d8be533277329d"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_03.png",
+      "sha256": "c21f72419e3e565763be120466918250213453c959773b722619625666b33e72"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_04.png",
+      "sha256": "d21fe9a43a0e1f36bba7427d62988e54001929067eae39f51bc013378ca2aa12"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_05.png",
+      "sha256": "196f83db5e30680454a5856562c72092d2fd560d07dbf067a69324ef30f432c9"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_06.png",
+      "sha256": "8525ab3c38830388ddd69aacd668ca47771ca88bcca7f436316e64e8d6c4eb56"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_07.png",
+      "sha256": "558502f09e1f63bb6306d130c0bc9379df39eeedba1242942099c11123f1c07c"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_08.png",
+      "sha256": "43c141744e628a1bd4f50ef8806963da7b23c108af0746eda8c95e1832357343"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_09.png",
+      "sha256": "12593fff3ccd57e6d7618a72308dce4fc4114a8435df85503e6dc887784d1462"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_10.png",
+      "sha256": "1011420a959e51e18d2e0d8c3f5408fe9588a28eca77698fb73228af52120633"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_11.png",
+      "sha256": "a5983b4915499e30880b9ea34231ced50f7cca0547be9ff9f571c8c31a08a698"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_12.png",
+      "sha256": "0f56ecec8913feb25b1b0a0d78db4dd8e6f665a936cf91d08081dc03be2915fb"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_13.png",
+      "sha256": "96a466ac3588f049fc4945921991126d8f24aae680cf3e000be17a91d4671235"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_14.png",
+      "sha256": "7f90d8a93cbd86e8cc1637939034912c2a8d905c2de236efcf1b4c46386fa8eb"
+    },
+    {
+      "path": "resources/assets/aircrate/textures/block/integration_v4/vent_panel_15.png",
+      "sha256": "4df0b9637d93e1bb70c7edf92429129ac421e86accf9fc921c89f069ffac5390"
+    }
+  ]
+}

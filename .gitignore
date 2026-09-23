@@ -1,0 +1,32 @@
+/.gradle-home*/
+/.gradle/
+/build/
+/run/
+/repo/
+
+# 本目录中残留的整合包运行时/解包文件，不属于 air-crate 源码
+/assets/
+/data/
+/META-INF/
+/reports/
+/tmp/
+/--only=*
+/$out/
+/_crash_*/
+/.report_extract/
+/backups/
+/build-ascii/
+/*.mixins.json
+/*.json
+/forge.*
+/pack.mcmeta
+/*.png
+/*.log
+/*.args
+
+# 本地工具缓存和临时预览
+**/__pycache__/
+/art/tmp_texzoom/
+
+# Local agent notes may contain machine-specific paths and must not be published.
+/AGENTS.md

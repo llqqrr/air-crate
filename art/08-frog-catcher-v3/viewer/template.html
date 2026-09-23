@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>08 生物收纳器 · 蛙港气动捕获枪</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#172225;color:#deded1;font:16px/1.65 'Microsoft YaHei',sans-serif}header{padding:24px 32px;border-bottom:1px solid #435257}h1{margin:0;color:#d9b97a;font-size:27px}header p{margin:6px 0 0;color:#a5b6b2}.layout{display:grid;grid-template-columns:minmax(0,1fr) 340px;max-width:1800px;margin:auto}.viewport{height:calc(100vh - 156px);min-height:580px;position:relative;background:radial-gradient(ellipse at 45% 45%,#344348,#172225 70%)}#view{width:100%;height:100%;display:block;touch-action:none}.hint{position:absolute;bottom:18px;left:24px;color:#9fafaa;pointer-events:none}aside{background:#202d31;padding:26px;border-left:1px solid #435257}h2{font-size:19px;margin:20px 0 10px}button,select{font:inherit;border:1px solid #586b6a;background:#2b3d40;color:#dfdecf;padding:9px 12px;border-radius:6px;cursor:pointer}button:hover{background:#405354}button:disabled{opacity:.4;cursor:default}.selected{border-color:#d9b97a;color:#e2bf7b}#fire{width:100%;background:#c4a468;color:#172225;font-weight:bold;margin:12px 0}#refill{width:100%}input{width:100%;accent-color:#d9b97a}.row{display:flex;gap:8px;flex-wrap:wrap}.stat{display:flex;justify-content:space-between;margin:8px 0}.stat strong{font-size:27px;color:#e5bf79}.low{color:#eb8777}.ok{color:#a1c2ad}.note{font-size:13px;color:#a4b3ae;margin-top:20px}.links{padding:22px 32px;border-top:1px solid #435257}a{color:#d9b97a;margin-right:20px}#phase{color:#d9b97a;font-size:18px;margin:16px 0}select{width:100%}@media(max-width:900px){.layout{grid-template-columns:1fr}.viewport{height:60vh;min-height:420px}aside{border-left:0}header{padding:20px}.links{line-height:2.5}}
+</style>
+<header><h1>08 / 生物收纳器 · 蛙港气动捕获枪</h1><p>原生物蛙港双眼与开合嘴 · 横置 Create 铜背罐 · 黄铜机匣与后倾安山握把</p></header>
+<main class="layout"><div class="viewport"><canvas id="view" aria-label="可旋转的三维生物收纳器"></canvas><div class="hint">拖动旋转 · 滚轮缩放 · 空格试射</div></div><aside>
+<div class="row"><button class="selected" data-camera="orbit">三维外观</button><button data-camera="first">握持示意</button><button data-camera="gauge">压力表</button></div>
+<h2>气量与工作状态</h2><div class="stat"><span>剩余捕获次数</span><strong id="count">8 / 8</strong></div><div class="stat"><span>当前气压</span><b id="pressure">100%</b></div>
+<input id="air" aria-label="剩余气量" type="range" min="0" max="8" step="1" value="8"><div id="warning" class="ok">压力充足</div><div id="phase">待机 · 蛙嘴闭合</div>
+<button id="fire">试射一次 · 消耗 1 格气量</button><button id="refill">补充气量</button><div class="stat"><span>本次已试射</span><b id="shots">0</b></div>
+<h2>比例参照</h2><select id="compare" aria-label="切换原模型对照"><option value="frog">新版蛙港捕获枪</option><option value="cannon">Create 原土豆加农炮</option></select>
+<h2>结构拆解</h2><input id="explode" aria-label="拆解结构" type="range" min="0" max="1" step="0.01" value="0">
+<p class="note">压力表指针读取同一气量状态；余量 ≤25% 进红区，归零后禁止试射。8 次容量用于这份可交互设计稿，尚未写入游戏规则。蒸汽仅在排气阶段出现。</p>
+<p class="note">握持示意使用土豆加农炮显示参数与标准持物锚点，供两者同视角比较；最终遮挡与玩家手臂仍需 Minecraft 实机核对。</p>
+</aside></main>
+<nav class="links"><a href="../sheets/08_frog_catcher_engineering.png">完整工程图</a><a href="../sheets/08_mechanism_and_pressure.png">机构与压力表</a><a href="../models/08_frog_catcher_animated.bbmodel" download>Blockbench 动画工程</a><a href="../README.md">来源与接入说明</a></nav>
+<script>/*THREE_LIBRARY*/</script><script>window.MODEL_DATA=/*MODEL_DATA*/;window.CONFIG=/*CONFIG*/;</script><script>/*VIEWER_CODE*/</script></html>

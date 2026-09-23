@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "wall": "aircrate:block/integration_v4/bars_09",
+    "particle": "create:block/vault/vault_front_small"
+  },
+  "elements": [
+    {
+      "name": "bars",
+      "from": [
+        0,
+        15.96,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#wall",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#wall",
+          "uv": [
+            0,
+            16,
+            16,
+            0
+          ]
+        }
+      }
+    }
+  ]
+}

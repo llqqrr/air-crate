@@ -1,0 +1,129 @@
+{
+  "models_loaded_in_Blockbench": [
+    {
+      "name": "01_crate_bars",
+      "meshes": 26,
+      "textures": 13,
+      "animations": 0,
+      "file": "01_crate_bars.bbmodel"
+    },
+    {
+      "name": "01_crate_closed",
+      "meshes": 26,
+      "textures": 12,
+      "animations": 0,
+      "file": "01_crate_closed.bbmodel"
+    },
+    {
+      "name": "01_crate_glass",
+      "meshes": 26,
+      "textures": 13,
+      "animations": 0,
+      "file": "01_crate_glass.bbmodel"
+    },
+    {
+      "name": "02_interaction_hatch_patch",
+      "meshes": 4,
+      "textures": 5,
+      "animations": 0,
+      "file": "02_interaction_hatch_patch.bbmodel"
+    },
+    {
+      "name": "03_resonator_active",
+      "meshes": 9,
+      "textures": 6,
+      "animations": 0,
+      "file": "03_resonator_active.bbmodel"
+    },
+    {
+      "name": "03_resonator_idle",
+      "meshes": 9,
+      "textures": 6,
+      "animations": 0,
+      "file": "03_resonator_idle.bbmodel"
+    },
+    {
+      "name": "04_packager_linked",
+      "meshes": 8,
+      "textures": 4,
+      "animations": 0,
+      "file": "04_packager_linked.bbmodel"
+    },
+    {
+      "name": "04_packager_powered",
+      "meshes": 8,
+      "textures": 4,
+      "animations": 0,
+      "file": "04_packager_powered.bbmodel"
+    },
+    {
+      "name": "04_packager_unpowered",
+      "meshes": 8,
+      "textures": 4,
+      "animations": 0,
+      "file": "04_packager_unpowered.bbmodel"
+    },
+    {
+      "name": "04_packager_vertical_unpowered",
+      "meshes": 8,
+      "textures": 4,
+      "animations": 0,
+      "file": "04_packager_vertical_unpowered.bbmodel"
+    },
+    {
+      "name": "05_parcel_display",
+      "meshes": 9,
+      "textures": 7,
+      "animations": 0,
+      "file": "05_parcel_display.bbmodel"
+    },
+    {
+      "name": "05_parcel_empty",
+      "meshes": 2,
+      "textures": 2,
+      "animations": 0,
+      "file": "05_parcel_empty.bbmodel"
+    },
+    {
+      "name": "06_mixed_feed",
+      "meshes": 178,
+      "textures": 1,
+      "animations": 0,
+      "file": "06_mixed_feed.bbmodel"
+    },
+    {
+      "name": "07_creature_list_filter",
+      "meshes": 152,
+      "textures": 1,
+      "animations": 0,
+      "file": "07_creature_list_filter.bbmodel"
+    },
+    {
+      "name": "08_catcher_extended",
+      "meshes": 18,
+      "textures": 6,
+      "animations": 0,
+      "file": "08_catcher_extended.bbmodel"
+    },
+    {
+      "name": "08_catcher_stowed",
+      "meshes": 18,
+      "textures": 6,
+      "animations": 0,
+      "file": "08_catcher_stowed.bbmodel"
+    },
+    {
+      "name": "08_catcher_animated",
+      "meshes": 19,
+      "textures": 7,
+      "animations": 1,
+      "file": "08_catcher_animated.bbmodel"
+    }
+  ],
+  "native_animation": "capture_cycle",
+  "length_seconds": 1.6,
+  "captured_frames": 32,
+  "distinct_frame_images": 19,
+  "gif_source": "Actual Blockbench renderer; fixed camera; 20 fps",
+  "native_codec_export": "blockbench_exports/08_catcher_animated.bbmodel"
+}

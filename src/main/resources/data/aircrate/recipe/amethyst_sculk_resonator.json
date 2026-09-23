@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [" A ", "SCS", " G "],
+  "key": {
+    "A": { "item": "minecraft:amethyst_block" },
+    "S": { "item": "minecraft:sculk_sensor" },
+    "C": { "item": "create:brass_casing" },
+    "G": { "item": "create:shaft" }
+  },
+  "result": { "id": "aircrate:amethyst_sculk_resonator", "count": 1 }
+}

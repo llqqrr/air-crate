@@ -1,0 +1,236 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "0": "aircrate:item/cardboard",
+    "particle": "aircrate:item/cardboard_particle",
+    "window": "aircrate:block/integration_v4/parcel_window"
+  },
+  "elements": [
+    {
+      "name": "box",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          8
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            9,
+            0.25,
+            12,
+            3.25
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            12,
+            6.25,
+            9,
+            9.25
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            9,
+            3.25,
+            12,
+            6.25
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            9,
+            9.25,
+            12,
+            12.25
+          ],
+          "rotation": 180,
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            9,
+            12.25,
+            12,
+            15.25
+          ],
+          "rotation": 270,
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "Observation window",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        2.04
+      ],
+      "faces": {
+        "north": {
+          "texture": "#window",
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ]
+        },
+        "south": {
+          "texture": "#window",
+          "uv": [
+            14,
+            2,
+            2,
+            14
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior east",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        2.04,
+        12,
+        14
+      ],
+      "faces": {
+        "east": {
+          "texture": "#0",
+          "uv": [
+            9,
+            12.25,
+            12,
+            15.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior west",
+      "from": [
+        13.96,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "west": {
+          "texture": "#0",
+          "uv": [
+            9,
+            12.25,
+            12,
+            15.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior north",
+      "from": [
+        2,
+        0,
+        13.96
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#0",
+          "uv": [
+            9,
+            12.25,
+            12,
+            15.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior down",
+      "from": [
+        2,
+        11.96,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "down": {
+          "texture": "#0",
+          "uv": [
+            9,
+            12.25,
+            12,
+            15.25
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cardboard interior up",
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        0.04,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#0",
+          "uv": [
+            9,
+            12.25,
+            12,
+            15.25
+          ]
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

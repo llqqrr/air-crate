@@ -1,0 +1,85 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "0": "aircrate:block/creature_frogport_port",
+  "1": "create:block/port2",
+  "2": "aircrate:item/copper_pressure_shell_32",
+  "3": "create:block/brass_casing",
+  "4": "create:block/andesite_casing",
+  "5": "create:block/mechanical_press_pole",
+  "6": "create:item/potato_cannon",
+  "7": "aircrate:item/mechanism_pixels_16",
+  "8": "aircrate:item/pressure_gauge_16"
+ },
+ "elements": [
+  {
+   "name": "creature_frogport_tongue_0",
+   "from": [
+    7.04,
+    10.335,
+    -2.02
+   ],
+   "to": [
+    8.96,
+    10.815,
+    4.7
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      6.0,
+      3.0,
+      8.0,
+      3.5
+     ],
+     "texture": "#1"
+    },
+    "east": {
+     "uv": [
+      6.0,
+      0.0,
+      6.5,
+      3.5
+     ],
+     "texture": "#1"
+    },
+    "south": {
+     "uv": [
+      6.0,
+      0.0,
+      8.0,
+      0.5
+     ],
+     "texture": "#1"
+    },
+    "west": {
+     "uv": [
+      7.5,
+      0.0,
+      8.0,
+      3.5
+     ],
+     "texture": "#1"
+    },
+    "up": {
+     "uv": [
+      6.0,
+      0.0,
+      8.0,
+      3.5
+     ],
+     "texture": "#1"
+    },
+    "down": {
+     "uv": [
+      6.0,
+      0.0,
+      8.0,
+      3.5
+     ],
+     "texture": "#1"
+    }
+   }
+  }
+ ]
+}

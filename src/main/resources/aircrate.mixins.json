@@ -1,0 +1,9 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.llqqrr.aircrate.mixin",
+  "plugin": "com.llqqrr.aircrate.mixin.AirCrateMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["SableAssemblyMixin", "ItemStackHandlerMixin", "HopperContainerMixin", "ContainerSlotMixin", "PackageItemMixin", "PackageEntityMixin", "SawBlockEntityMixin", "PackageRendererMixin", "PackageVisualMixin", "VisualizationHelperMixin"],
+  "injectors": {"defaultRequire": 1}
+}

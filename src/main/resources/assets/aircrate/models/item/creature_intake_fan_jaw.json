@@ -1,0 +1,238 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "0": "aircrate:block/creature_frogport_port",
+  "1": "create:block/port2",
+  "2": "aircrate:item/copper_pressure_shell_32",
+  "3": "create:block/brass_casing",
+  "4": "create:block/andesite_casing",
+  "5": "create:block/mechanical_press_pole",
+  "6": "create:item/potato_cannon",
+  "7": "aircrate:item/mechanism_pixels_16",
+  "8": "aircrate:item/pressure_gauge_16"
+ },
+ "elements": [
+  {
+   "name": "creature_frogport_head_0",
+   "from": [
+    5.12,
+    10.82,
+    -2.02
+   ],
+   "to": [
+    10.88,
+    12.72,
+    3.74
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      0.0,
+      0.0,
+      6.0,
+      1.979
+     ],
+     "texture": "#0"
+    },
+    "east": {
+     "uv": [
+      6.0,
+      0.0,
+      12.0,
+      1.979
+     ],
+     "texture": "#0"
+    },
+    "south": {
+     "uv": [
+      6.0,
+      10.0,
+      12.0,
+      11.979
+     ],
+     "texture": "#0"
+    },
+    "west": {
+     "uv": [
+      6.0,
+      0.0,
+      12.0,
+      1.979
+     ],
+     "texture": "#0"
+    },
+    "up": {
+     "uv": [
+      0.0,
+      10.0,
+      6.0,
+      16.0
+     ],
+     "texture": "#0"
+    }
+   }
+  },
+  {
+   "name": "creature_frogport_head_2",
+   "from": [
+    5.12,
+    10.818,
+    -2.02
+   ],
+   "to": [
+    10.88,
+    10.818,
+    2.3
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      0.0,
+      0.0,
+      6.0,
+      4.5
+     ],
+     "texture": "#1"
+    }
+   }
+  },
+  {
+   "name": "creature_frogport_head_3",
+   "from": [
+    5.024,
+    11.28,
+    -2.116
+   ],
+   "to": [
+    6.56,
+    12.816,
+    -0.58
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4.5,
+      0.0,
+      6.0,
+      1.5
+     ],
+     "texture": "#0"
+    },
+    "east": {
+     "uv": [
+      8.0,
+      5.5,
+      9.5,
+      7.0
+     ],
+     "texture": "#0"
+    },
+    "south": {
+     "uv": [
+      8.0,
+      5.5,
+      9.5,
+      7.0
+     ],
+     "texture": "#0"
+    },
+    "west": {
+     "uv": [
+      6.0,
+      0.0,
+      7.5,
+      1.5
+     ],
+     "texture": "#0"
+    },
+    "up": {
+     "uv": [
+      4.5,
+      14.5,
+      6.0,
+      16.0
+     ],
+     "texture": "#0"
+    },
+    "down": {
+     "uv": [
+      8.0,
+      5.5,
+      9.5,
+      7.0
+     ],
+     "texture": "#0"
+    }
+   }
+  },
+  {
+   "name": "creature_frogport_head_4",
+   "from": [
+    9.44,
+    11.28,
+    -2.116
+   ],
+   "to": [
+    10.976,
+    12.816,
+    -0.58
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      4.5,
+      0.0,
+      6.0,
+      1.5
+     ],
+     "texture": "#0"
+    },
+    "east": {
+     "uv": [
+      6.0,
+      0.0,
+      7.5,
+      1.5
+     ],
+     "texture": "#0"
+    },
+    "south": {
+     "uv": [
+      8.0,
+      5.5,
+      9.5,
+      7.0
+     ],
+     "texture": "#0"
+    },
+    "west": {
+     "uv": [
+      8.0,
+      5.5,
+      9.5,
+      7.0
+     ],
+     "texture": "#0"
+    },
+    "up": {
+     "uv": [
+      4.5,
+      14.5,
+      6.0,
+      16.0
+     ],
+     "texture": "#0"
+    },
+    "down": {
+     "uv": [
+      8.0,
+      5.5,
+      9.5,
+      7.0
+     ],
+     "texture": "#0"
+    }
+   }
+  }
+ ]
+}

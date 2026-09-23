@@ -1,0 +1,1035 @@
+[
+  {
+    "output": "create__block__vault__vault_side_small.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_side_small.png",
+    "operation": "unaltered copy",
+    "sha256": "f13521e651b11fd46c881528409e4bccec1ec0c6107e66c56b6dc34f268f3ee7",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__fan_blades.png",
+    "source": "references\\create\\textures\\block\\fan_blades.png",
+    "operation": "unaltered copy",
+    "sha256": "a380f3c683ca2a1798f02120ad7245158f2fea6048532ce00074dfacdc53b3aa",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_front_small.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_front_small.png",
+    "operation": "unaltered copy",
+    "sha256": "0c3ad6410b9b447cd52d8ac394998cea0d18b670ccea7307b5a32e3640785c0f",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__packager_iris_closed.png",
+    "source": "references\\create\\textures\\block\\packager_iris_closed.png",
+    "operation": "unaltered copy",
+    "sha256": "67a0032ce51fbe4297683f5c99a55337b599f3d2e91fdc576f77a230932a5e50",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__andesite_casing.png",
+    "source": "references\\create\\textures\\block\\andesite_casing.png",
+    "operation": "unaltered copy",
+    "sha256": "c7da24aacfb6170ebd570e5a302a6c9d3f3c0b324314e3df79236209667f192a",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__block__sculk_sensor_side.png",
+    "source": "references\\minecraft\\textures\\block\\sculk_sensor_side.png",
+    "operation": "unaltered copy",
+    "sha256": "b99073dbcceddb2ee73cbd901fc98f6d86bcac7b1ca05dcea36540e664698e53",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__block__calibrated_sculk_sensor_top.png",
+    "source": "references\\minecraft\\textures\\block\\calibrated_sculk_sensor_top.png",
+    "operation": "unaltered copy",
+    "sha256": "1f24ec12b3e05d927a3bef6640cd40526e5cd3b05f5bd04edb657d1cd21380b9",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__block__calibrated_sculk_sensor_amethyst.png",
+    "source": "references\\minecraft\\textures\\block\\calibrated_sculk_sensor_amethyst.png",
+    "operation": "unaltered copy",
+    "sha256": "618373d2550e2d30d4ef52eae9b109cd6daf368af6c68c517d038ce912ee1827",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__mechanical_press_pole.png",
+    "source": "references\\create\\textures\\block\\mechanical_press_pole.png",
+    "operation": "unaltered copy",
+    "sha256": "a5521f3058eab3f5c8f2cffc2eed5052dc8311630e419c7332e3f992172dd54d",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__item__package__cardboard.png",
+    "source": "references\\create\\textures\\item\\package\\cardboard.png",
+    "operation": "unaltered copy",
+    "sha256": "d2ceed65e83d78579f5d162e704b4c0c8551bb32f906101623c0cac556c04891",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__item__package__cardboard_particle.png",
+    "source": "references\\create\\textures\\item\\package\\cardboard_particle.png",
+    "operation": "unaltered copy",
+    "sha256": "6caab750cd37ff2101228a80f921a8c5bc997402f12ccabdc3146c06153031d4",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__item__wheat.png",
+    "source": "references\\minecraft\\textures\\item\\wheat.png",
+    "operation": "unaltered copy",
+    "sha256": "9ed5d3338d238528fa04c9fd86bd1e5f87a194576eed3f5e6bb86dcf18470039",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__item__apple.png",
+    "source": "references\\minecraft\\textures\\item\\apple.png",
+    "operation": "unaltered copy",
+    "sha256": "9b1aef1aaa41229dbe2bc97657b8650527b14cc20a6236e823f1682c4d44c5a2",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__item__filter.png",
+    "source": "references\\create\\textures\\item\\filter.png",
+    "operation": "unaltered copy",
+    "sha256": "e8fcdda0c312df3f8f64d174560b67d068cfb3d60d28eda1cca3123cf769f1a6",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__item__attribute_filter.png",
+    "source": "references\\create\\textures\\item\\attribute_filter.png",
+    "operation": "unaltered copy",
+    "sha256": "109a95bf4ab1c2e2cec8358c070d5fe9820a6f3dad4fc3606d24cc3ef459f962",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__item__extendo_grip.png",
+    "source": "references\\create\\textures\\item\\extendo_grip.png",
+    "operation": "unaltered copy",
+    "sha256": "73bad2390eab0f6fe49952fe77d7c89264473267ed395694d9bf511b31eb60a1",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__axis.png",
+    "source": "references\\create\\textures\\block\\axis.png",
+    "operation": "unaltered copy",
+    "sha256": "0ae58aa6fcc369fee5a49270827bfa572631078f57163b8344f97ea5fcde2441",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__axis_top.png",
+    "source": "references\\create\\textures\\block\\axis_top.png",
+    "operation": "unaltered copy",
+    "sha256": "d96400565f72e7270eeb9daaab2b1cf2a450e9491bbd488d217ed5f7e49c4bc3",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__brass_casing.png",
+    "source": "references\\create\\textures\\block\\brass_casing.png",
+    "operation": "unaltered copy",
+    "sha256": "3f82796571a690a9722abdcd825b88c988745bc322c6333809d1da7e160292a9",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__fan_casing.png",
+    "source": "references\\create\\textures\\block\\fan_casing.png",
+    "operation": "unaltered copy",
+    "sha256": "38e321dce16555db87ff5fddd94ef82be28cd58477888d530ed0db6d4e370386",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__fan_side.png",
+    "source": "references\\create\\textures\\block\\fan_side.png",
+    "operation": "unaltered copy",
+    "sha256": "984a636edc1f48b0430d51303f09a614d5599510dbba0f0be06503e599465d43",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__fluid_tank_window.png",
+    "source": "references\\create\\textures\\block\\fluid_tank_window.png",
+    "operation": "unaltered copy",
+    "sha256": "fd1f99e2a0558682eb8a76ddb78a790dcacc60dcec9b724277b298750de5ef02",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__fluid_tank_window_single.png",
+    "source": "references\\create\\textures\\block\\fluid_tank_window_single.png",
+    "operation": "unaltered copy",
+    "sha256": "2d35ab6322fb34080c86097fa7a048003c0a1333e94de9f05deea0f899a17025",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__gearbox.png",
+    "source": "references\\create\\textures\\block\\gearbox.png",
+    "operation": "unaltered copy",
+    "sha256": "7d33b15de024daa08ecec5d90c365114bea7c81370c99a0c566053e699800181",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__packager_details.png",
+    "source": "references\\create\\textures\\block\\packager_details.png",
+    "operation": "unaltered copy",
+    "sha256": "d21f34b918166863655a889013e034b8f80fbb9e94062a0b332fc1f9a4c21819",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__packager_frame.png",
+    "source": "references\\create\\textures\\block\\packager_frame.png",
+    "operation": "unaltered copy",
+    "sha256": "5bb7c6e20b48fcdd004253e0f11e0b1f06d5811ba31b3384250847d936f06b77",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__packager_horizontal_linked.png",
+    "source": "references\\create\\textures\\block\\packager_horizontal_linked.png",
+    "operation": "unaltered copy",
+    "sha256": "0a7bcdee09749c9ea26725d9f695b628e64590497008fc777073eac1de77fffd",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__packager_horizontal_powered.png",
+    "source": "references\\create\\textures\\block\\packager_horizontal_powered.png",
+    "operation": "unaltered copy",
+    "sha256": "ccc462feb03dabaa1301ae0c7e09b8eea112c923b7f27992ab15aa876d0827ee",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__packager_horizontal_unpowered.png",
+    "source": "references\\create\\textures\\block\\packager_horizontal_unpowered.png",
+    "operation": "unaltered copy",
+    "sha256": "cf93b4557861ef1574d8d299b9842fe8929f60b28ad41c5f8ec61e0ed539399b",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__packager_iris_open.png",
+    "source": "references\\create\\textures\\block\\packager_iris_open.png",
+    "operation": "unaltered copy",
+    "sha256": "733297adc9fc9841d2182314eaaf7a554f828a390cc5f017c84c177df03349f2",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__packager_particle.png",
+    "source": "references\\create\\textures\\block\\packager_particle.png",
+    "operation": "unaltered copy",
+    "sha256": "1b938b421c1495c55caa6654e3ab84fdd56d85b75c127e735831575da5688d3c",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__packager_vertical_linked.png",
+    "source": "references\\create\\textures\\block\\packager_vertical_linked.png",
+    "operation": "unaltered copy",
+    "sha256": "c34f2c15d037646e9d77dd1028e370b89d9296047a7ec0dcf31c7c24eafc2c56",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__packager_vertical_powered.png",
+    "source": "references\\create\\textures\\block\\packager_vertical_powered.png",
+    "operation": "unaltered copy",
+    "sha256": "3698793671e977c06900dd664f8f889454b36541a9a5d0b81ceec77d90b3bec7",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__packager_vertical_unpowered.png",
+    "source": "references\\create\\textures\\block\\packager_vertical_unpowered.png",
+    "operation": "unaltered copy",
+    "sha256": "71ba6560a3ea7a6e0224fa307769e826935568ec0fa5273d4cf0ca0174acde47",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_bottom_large.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_bottom_large.png",
+    "operation": "unaltered copy",
+    "sha256": "51fcb2b133d4be5d66abde72bd2a7abb71f8b0b7439e42f09d497df5984053b9",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_bottom_medium.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_bottom_medium.png",
+    "operation": "unaltered copy",
+    "sha256": "87503aa2c2285d632a8beb6d23f596e5fc65921d11322f20ad030eabdaf3eaa5",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_bottom_small.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_bottom_small.png",
+    "operation": "unaltered copy",
+    "sha256": "6c01990608c201eeb35fe9b00e28b408d6ceb1469f541083fb5113fc9d330eb1",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_front_large.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_front_large.png",
+    "operation": "unaltered copy",
+    "sha256": "efd3759da31cbcff006d5b9d11349f0466cd9ab3216e143a40039859b87d8a1e",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_front_medium.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_front_medium.png",
+    "operation": "unaltered copy",
+    "sha256": "d03dd64784ef5e829d6f166cefadf0fa58755675444f068a3be9f3ffdf7c5277",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_side_large.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_side_large.png",
+    "operation": "unaltered copy",
+    "sha256": "30036432890179618eeddd49ef838e78b7372e6291a14d37446c0b110db5c759",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_side_medium.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_side_medium.png",
+    "operation": "unaltered copy",
+    "sha256": "07f8c981c5aa232e25b110be0e77cb593306c49b03d6bedc8a93207af03bf128",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_top_large.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_top_large.png",
+    "operation": "unaltered copy",
+    "sha256": "ebc42c2d90f54b00bad54e1ec64152a83a13be4d1abd018aebb7c5157c5ee07a",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_top_medium.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_top_medium.png",
+    "operation": "unaltered copy",
+    "sha256": "98355427ecae2efac6c74d04fcf2b98e95876768e690bd1d991edf34763f3b46",
+    "dimensions": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "create__block__vault__vault_top_small.png",
+    "source": "references\\create\\textures\\block\\vault\\vault_top_small.png",
+    "operation": "unaltered copy",
+    "sha256": "7647f6488a11eb073b31c6a3af5e28102adc942033e6942a0d315cdd168de936",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__block__amethyst_cluster.png",
+    "source": "references\\minecraft\\textures\\block\\amethyst_cluster.png",
+    "operation": "unaltered copy",
+    "sha256": "96e6011d4f1f5ed50c0c16f90f99ec28ed287dc51e8e9f7db04bbc018356a7ce",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__block__calibrated_sculk_sensor_input_side.png",
+    "source": "references\\minecraft\\textures\\block\\calibrated_sculk_sensor_input_side.png",
+    "operation": "unaltered copy",
+    "sha256": "7549d66ccf97e6c8405b929fbad479cacdcd93577fce5b8aadb4e0cc33527dc8",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__block__sculk_sensor_bottom.png",
+    "source": "references\\minecraft\\textures\\block\\sculk_sensor_bottom.png",
+    "operation": "unaltered copy",
+    "sha256": "12641cdde3976304fd71eea60522ecfd0b1f035da0e415820ca56e033f294c1d",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__block__sculk_sensor_tendril_active.png",
+    "source": "references\\minecraft\\textures\\block\\sculk_sensor_tendril_active.png",
+    "operation": "unaltered copy",
+    "sha256": "b62bde0f59d4791f5693413ee2902a408636c60298cb2e5af7778983a84f3d57",
+    "dimensions": [
+      16,
+      256
+    ]
+  },
+  {
+    "output": "minecraft__block__sculk_sensor_tendril_inactive.png",
+    "source": "references\\minecraft\\textures\\block\\sculk_sensor_tendril_inactive.png",
+    "operation": "unaltered copy",
+    "sha256": "42251092440efa4ed3ac06d21e80611a8c90f49c5c1bf2444fb39e25d0a8b439",
+    "dimensions": [
+      16,
+      256
+    ]
+  },
+  {
+    "output": "minecraft__block__sculk_sensor_top.png",
+    "source": "references\\minecraft\\textures\\block\\sculk_sensor_top.png",
+    "operation": "unaltered copy",
+    "sha256": "e0043b6e61d5e3bdb9ad93288dc916a19ae4a39fa447be93b320ff4674c8583e",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__item__string.png",
+    "source": "references\\minecraft\\textures\\item\\string.png",
+    "operation": "unaltered copy",
+    "sha256": "ded6537ee0356cfd3a0024fccd1a7ee478b58279a0bace73b689cc62369d26da",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "minecraft__item__wheat_seeds.png",
+    "source": "references\\minecraft\\textures\\item\\wheat_seeds.png",
+    "operation": "unaltered copy",
+    "sha256": "3239486bef9ea883e438c068cb97c24f1a38924b54b3c2e6209f792fc222c8d3",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "createdeco__industrial_iron_bars.png",
+    "source": "references\\createdeco\\industrial_iron_bars.png",
+    "operation": "unaltered copy",
+    "sha256": "a0e199c679b23342ddb2e389a56bcb7867727465e1f86af72e62a2b0b393aa93",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "createdeco__industrial_iron_bars_overlay.png",
+    "source": "references\\createdeco\\industrial_iron_bars_overlay.png",
+    "operation": "unaltered copy",
+    "sha256": "8a9112ed830eba95de108c0875b79d74ecd04ba74d55300a9b472f957b2b0bdd",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "createdeco__industrial_iron_bars_post.png",
+    "source": "references\\createdeco\\industrial_iron_bars_post.png",
+    "operation": "unaltered copy",
+    "sha256": "65afe46120189ef524f72e99232a9d80a645c0b2061908e86d78c9426d1d2ab5",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "createdeco__industrial_iron_bars_top.png",
+    "source": "references\\createdeco\\industrial_iron_bars_top.png",
+    "operation": "unaltered copy",
+    "sha256": "65afe46120189ef524f72e99232a9d80a645c0b2061908e86d78c9426d1d2ab5",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "createdeco__industrial_iron_plate_metal.png",
+    "source": "references\\createdeco\\industrial_iron_plate_metal.png",
+    "operation": "unaltered copy",
+    "sha256": "d354f4043d416df94619bdb50a2088933eb76d4f7667b9690db55c99914e5a51",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "brass__packager_details.png",
+    "source": [
+      "Create packager_details",
+      "Fluid Logistics packager_details"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "cdc59900c3d10ffb349ba75c9bd83ba9c65fcbecf6b5eada044f5351f4af2b05",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "brass__packager_frame.png",
+    "source": [
+      "Create packager_frame",
+      "Fluid Logistics packager_frame"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "17c0157107a79797a098e9fcee37e54decafc55f6e1ce21ab7f919f609113dac",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "brass__packager_horizontal_linked.png",
+    "source": [
+      "Create packager_horizontal_linked",
+      "Fluid Logistics packager_horizontal_linked"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "04ed8075cda3519c5cc31d5f98d4288dc952e9bdd6ef8fd6dbc0b6cb1133ff6e",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "brass__packager_horizontal_powered.png",
+    "source": [
+      "Create packager_horizontal_powered",
+      "Fluid Logistics packager_horizontal_powered"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "ef3e09d530fc39d082d7656acf906437b826af3da0a217df0e3a71026fbecac0",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "brass__packager_horizontal_unpowered.png",
+    "source": [
+      "Create packager_horizontal_unpowered",
+      "Fluid Logistics packager_horizontal_unpowered"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "011f61851723d63e619d665a328bdd176dd465e1c57ffa38c3f48533aafa9e6a",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "brass__packager_iris_closed.png",
+    "source": [
+      "Create packager_iris_closed",
+      "Fluid Logistics packager_iris_closed"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "4052c5bfb69e6f12c7e03823fb8fd0e36b60f19dab0d3b57a6045b099c4420f5",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "brass__packager_iris_open.png",
+    "source": [
+      "Create packager_iris_open",
+      "Fluid Logistics packager_iris_open"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "e75aefc70847cad5a56690f455d757820cbc4320214330686e64a241892dfd65",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "brass__packager_particle.png",
+    "source": [
+      "Create packager_particle",
+      "Fluid Logistics packager_particle"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "c08cec8c962d57af95a8b1ac8489d1c341b3b8d21894a8dfae9af3f44ce848ee",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "brass__packager_vertical_linked.png",
+    "source": [
+      "Create packager_vertical_linked",
+      "Fluid Logistics packager_vertical_linked"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "04229a2a0269acab1d95c52259afea35a42066b70f38f19502d60bc4c964616b",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "brass__packager_vertical_powered.png",
+    "source": [
+      "Create packager_vertical_powered",
+      "Fluid Logistics packager_vertical_powered"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "103afa209378818a8ddd0890a9f5b81d323534ebdb51b1d24a085e9c9f009aa9",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "brass__packager_vertical_unpowered.png",
+    "source": [
+      "Create packager_vertical_unpowered",
+      "Fluid Logistics packager_vertical_unpowered"
+    ],
+    "operation": "only copper-difference-mask pixels recolored with actual brass casing palette",
+    "sha256": "84eedbbca4457fd5ff55b4f34dc95b55e71a52b47af1361b4a2649d234335adc",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "creature_list_filter.png",
+    "source": "create:item/filter",
+    "operation": "content-area edits only; original roll silhouette and side rods unchanged",
+    "sha256": "5a84bb49eba80dd67c5d2406bd2aef523231effaf7cf781aa9994d9e66086049",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "mixed_feed.png",
+    "source": "minecraft:item/wheat + apple palette",
+    "operation": "wheat sprite layered without resampling; rope/apple/seed pixels manually authored",
+    "sha256": "3b53d69636f183a723bdc8801fa287ad0dc04d7dd3c3ce1ceba9edaa7704b090",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_glass_edge.png",
+    "source": "create:block/vault/vault_side_small",
+    "operation": "only inner panel removed; original top/bottom rails kept",
+    "sha256": "d5210299cd5c1d76663d5fd5f2464702ce1b4ff7a80e508d87eeb661c498d30b",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "glass_clear.png",
+    "source": "Create tank glass palette",
+    "operation": "transparent pane with two restrained reflection pixels",
+    "sha256": "0f8a3146664a2bde95124d37c452fd496af3b33c0385bbac6b7ca3fe14e012f4",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "parcel_window_16.png",
+    "source": "create:item/package/cardboard region [36,25,48,37]",
+    "operation": "native 12px face centered without resampling; front opening and rim only",
+    "sha256": "ab00b0f25e7adabc780a2c7bfe852b388d0d04b68ec7b7c3fb41d4664633b941",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "care_badge.png",
+    "source": "new 8x6 symbol on 16px canvas",
+    "operation": "milk drop and brush; label uses original parchment/metal palette",
+    "sha256": "1acfdca7cfab8326d03c4443b6cac455f061627a06c0bfceb831b4b5fcaf44c4",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "sculk_active.png",
+    "source": "minecraft:block/sculk_sensor_side",
+    "operation": "cyan vein pixels only brightened for active concept state",
+    "sha256": "d13328a5a82af02ed966f56f05a2fa556414827789b87b7b8a8b8414ce470787",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_vent_end.png",
+    "source": "create__block__vault__vault_front_small",
+    "operation": "center removed for one native fan insert",
+    "sha256": "4df0b9637d93e1bb70c7edf92429129ac421e86accf9fc921c89f069ffac5390",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_glass_west.png",
+    "source": "create__block__vault__vault_side_small",
+    "operation": "vault rails retained; transparent center",
+    "sha256": "7e81660d998585400401e2ce8d45477f15d7c65d9a127ee853092cfe5beff9fb",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_glass_east.png",
+    "source": "create__block__vault__vault_side_small",
+    "operation": "vault rails retained; transparent center",
+    "sha256": "7e81660d998585400401e2ce8d45477f15d7c65d9a127ee853092cfe5beff9fb",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_glass_up.png",
+    "source": "create__block__vault__vault_top_small",
+    "operation": "vault rails retained; transparent center",
+    "sha256": "54c066df3cecff6e57bb4b8970fdf10d407440647b41813ac7235188e7b190aa",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_glass_down.png",
+    "source": "create__block__vault__vault_top_small",
+    "operation": "vault rails retained; transparent center",
+    "sha256": "54c066df3cecff6e57bb4b8970fdf10d407440647b41813ac7235188e7b190aa",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_bars_west.png",
+    "source": "create__block__vault__vault_side_small",
+    "operation": "Create Deco original bars inside vault rails",
+    "sha256": "04df440b8fcd61955232f50a2c09276f3fea9b12129a5d6f4f079e15d09d6d8a",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_bars_east.png",
+    "source": "create__block__vault__vault_side_small",
+    "operation": "Create Deco original bars inside vault rails",
+    "sha256": "04df440b8fcd61955232f50a2c09276f3fea9b12129a5d6f4f079e15d09d6d8a",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_bars_up.png",
+    "source": "create__block__vault__vault_top_small",
+    "operation": "Create Deco original bars inside vault rails",
+    "sha256": "50b27b22d50bdd03ae23880d0afc7c3ddbabd85f594b83def94cb54ad9819283",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "crate_bars_down.png",
+    "source": "create__block__vault__vault_top_small",
+    "operation": "Create Deco original bars inside vault rails",
+    "sha256": "50b27b22d50bdd03ae23880d0afc7c3ddbabd85f594b83def94cb54ad9819283",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "display_solid_ink.png",
+    "source": "references/previous_parcel_display.bbmodel",
+    "operation": "embedded illustration texture",
+    "sha256": "2d363bfce98d8c3a726046d0532677caed39cca59cc55faf07f86ea83cbd5b83",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "display_solid_ivory.png",
+    "source": "references/previous_parcel_display.bbmodel",
+    "operation": "embedded illustration texture",
+    "sha256": "948727ccf8b3f1e58492b2b844ffa5fd90863970100734cc335f852e8cdd1fe4",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "display_solid_paper0.png",
+    "source": "references/previous_parcel_display.bbmodel",
+    "operation": "embedded illustration texture",
+    "sha256": "f0ba48405f29fa1cea088345594a65d99ec65f3929100a1ffa4edd765cba86c9",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "display_solid_rope0.png",
+    "source": "references/previous_parcel_display.bbmodel",
+    "operation": "embedded illustration texture",
+    "sha256": "f7d80528f299c6a572baedbee2b5310775f68f0d7e4571b60eb0131281a2eac3",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "display_solid_white.png",
+    "source": "references/previous_parcel_display.bbmodel",
+    "operation": "embedded illustration texture",
+    "sha256": "a77595136fe1544ac939639ea99381165fb8f655db4c8e1215cc0c6ff5e23847",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "mask__packager_details.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "84138bbdbca713f1d937966d6a774f61575c45dd5c269927bad56bd22886a4d7",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "mask__packager_frame.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "d0cb4a288e4d284e7cfbca17b30c3afeb46ad4ef2f59a91e7f881570eb5c2ba2",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "mask__packager_horizontal_linked.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "781c4c78da012e07bde8ed6bace3f43d2733bce02b993594c32c815ef785dcaf",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "mask__packager_horizontal_powered.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "df96cfc5cd8795697883556847fe2722139fcbff3b618618276b050f590f9938",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "mask__packager_horizontal_unpowered.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "df96cfc5cd8795697883556847fe2722139fcbff3b618618276b050f590f9938",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "mask__packager_iris_closed.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "a8e31f18263e533022eb97ad03068b77f4fe4c946900d4bf5c322e989a471996",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "mask__packager_iris_open.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "a8e31f18263e533022eb97ad03068b77f4fe4c946900d4bf5c322e989a471996",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "mask__packager_particle.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "d58e2d2a4ce570a559070e229c796735826c406801d8ddcdac2ff3b4fad83b4b",
+    "dimensions": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "mask__packager_vertical_linked.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "d285c78e8cfc19db2d1bd0786cb0ecf0b009f33c735f7428f4da2cde08bea34f",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "mask__packager_vertical_powered.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "bcb2a464f523142be6ad5df5fafac55c7e7a746618386c79bb58fed1b7f29e87",
+    "dimensions": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "mask__packager_vertical_unpowered.png",
+    "source": "derived packager comparison",
+    "operation": "binary recolor mask",
+    "sha256": "bcb2a464f523142be6ad5df5fafac55c7e7a746618386c79bb58fed1b7f29e87",
+    "dimensions": [
+      32,
+      32
+    ]
+  }
+]

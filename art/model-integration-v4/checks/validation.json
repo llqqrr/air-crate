@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "counts": {
+    "java_models": 434,
+    "pixel_textures": 103,
+    "structure_size_axis_cases": 960,
+    "blockbench_projects": 9
+  },
+  "checks": [
+    "Runtime JSON bounds, UVs, rotations, texture dependencies",
+    "16x16 binary alpha; glass fully clear; bars and steel periodic edges",
+    "Outer-edge-only mask across 16 variants",
+    "3x3 panel pixel-identical to native 48x48 vault panel",
+    "All 960 size/axis cases: single top-left vent and no internal surfaces",
+    "All eight fan elements and exact original UVs retained",
+    "90/180/270-degree rotation UV round trips",
+    "Embedded Blockbench assets and outliner references",
+    "Parcel five opaque faces identical to native JSON",
+    "Parcel source atlas RGBA pixels identical to installed Create 6.0.10"
+  ],
+  "limitations": [
+    "No Minecraft client or Blockbench GUI playtest in this revision",
+    "Reference assembly/selection checks do not validate the existing Java renderer",
+    "Kinetic shafts, partial registration, animation and selection remain runtime integration work"
+  ]
+}

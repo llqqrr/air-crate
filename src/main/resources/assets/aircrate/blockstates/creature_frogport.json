@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "active=false": { "model": "aircrate:block/creature_frogport_base" },
+    "active=true": { "model": "aircrate:block/creature_frogport_base" }
+  }
+}

@@ -1,0 +1,1753 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "05_creature_parcel",
+  "model_identifier": "05_creature_parcel",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "纸板背板",
+      "type": "mesh",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "v0_0": [
+          1,
+          15,
+          14
+        ],
+        "v0_1": [
+          15,
+          15,
+          14
+        ],
+        "v0_2": [
+          15,
+          1,
+          14
+        ],
+        "v0_3": [
+          1,
+          1,
+          14
+        ],
+        "v1_0": [
+          15,
+          15,
+          15
+        ],
+        "v1_1": [
+          1,
+          15,
+          15
+        ],
+        "v1_2": [
+          1,
+          1,
+          15
+        ],
+        "v1_3": [
+          15,
+          1,
+          15
+        ],
+        "v2_0": [
+          1,
+          15,
+          15
+        ],
+        "v2_1": [
+          1,
+          15,
+          14
+        ],
+        "v2_2": [
+          1,
+          1,
+          14
+        ],
+        "v2_3": [
+          1,
+          1,
+          15
+        ],
+        "v3_0": [
+          15,
+          15,
+          14
+        ],
+        "v3_1": [
+          15,
+          15,
+          15
+        ],
+        "v3_2": [
+          15,
+          1,
+          15
+        ],
+        "v3_3": [
+          15,
+          1,
+          14
+        ],
+        "v4_0": [
+          1,
+          15,
+          15
+        ],
+        "v4_1": [
+          15,
+          15,
+          15
+        ],
+        "v4_2": [
+          15,
+          15,
+          14
+        ],
+        "v4_3": [
+          1,
+          15,
+          14
+        ],
+        "v5_0": [
+          1,
+          1,
+          14
+        ],
+        "v5_1": [
+          15,
+          1,
+          14
+        ],
+        "v5_2": [
+          15,
+          1,
+          15
+        ],
+        "v5_3": [
+          1,
+          1,
+          15
+        ]
+      },
+      "faces": {
+        "f0": {
+          "vertices": [
+            "v0_0",
+            "v0_1",
+            "v0_2",
+            "v0_3"
+          ],
+          "uv": {
+            "v0_0": [
+              0,
+              0
+            ],
+            "v0_1": [
+              16,
+              0
+            ],
+            "v0_2": [
+              16,
+              16
+            ],
+            "v0_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f1": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v1_2",
+            "v1_3"
+          ],
+          "uv": {
+            "v1_0": [
+              0,
+              0
+            ],
+            "v1_1": [
+              16,
+              0
+            ],
+            "v1_2": [
+              16,
+              16
+            ],
+            "v1_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 1
+        },
+        "f2": {
+          "vertices": [
+            "v2_0",
+            "v2_1",
+            "v2_2",
+            "v2_3"
+          ],
+          "uv": {
+            "v2_0": [
+              0,
+              0
+            ],
+            "v2_1": [
+              16,
+              0
+            ],
+            "v2_2": [
+              16,
+              16
+            ],
+            "v2_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f3": {
+          "vertices": [
+            "v3_0",
+            "v3_1",
+            "v3_2",
+            "v3_3"
+          ],
+          "uv": {
+            "v3_0": [
+              0,
+              0
+            ],
+            "v3_1": [
+              16,
+              0
+            ],
+            "v3_2": [
+              16,
+              16
+            ],
+            "v3_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f4": {
+          "vertices": [
+            "v4_0",
+            "v4_1",
+            "v4_2",
+            "v4_3"
+          ],
+          "uv": {
+            "v4_0": [
+              0,
+              0
+            ],
+            "v4_1": [
+              16,
+              0
+            ],
+            "v4_2": [
+              16,
+              16
+            ],
+            "v4_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 2
+        },
+        "f5": {
+          "vertices": [
+            "v5_0",
+            "v5_1",
+            "v5_2",
+            "v5_3"
+          ],
+          "uv": {
+            "v5_0": [
+              0,
+              0
+            ],
+            "v5_1": [
+              16,
+              0
+            ],
+            "v5_2": [
+              16,
+              16
+            ],
+            "v5_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 3
+        }
+      },
+      "uuid": "bd7f84e7-2aed-5526-a9d2-d47d9a19d106",
+      "visibility": true,
+      "export": true
+    },
+    {
+      "name": "纸板左壁",
+      "type": "mesh",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "v0_0": [
+          1,
+          15,
+          1
+        ],
+        "v0_1": [
+          2,
+          15,
+          1
+        ],
+        "v0_2": [
+          2,
+          1,
+          1
+        ],
+        "v0_3": [
+          1,
+          1,
+          1
+        ],
+        "v1_0": [
+          2,
+          15,
+          14
+        ],
+        "v1_1": [
+          1,
+          15,
+          14
+        ],
+        "v1_2": [
+          1,
+          1,
+          14
+        ],
+        "v1_3": [
+          2,
+          1,
+          14
+        ],
+        "v2_0": [
+          1,
+          15,
+          14
+        ],
+        "v2_1": [
+          1,
+          15,
+          1
+        ],
+        "v2_2": [
+          1,
+          1,
+          1
+        ],
+        "v2_3": [
+          1,
+          1,
+          14
+        ],
+        "v3_0": [
+          2,
+          15,
+          1
+        ],
+        "v3_1": [
+          2,
+          15,
+          14
+        ],
+        "v3_2": [
+          2,
+          1,
+          14
+        ],
+        "v3_3": [
+          2,
+          1,
+          1
+        ],
+        "v4_0": [
+          1,
+          15,
+          14
+        ],
+        "v4_1": [
+          2,
+          15,
+          14
+        ],
+        "v4_2": [
+          2,
+          15,
+          1
+        ],
+        "v4_3": [
+          1,
+          15,
+          1
+        ],
+        "v5_0": [
+          1,
+          1,
+          1
+        ],
+        "v5_1": [
+          2,
+          1,
+          1
+        ],
+        "v5_2": [
+          2,
+          1,
+          14
+        ],
+        "v5_3": [
+          1,
+          1,
+          14
+        ]
+      },
+      "faces": {
+        "f0": {
+          "vertices": [
+            "v0_0",
+            "v0_1",
+            "v0_2",
+            "v0_3"
+          ],
+          "uv": {
+            "v0_0": [
+              0,
+              0
+            ],
+            "v0_1": [
+              16,
+              0
+            ],
+            "v0_2": [
+              16,
+              16
+            ],
+            "v0_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f1": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v1_2",
+            "v1_3"
+          ],
+          "uv": {
+            "v1_0": [
+              0,
+              0
+            ],
+            "v1_1": [
+              16,
+              0
+            ],
+            "v1_2": [
+              16,
+              16
+            ],
+            "v1_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f2": {
+          "vertices": [
+            "v2_0",
+            "v2_1",
+            "v2_2",
+            "v2_3"
+          ],
+          "uv": {
+            "v2_0": [
+              0,
+              0
+            ],
+            "v2_1": [
+              16,
+              0
+            ],
+            "v2_2": [
+              16,
+              16
+            ],
+            "v2_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f3": {
+          "vertices": [
+            "v3_0",
+            "v3_1",
+            "v3_2",
+            "v3_3"
+          ],
+          "uv": {
+            "v3_0": [
+              0,
+              0
+            ],
+            "v3_1": [
+              16,
+              0
+            ],
+            "v3_2": [
+              16,
+              16
+            ],
+            "v3_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f4": {
+          "vertices": [
+            "v4_0",
+            "v4_1",
+            "v4_2",
+            "v4_3"
+          ],
+          "uv": {
+            "v4_0": [
+              0,
+              0
+            ],
+            "v4_1": [
+              16,
+              0
+            ],
+            "v4_2": [
+              16,
+              16
+            ],
+            "v4_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f5": {
+          "vertices": [
+            "v5_0",
+            "v5_1",
+            "v5_2",
+            "v5_3"
+          ],
+          "uv": {
+            "v5_0": [
+              0,
+              0
+            ],
+            "v5_1": [
+              16,
+              0
+            ],
+            "v5_2": [
+              16,
+              16
+            ],
+            "v5_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        }
+      },
+      "uuid": "2fbe99e2-ce1e-55c4-94a0-957f08aec65f",
+      "visibility": true,
+      "export": true
+    },
+    {
+      "name": "纸板右壁",
+      "type": "mesh",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "v0_0": [
+          14,
+          15,
+          1
+        ],
+        "v0_1": [
+          15,
+          15,
+          1
+        ],
+        "v0_2": [
+          15,
+          1,
+          1
+        ],
+        "v0_3": [
+          14,
+          1,
+          1
+        ],
+        "v1_0": [
+          15,
+          15,
+          14
+        ],
+        "v1_1": [
+          14,
+          15,
+          14
+        ],
+        "v1_2": [
+          14,
+          1,
+          14
+        ],
+        "v1_3": [
+          15,
+          1,
+          14
+        ],
+        "v2_0": [
+          14,
+          15,
+          14
+        ],
+        "v2_1": [
+          14,
+          15,
+          1
+        ],
+        "v2_2": [
+          14,
+          1,
+          1
+        ],
+        "v2_3": [
+          14,
+          1,
+          14
+        ],
+        "v3_0": [
+          15,
+          15,
+          1
+        ],
+        "v3_1": [
+          15,
+          15,
+          14
+        ],
+        "v3_2": [
+          15,
+          1,
+          14
+        ],
+        "v3_3": [
+          15,
+          1,
+          1
+        ],
+        "v4_0": [
+          14,
+          15,
+          14
+        ],
+        "v4_1": [
+          15,
+          15,
+          14
+        ],
+        "v4_2": [
+          15,
+          15,
+          1
+        ],
+        "v4_3": [
+          14,
+          15,
+          1
+        ],
+        "v5_0": [
+          14,
+          1,
+          1
+        ],
+        "v5_1": [
+          15,
+          1,
+          1
+        ],
+        "v5_2": [
+          15,
+          1,
+          14
+        ],
+        "v5_3": [
+          14,
+          1,
+          14
+        ]
+      },
+      "faces": {
+        "f0": {
+          "vertices": [
+            "v0_0",
+            "v0_1",
+            "v0_2",
+            "v0_3"
+          ],
+          "uv": {
+            "v0_0": [
+              0,
+              0
+            ],
+            "v0_1": [
+              16,
+              0
+            ],
+            "v0_2": [
+              16,
+              16
+            ],
+            "v0_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f1": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v1_2",
+            "v1_3"
+          ],
+          "uv": {
+            "v1_0": [
+              0,
+              0
+            ],
+            "v1_1": [
+              16,
+              0
+            ],
+            "v1_2": [
+              16,
+              16
+            ],
+            "v1_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f2": {
+          "vertices": [
+            "v2_0",
+            "v2_1",
+            "v2_2",
+            "v2_3"
+          ],
+          "uv": {
+            "v2_0": [
+              0,
+              0
+            ],
+            "v2_1": [
+              16,
+              0
+            ],
+            "v2_2": [
+              16,
+              16
+            ],
+            "v2_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f3": {
+          "vertices": [
+            "v3_0",
+            "v3_1",
+            "v3_2",
+            "v3_3"
+          ],
+          "uv": {
+            "v3_0": [
+              0,
+              0
+            ],
+            "v3_1": [
+              16,
+              0
+            ],
+            "v3_2": [
+              16,
+              16
+            ],
+            "v3_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f4": {
+          "vertices": [
+            "v4_0",
+            "v4_1",
+            "v4_2",
+            "v4_3"
+          ],
+          "uv": {
+            "v4_0": [
+              0,
+              0
+            ],
+            "v4_1": [
+              16,
+              0
+            ],
+            "v4_2": [
+              16,
+              16
+            ],
+            "v4_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        },
+        "f5": {
+          "vertices": [
+            "v5_0",
+            "v5_1",
+            "v5_2",
+            "v5_3"
+          ],
+          "uv": {
+            "v5_0": [
+              0,
+              0
+            ],
+            "v5_1": [
+              16,
+              0
+            ],
+            "v5_2": [
+              16,
+              16
+            ],
+            "v5_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 0
+        }
+      },
+      "uuid": "bf45c4d5-29c0-51e7-9005-51c4aea4fd75",
+      "visibility": true,
+      "export": true
+    },
+    {
+      "name": "纸板顶盖",
+      "type": "mesh",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "v0_0": [
+          1,
+          15,
+          1
+        ],
+        "v0_1": [
+          15,
+          15,
+          1
+        ],
+        "v0_2": [
+          15,
+          14,
+          1
+        ],
+        "v0_3": [
+          1,
+          14,
+          1
+        ],
+        "v1_0": [
+          15,
+          15,
+          14
+        ],
+        "v1_1": [
+          1,
+          15,
+          14
+        ],
+        "v1_2": [
+          1,
+          14,
+          14
+        ],
+        "v1_3": [
+          15,
+          14,
+          14
+        ],
+        "v2_0": [
+          1,
+          15,
+          14
+        ],
+        "v2_1": [
+          1,
+          15,
+          1
+        ],
+        "v2_2": [
+          1,
+          14,
+          1
+        ],
+        "v2_3": [
+          1,
+          14,
+          14
+        ],
+        "v3_0": [
+          15,
+          15,
+          1
+        ],
+        "v3_1": [
+          15,
+          15,
+          14
+        ],
+        "v3_2": [
+          15,
+          14,
+          14
+        ],
+        "v3_3": [
+          15,
+          14,
+          1
+        ],
+        "v4_0": [
+          1,
+          15,
+          14
+        ],
+        "v4_1": [
+          15,
+          15,
+          14
+        ],
+        "v4_2": [
+          15,
+          15,
+          1
+        ],
+        "v4_3": [
+          1,
+          15,
+          1
+        ],
+        "v5_0": [
+          1,
+          14,
+          1
+        ],
+        "v5_1": [
+          15,
+          14,
+          1
+        ],
+        "v5_2": [
+          15,
+          14,
+          14
+        ],
+        "v5_3": [
+          1,
+          14,
+          14
+        ]
+      },
+      "faces": {
+        "f0": {
+          "vertices": [
+            "v0_0",
+            "v0_1",
+            "v0_2",
+            "v0_3"
+          ],
+          "uv": {
+            "v0_0": [
+              0,
+              0
+            ],
+            "v0_1": [
+              16,
+              0
+            ],
+            "v0_2": [
+              16,
+              16
+            ],
+            "v0_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 2
+        },
+        "f1": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v1_2",
+            "v1_3"
+          ],
+          "uv": {
+            "v1_0": [
+              0,
+              0
+            ],
+            "v1_1": [
+              16,
+              0
+            ],
+            "v1_2": [
+              16,
+              16
+            ],
+            "v1_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 2
+        },
+        "f2": {
+          "vertices": [
+            "v2_0",
+            "v2_1",
+            "v2_2",
+            "v2_3"
+          ],
+          "uv": {
+            "v2_0": [
+              0,
+              0
+            ],
+            "v2_1": [
+              16,
+              0
+            ],
+            "v2_2": [
+              16,
+              16
+            ],
+            "v2_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 2
+        },
+        "f3": {
+          "vertices": [
+            "v3_0",
+            "v3_1",
+            "v3_2",
+            "v3_3"
+          ],
+          "uv": {
+            "v3_0": [
+              0,
+              0
+            ],
+            "v3_1": [
+              16,
+              0
+            ],
+            "v3_2": [
+              16,
+              16
+            ],
+            "v3_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 2
+        },
+        "f4": {
+          "vertices": [
+            "v4_0",
+            "v4_1",
+            "v4_2",
+            "v4_3"
+          ],
+          "uv": {
+            "v4_0": [
+              0,
+              0
+            ],
+            "v4_1": [
+              16,
+              0
+            ],
+            "v4_2": [
+              16,
+              16
+            ],
+            "v4_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 2
+        },
+        "f5": {
+          "vertices": [
+            "v5_0",
+            "v5_1",
+            "v5_2",
+            "v5_3"
+          ],
+          "uv": {
+            "v5_0": [
+              0,
+              0
+            ],
+            "v5_1": [
+              16,
+              0
+            ],
+            "v5_2": [
+              16,
+              16
+            ],
+            "v5_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 2
+        }
+      },
+      "uuid": "45527d8d-8f89-5070-86e5-b05937a5439e",
+      "visibility": true,
+      "export": true
+    },
+    {
+      "name": "纸板底部",
+      "type": "mesh",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "v0_0": [
+          1,
+          2,
+          1
+        ],
+        "v0_1": [
+          15,
+          2,
+          1
+        ],
+        "v0_2": [
+          15,
+          1,
+          1
+        ],
+        "v0_3": [
+          1,
+          1,
+          1
+        ],
+        "v1_0": [
+          15,
+          2,
+          14
+        ],
+        "v1_1": [
+          1,
+          2,
+          14
+        ],
+        "v1_2": [
+          1,
+          1,
+          14
+        ],
+        "v1_3": [
+          15,
+          1,
+          14
+        ],
+        "v2_0": [
+          1,
+          2,
+          14
+        ],
+        "v2_1": [
+          1,
+          2,
+          1
+        ],
+        "v2_2": [
+          1,
+          1,
+          1
+        ],
+        "v2_3": [
+          1,
+          1,
+          14
+        ],
+        "v3_0": [
+          15,
+          2,
+          1
+        ],
+        "v3_1": [
+          15,
+          2,
+          14
+        ],
+        "v3_2": [
+          15,
+          1,
+          14
+        ],
+        "v3_3": [
+          15,
+          1,
+          1
+        ],
+        "v4_0": [
+          1,
+          2,
+          14
+        ],
+        "v4_1": [
+          15,
+          2,
+          14
+        ],
+        "v4_2": [
+          15,
+          2,
+          1
+        ],
+        "v4_3": [
+          1,
+          2,
+          1
+        ],
+        "v5_0": [
+          1,
+          1,
+          1
+        ],
+        "v5_1": [
+          15,
+          1,
+          1
+        ],
+        "v5_2": [
+          15,
+          1,
+          14
+        ],
+        "v5_3": [
+          1,
+          1,
+          14
+        ]
+      },
+      "faces": {
+        "f0": {
+          "vertices": [
+            "v0_0",
+            "v0_1",
+            "v0_2",
+            "v0_3"
+          ],
+          "uv": {
+            "v0_0": [
+              0,
+              0
+            ],
+            "v0_1": [
+              16,
+              0
+            ],
+            "v0_2": [
+              16,
+              16
+            ],
+            "v0_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 3
+        },
+        "f1": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v1_2",
+            "v1_3"
+          ],
+          "uv": {
+            "v1_0": [
+              0,
+              0
+            ],
+            "v1_1": [
+              16,
+              0
+            ],
+            "v1_2": [
+              16,
+              16
+            ],
+            "v1_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 3
+        },
+        "f2": {
+          "vertices": [
+            "v2_0",
+            "v2_1",
+            "v2_2",
+            "v2_3"
+          ],
+          "uv": {
+            "v2_0": [
+              0,
+              0
+            ],
+            "v2_1": [
+              16,
+              0
+            ],
+            "v2_2": [
+              16,
+              16
+            ],
+            "v2_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 3
+        },
+        "f3": {
+          "vertices": [
+            "v3_0",
+            "v3_1",
+            "v3_2",
+            "v3_3"
+          ],
+          "uv": {
+            "v3_0": [
+              0,
+              0
+            ],
+            "v3_1": [
+              16,
+              0
+            ],
+            "v3_2": [
+              16,
+              16
+            ],
+            "v3_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 3
+        },
+        "f4": {
+          "vertices": [
+            "v4_0",
+            "v4_1",
+            "v4_2",
+            "v4_3"
+          ],
+          "uv": {
+            "v4_0": [
+              0,
+              0
+            ],
+            "v4_1": [
+              16,
+              0
+            ],
+            "v4_2": [
+              16,
+              16
+            ],
+            "v4_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 3
+        },
+        "f5": {
+          "vertices": [
+            "v5_0",
+            "v5_1",
+            "v5_2",
+            "v5_3"
+          ],
+          "uv": {
+            "v5_0": [
+              0,
+              0
+            ],
+            "v5_1": [
+              16,
+              0
+            ],
+            "v5_2": [
+              16,
+              16
+            ],
+            "v5_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 3
+        }
+      },
+      "uuid": "7d1f4d5c-7a70-5364-98f3-892d509b55c1",
+      "visibility": true,
+      "export": true
+    },
+    {
+      "name": "开窗正面",
+      "type": "mesh",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "v0_0": [
+          1,
+          15,
+          0.9
+        ],
+        "v0_1": [
+          15,
+          15,
+          0.9
+        ],
+        "v0_2": [
+          15,
+          1,
+          0.9
+        ],
+        "v0_3": [
+          1,
+          1,
+          0.9
+        ],
+        "v1_0": [
+          15,
+          15,
+          1
+        ],
+        "v1_1": [
+          1,
+          15,
+          1
+        ],
+        "v1_2": [
+          1,
+          1,
+          1
+        ],
+        "v1_3": [
+          15,
+          1,
+          1
+        ]
+      },
+      "faces": {
+        "f0": {
+          "vertices": [
+            "v0_0",
+            "v0_1",
+            "v0_2",
+            "v0_3"
+          ],
+          "uv": {
+            "v0_0": [
+              0,
+              0
+            ],
+            "v0_1": [
+              16,
+              0
+            ],
+            "v0_2": [
+              16,
+              16
+            ],
+            "v0_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 4
+        },
+        "f1": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v1_2",
+            "v1_3"
+          ],
+          "uv": {
+            "v1_0": [
+              0,
+              0
+            ],
+            "v1_1": [
+              16,
+              0
+            ],
+            "v1_2": [
+              16,
+              16
+            ],
+            "v1_3": [
+              0,
+              16
+            ]
+          },
+          "texture": 4
+        }
+      },
+      "uuid": "3fcf9bfb-825b-53a9-870d-5e141c85884b",
+      "visibility": true,
+      "export": true
+    }
+  ],
+  "outliner": [
+    {
+      "name": "包裹外壳",
+      "uuid": "d31a922f-9f76-5c43-b4af-64df3526cbc0",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "bd7f84e7-2aed-5526-a9d2-d47d9a19d106",
+        "2fbe99e2-ce1e-55c4-94a0-957f08aec65f",
+        "bf45c4d5-29c0-51e7-9005-51c4aea4fd75",
+        "45527d8d-8f89-5070-86e5-b05937a5439e",
+        "7d1f4d5c-7a70-5364-98f3-892d509b55c1"
+      ],
+      "export": true,
+      "isOpen": false,
+      "visibility": true
+    },
+    {
+      "name": "透明观察窗",
+      "uuid": "852be4ec-5a8d-54aa-a804-be425532f556",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        "3fcf9bfb-825b-53a9-870d-5e141c85884b"
+      ],
+      "export": true,
+      "isOpen": false,
+      "visibility": true
+    }
+  ],
+  "textures": [
+    {
+      "name": "parcel_side.png",
+      "id": "0",
+      "uuid": "fe343171-0020-5bb2-b081-d2989e3f7bd8",
+      "mode": "bitmap",
+      "saved": true,
+      "particle": false,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "relative_path": "../textures/parcel_side.png",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVR4nGNc1xbx38jchAEb4FM2BNOf7p7HKn/u5BkGFhDj7auXOAyAaMYlDwJMDBQCJmTOw/uPwZgUwILMkVeUpcwF5AAmYhXi8h4LsQbg8h4TA4WAaZga8JCExITVAFwhjs1gkryAzWBwOti89wpWDXmWHuAsvWB5D1Z5PSV+BgB71igPUPnxZQAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "parcel_back.png",
+      "id": "1",
+      "uuid": "dac4dd48-00d5-58bc-98ef-ebde89149d46",
+      "mode": "bitmap",
+      "saved": true,
+      "particle": false,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "relative_path": "../textures/parcel_back.png",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAkUlEQVR4nGNc1xbx38jchAEb4FM2BNOf7p7HKn/u5BkGFhDj7auXOAyAaMYlDwJMDBQCJmTO5r1XGB7efwym0QFMDF2OCV2hvKIs+S7wddZBoYmRYyLWJpDXQBgdsBBrAC6vMTFQCJiGqQEPsYQ2SQbgCnFsBpPkBWwGg9MBtrQPAnmWHuAsvWB5D1Z5PSV+BgCE8zFqnZIFRQAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "parcel_top.png",
+      "id": "2",
+      "uuid": "adf2db80-9d40-52b7-8786-b6c87d940493",
+      "mode": "bitmap",
+      "saved": true,
+      "particle": false,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "relative_path": "../textures/parcel_top.png",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAn0lEQVR4nGNc1xbx38jchAEb4FM2BNOf7p7HKn/u5BkGFhDj7auXOAyAaMYlDwJMDBQCJmTOw/uPwZgUwILMkVeUpcwF5AAWELF57xWsknmWHnA2zGvormR892DvfwYKABMDhYDlwLLZOANP0dIDnA5ACQanAQxEAFwWgMKFiYFCwITLZIoMwOdkogzABbAZTDAhgbL0guU9WOX1lPgZAK+NNy34dE5UAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "parcel_bottom.png",
+      "id": "3",
+      "uuid": "a8b75737-31a6-5c87-8100-b5e459f0d967",
+      "mode": "bitmap",
+      "saved": true,
+      "particle": false,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "relative_path": "../textures/parcel_bottom.png",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAv0lEQVR4nGNc1xbx38jchAEb4FM2BNOf7p7HKn/u5BkGFhhDXlEWiwEQzW9fvcSQe3j/MZhmAhEgzTABYgBILcxCJpggzBBCBiFrRjEABLB5A59mDAPI8Q4TNkFshuAylAmXySBDDiybDdcM4mPzIhMuA0CaHKJScboIrwEPsQQWLsBErGZcrmAiyho8hjBhsx1fNKLLww1Adjou/+P0ArGBhmwBzDBwbrx07yMYo4M8Sw9wll6wvAergXpK/AwAB61kZjAKNnIAAAAASUVORK5CYII="
+    },
+    {
+      "name": "parcel_front.png",
+      "id": "4",
+      "uuid": "c3472a37-a957-525a-9783-a25eeafc1043",
+      "mode": "bitmap",
+      "saved": true,
+      "particle": false,
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "relative_path": "../textures/parcel_front.png",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVR4nGNc1xbx38jchAEb4FM2BNOf7p7HKn/u5BkGFhDj7auXOAyAaMYlDwIsIGLz3ivYZXGJQ4GeEj/EADAnqp6BFHBpWSPCBTBwn5FBEERbqytkHL35YAYDDqD4n+E9jM2ELklIMzpgokQzhgFHSdSMYQA5gIksXcPLABZkDnICIdkAWNIkFeD1Ql5NCRjjAwCpHTEUk0F9vwAAAABJRU5ErkJggg=="
+    }
+  ]
+}

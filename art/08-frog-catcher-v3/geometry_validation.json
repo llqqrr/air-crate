@@ -1,0 +1,21 @@
+{
+  "frog_duplicate_faces": 0,
+  "closed_inner_plane_clearance": 0.018000000000000682,
+  "head_tank_minimum_z_clearance_over_121_samples": 0.053708463308191234,
+  "tank_body_elements": 3,
+  "back_pad_removed": true,
+  "referenced_copper_pixels_unchanged": true,
+  "display_params_equal_potato_cannon": true,
+  "browser_manually_verified": [
+    "3D mesh visible",
+    "shoot reduces 8 to 7",
+    "pressure slider 1/8 rotates needle into red",
+    "last shot reaches zero and disables fire",
+    "first-person view visible"
+  ],
+  "Blockbench_UI_verified": [
+    "animated project loads",
+    "capture_cycle and pressure_full_to_empty listed"
+  ],
+  "game_tested": false
+}

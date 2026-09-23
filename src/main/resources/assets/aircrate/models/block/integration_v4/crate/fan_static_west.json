@@ -1,0 +1,334 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "textures": {
+    "2": "create:block/gearbox",
+    "fan_casing": "create:block/fan_casing",
+    "particle": "create:block/fan_side",
+    "fan_side": "create:block/fan_side",
+    "axis_top": "create:block/axis_top",
+    "fan_blades": "create:block/fan_blades",
+    "axis": "create:block/axis"
+  },
+  "elements": [
+    {
+      "name": "Bottom",
+      "from": [
+        -0.5,
+        3.0,
+        3.0
+      ],
+      "to": [
+        9.5,
+        4.25,
+        13.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#fan_casing"
+        },
+        "north": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#fan_casing"
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fan_side",
+          "rotation": 270
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Top",
+      "from": [
+        -0.5,
+        11.75,
+        3.0
+      ],
+      "to": [
+        9.5,
+        13.0,
+        13.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#fan_casing"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#fan_casing"
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fan_side",
+          "rotation": 270
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        -0.5,
+        4.25,
+        11.75
+      ],
+      "to": [
+        9.5,
+        11.75,
+        13.0
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            2,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        -0.5,
+        4.25,
+        3.0
+      ],
+      "to": [
+        9.5,
+        11.75,
+        4.25
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "north": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "east": {
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "south": {
+          "uv": [
+            14,
+            0,
+            2,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Lattice",
+      "from": [
+        0.125,
+        4.25,
+        4.25
+      ],
+      "to": [
+        0.125,
+        11.75,
+        11.75
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#fan_casing"
+        }
+      }
+    },
+    {
+      "name": "Back",
+      "from": [
+        5.125,
+        4.25,
+        4.25
+      ],
+      "to": [
+        8.875,
+        11.75,
+        11.75
+      ],
+      "faces": {
+        "west": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#2"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

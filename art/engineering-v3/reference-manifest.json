@@ -1,0 +1,95 @@
+{
+  "sources": [
+    {
+      "label": "黄铜机壳",
+      "source": "libs/create-1.21.1-6.0.10.jar!assets/create/textures/block/brass_casing.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "label": "安山机壳",
+      "source": "libs/create-1.21.1-6.0.10.jar!assets/create/textures/block/andesite_casing.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "label": "保险库侧面",
+      "source": "libs/create-1.21.1-6.0.10.jar!assets/create/textures/block/vault/vault_side_small.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "label": "流体储罐玻璃",
+      "source": "libs/create-1.21.1-6.0.10.jar!assets/create/textures/block/fluid_tank_window.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "label": "过滤器",
+      "source": "libs/create-1.21.1-6.0.10.jar!assets/create/textures/item/filter.png",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "label": "股票终端纹理参考",
+      "source": "libs/create-1.21.1-6.0.10.jar!assets/create/textures/block/stock_ticker.png",
+      "size": [
+        32,
+        32
+      ]
+    },
+    {
+      "label": "纸板包裹 UV",
+      "source": "libs/create-1.21.1-6.0.10.jar!assets/create/textures/item/package/cardboard.png",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "label": "流体包裹",
+      "source": "external reference asset (fluid package texture)",
+      "size": [
+        32,
+        32
+      ],
+      "version": "原提取目录未记录版本"
+    }
+  ],
+  "packager_diff": [
+    {
+      "texture": "packager_frame",
+      "size": [
+        32,
+        32
+      ],
+      "copper_difference_pixels": 204
+    },
+    {
+      "texture": "packager_horizontal_unpowered",
+      "size": [
+        32,
+        32
+      ],
+      "copper_difference_pixels": 170
+    },
+    {
+      "texture": "packager_iris_closed",
+      "size": [
+        16,
+        16
+      ],
+      "copper_difference_pixels": 52
+    }
+  ]
+}

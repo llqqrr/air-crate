@@ -1,0 +1,154 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "0": "aircrate:block/creature_frogport_port",
+  "1": "create:block/port2",
+  "2": "aircrate:item/copper_pressure_shell_32",
+  "3": "create:block/brass_casing",
+  "4": "create:block/andesite_casing",
+  "5": "create:block/mechanical_press_pole",
+  "6": "create:item/potato_cannon",
+  "7": "aircrate:item/mechanism_pixels_16",
+  "8": "aircrate:item/pressure_gauge_16"
+ },
+ "elements": [
+  {
+   "name": "黄铜弧形扳机",
+   "from": [
+    7.55,
+    4.0,
+    8.2
+   ],
+   "to": [
+    8.45,
+    6.1,
+    8.85
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      1.0,
+      1.0,
+      1.9,
+      3.1
+     ],
+     "texture": "#3"
+    },
+    "south": {
+     "uv": [
+      1.0,
+      1.0,
+      1.9,
+      3.1
+     ],
+     "texture": "#3"
+    },
+    "west": {
+     "uv": [
+      1.0,
+      1.0,
+      1.65,
+      3.1
+     ],
+     "texture": "#3"
+    },
+    "east": {
+     "uv": [
+      1.0,
+      1.0,
+      1.65,
+      3.1
+     ],
+     "texture": "#3"
+    },
+    "up": {
+     "uv": [
+      1.0,
+      1.0,
+      1.9,
+      1.65
+     ],
+     "texture": "#3"
+    },
+    "down": {
+     "uv": [
+      1.0,
+      1.0,
+      1.9,
+      1.65
+     ],
+     "texture": "#3"
+    }
+   }
+  },
+  {
+   "name": "扳机指托",
+   "from": [
+    7.55,
+    3.85,
+    8.65
+   ],
+   "to": [
+    8.45,
+    4.4,
+    9.45
+   ],
+   "faces": {
+    "north": {
+     "uv": [
+      2.0,
+      2.0,
+      2.9,
+      2.55
+     ],
+     "texture": "#3"
+    },
+    "south": {
+     "uv": [
+      2.0,
+      2.0,
+      2.9,
+      2.55
+     ],
+     "texture": "#3"
+    },
+    "west": {
+     "uv": [
+      2.0,
+      2.0,
+      2.8,
+      2.55
+     ],
+     "texture": "#3"
+    },
+    "east": {
+     "uv": [
+      2.0,
+      2.0,
+      2.8,
+      2.55
+     ],
+     "texture": "#3"
+    },
+    "up": {
+     "uv": [
+      2.0,
+      2.0,
+      2.9,
+      2.8
+     ],
+     "texture": "#3"
+    },
+    "down": {
+     "uv": [
+      2.0,
+      2.0,
+      2.9,
+      2.8
+     ],
+     "texture": "#3"
+    }
+   }
+  }
+ ]
+}

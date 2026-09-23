@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "create:packager" },
+    { "item": "minecraft:slime_ball" },
+    { "item": "minecraft:glass" }
+  ],
+  "result": { "id": "aircrate:creature_packager", "count": 1 }
+}

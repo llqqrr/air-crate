@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "aircrate:block/crate_interaction_hatch"},
+    "facing=east": {"model": "aircrate:block/crate_interaction_hatch", "y": 90},
+    "facing=south": {"model": "aircrate:block/crate_interaction_hatch", "y": 180},
+    "facing=west": {"model": "aircrate:block/crate_interaction_hatch", "y": 270}
+  }
+}

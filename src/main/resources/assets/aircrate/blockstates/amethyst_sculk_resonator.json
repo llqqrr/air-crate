@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "active=false,facing=north": { "model": "aircrate:block/integration_v4/resonator_idle" },
+    "active=false,facing=south": { "model": "aircrate:block/integration_v4/resonator_idle", "y": 180 },
+    "active=false,facing=west":  { "model": "aircrate:block/integration_v4/resonator_idle", "y": 270 },
+    "active=false,facing=east":  { "model": "aircrate:block/integration_v4/resonator_idle", "y": 90 },
+    "active=true,facing=north":  { "model": "aircrate:block/integration_v4/resonator_idle" },
+    "active=true,facing=south":  { "model": "aircrate:block/integration_v4/resonator_idle", "y": 180 },
+    "active=true,facing=west":   { "model": "aircrate:block/integration_v4/resonator_idle", "y": 270 },
+    "active=true,facing=east":   { "model": "aircrate:block/integration_v4/resonator_idle", "y": 90 }
+  }
+}

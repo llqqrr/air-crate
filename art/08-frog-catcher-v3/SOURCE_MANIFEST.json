@@ -1,0 +1,134 @@
+[
+  {
+    "output": "aircrate__block__creature_frogport_port.png",
+    "source": "references\\aircrate\\textures\\block\\creature_frogport_port.png",
+    "operation": "unaltered copy",
+    "sha256": "9eb21fb36325ec8da011e5f651440d3396396a4c4c5ff9de1c0a0d73d600998e",
+    "file": "aircrate__block__creature_frogport_port.png",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "copper_pressure_shell_32.png",
+    "source": "create:block/copper_backtank",
+    "operation": "retain original copper shell texels; remove lower atlas region containing brown back pad / carried apparatus; model imports only shell elements 0,1,2",
+    "file": "copper_pressure_shell_32.png",
+    "size": [
+      32,
+      32
+    ],
+    "sha256": "0158178d26b2c867062a3b82b505fcd10244dfe364df20291c106f15fc9e3ac9"
+  },
+  {
+    "output": "create__block__andesite_casing.png",
+    "source": "references\\create\\textures\\block\\andesite_casing.png",
+    "operation": "unaltered copy",
+    "sha256": "c7da24aacfb6170ebd570e5a302a6c9d3f3c0b324314e3df79236209667f192a",
+    "file": "create__block__andesite_casing.png",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__brass_casing.png",
+    "source": "references\\create\\textures\\block\\brass_casing.png",
+    "operation": "unaltered copy",
+    "sha256": "3f82796571a690a9722abdcd825b88c988745bc322c6333809d1da7e160292a9",
+    "file": "create__block__brass_casing.png",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__cogwheel.png",
+    "source": "references\\create\\textures\\block\\cogwheel.png",
+    "operation": "unaltered copy",
+    "sha256": "011591a34282037145fa38a5970b5b38e1c31d6b9f8a823b4598daa7e79c5b08",
+    "file": "create__block__cogwheel.png",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__copper_backtank.png",
+    "source": "references\\create\\textures\\block\\copper_backtank.png",
+    "operation": "unaltered copy",
+    "sha256": "24dbea20a0ed85fcd5ece99c9f9241757d10ab7f473c39424f3f2261abd591a1",
+    "file": "create__block__copper_backtank.png",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__mechanical_press_pole.png",
+    "source": "references\\create\\textures\\block\\mechanical_press_pole.png",
+    "operation": "unaltered copy",
+    "sha256": "a5521f3058eab3f5c8f2cffc2eed5052dc8311630e419c7332e3f992172dd54d",
+    "file": "create__block__mechanical_press_pole.png",
+    "size": [
+      16,
+      16
+    ]
+  },
+  {
+    "output": "create__block__port.png",
+    "source": "references\\create\\textures\\block\\port.png",
+    "operation": "unaltered copy",
+    "sha256": "146d33940ad6eec3c30a5a086d39a5f3b77286f640ac396d5a5f12a73cbdc88d",
+    "file": "create__block__port.png",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__block__port2.png",
+    "source": "references\\create\\textures\\block\\port2.png",
+    "operation": "unaltered copy",
+    "sha256": "77dea1529b7ed50cecfa417b8f577e2aba542ad26d724ba45998b59ff4e6c225",
+    "file": "create__block__port2.png",
+    "size": [
+      32,
+      32
+    ]
+  },
+  {
+    "output": "create__item__potato_cannon.png",
+    "source": "references\\create\\textures\\item\\potato_cannon.png",
+    "operation": "unaltered copy",
+    "sha256": "c4fb6103ad3999adbff7898a2dc3379894d92061742fd7ca05f524bdcc6247a2",
+    "file": "create__item__potato_cannon.png",
+    "size": [
+      64,
+      64
+    ]
+  },
+  {
+    "output": "mechanism_pixels_16.png",
+    "source": "Create source sampled colors",
+    "operation": "solid texels for needle, pin, dark nozzle and steam preview",
+    "file": "mechanism_pixels_16.png",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "a4134f4ac2000b6a16e754282201a3e067efb5a8ed32276e286b98a5a330bbcd"
+  },
+  {
+    "output": "pressure_gauge_16.png",
+    "source": "references/diesel/current_gauge.png; Create brass palette",
+    "operation": "new 6x6 dial with 8x8 bezel on 16x16 canvas; pointer is separate geometry",
+    "file": "pressure_gauge_16.png",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "a3b3f7d852913826f70de05b3735f047e3ff4000d64b1e58c16aca33fa6d0fbb"
+  }
+]

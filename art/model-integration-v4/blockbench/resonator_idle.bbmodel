@@ -1,0 +1,660 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "resonator_idle",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Complete casing frame / shaft centre Y=8",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": 0,
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "south": {
+          "texture": 0,
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "west": {
+          "texture": 1,
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "texture": 1,
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "up": {
+          "texture": 2,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": 2,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "type": "cube",
+      "uuid": "098772bd-e448-5f81-b63a-c220f946a4bc",
+      "origin": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Sculk ring",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": 3,
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "south": {
+          "texture": 3,
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "west": {
+          "texture": 3,
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "texture": 3,
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "up": {
+          "texture": 4,
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      },
+      "type": "cube",
+      "uuid": "8d9d9888-664f-56b3-9c1a-3d406af80a22",
+      "origin": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "from": [
+        8,
+        16,
+        0
+      ],
+      "to": [
+        8,
+        28,
+        16
+      ],
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": 5
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": 5
+        }
+      },
+      "name": "Native crystal plane 0",
+      "type": "cube",
+      "uuid": "e4be47d6-0bf7-582f-b395-5b476e9c4eef",
+      "origin": [
+        8,
+        17,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true
+    },
+    {
+      "from": [
+        0,
+        16,
+        8
+      ],
+      "to": [
+        16,
+        28,
+        8
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": 5
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": 5
+        }
+      },
+      "name": "Native crystal plane 1",
+      "type": "cube",
+      "uuid": "56ae280a-d5ba-543d-8f89-524fcd30446e",
+      "origin": [
+        8,
+        17,
+        8
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "rescale": true
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        1,
+        15,
+        1
+      ],
+      "to": [
+        4,
+        17,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      },
+      "type": "cube",
+      "uuid": "7a710b4e-cdf2-5f22-a1a5-04cd57801798",
+      "origin": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        12,
+        15,
+        1
+      ],
+      "to": [
+        15,
+        17,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      },
+      "type": "cube",
+      "uuid": "efa7dc40-3cac-55ea-b21c-f27cf0fda267",
+      "origin": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        1,
+        15,
+        12
+      ],
+      "to": [
+        4,
+        17,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      },
+      "type": "cube",
+      "uuid": "afbba65b-2d83-562f-90d1-1c66b738a678",
+      "origin": [
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        12,
+        15,
+        12
+      ],
+      "to": [
+        15,
+        17,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": 6,
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      },
+      "type": "cube",
+      "uuid": "49cd752b-33af-5e75-8254-954bd304f2c6",
+      "origin": [
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "outliner": [
+    "098772bd-e448-5f81-b63a-c220f946a4bc",
+    "8d9d9888-664f-56b3-9c1a-3d406af80a22",
+    "e4be47d6-0bf7-582f-b395-5b476e9c4eef",
+    "56ae280a-d5ba-543d-8f89-524fcd30446e",
+    "7a710b4e-cdf2-5f22-a1a5-04cd57801798",
+    "efa7dc40-3cac-55ea-b21c-f27cf0fda267",
+    "afbba65b-2d83-562f-90d1-1c66b738a678",
+    "49cd752b-33af-5e75-8254-954bd304f2c6"
+  ],
+  "textures": [
+    {
+      "name": "block/integration_v4/resonator_casing_bearing.png",
+      "namespace": "aircrate",
+      "folder": "block/integration_v4",
+      "id": "0",
+      "uuid": "759ca5bf-54a3-50b8-86fc-588c0228bedb",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABgElEQVR4nOVRzU7CQBD+IIX+AC2iIoQYjFHjhauJ8WJiPJpIfAEv3HwKL76A8eKF9/DiK6iJR239aREMgaLQFpKa2WaXSvAJ/JLdmfl2Z3bm28TxST3M53VwKKoKbzQSNs4T4pz58gaJktc3NlFaLUM3dLh9F83La5iWhY92m11cKRaxVq3i9KyBb/eLcYP+AL2eC4kCSr65Op9WtgLYjpPgse04ZMLb5gWLx8MxKnt15idpo5cJ2QUDlZIhXo6DuKKuQZY1FhcKS9MCbt9FSkvBkIGCkcVfiJ/ljFxUQFFVMRcHzTwL4tJSKGLSQFFkSKRqRo8qa0qaWRKMZp4VkVA20jD9FLrdT3ieH4nINWDf5AeoJDvY2V0GQAsoLWZw/9xBMJl2RhqYT1Y0gvNqM2WHXsAOSY94R8FEfIi4w5GMjxAHT+aWHqDuuE8jECTaHu8eUDtqiORtgF3gX0V+bSvyFUZEyYTE/uFBmNcjDXzfhyzLvzqZx3G8t1pz+f+GH0w6lEbhlRvuAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "block/integration_v4/resonator_casing_side.png",
+      "namespace": "aircrate",
+      "folder": "block/integration_v4",
+      "id": "1",
+      "uuid": "b3bcca2d-96d0-5e5d-b65e-7eb68b88a83e",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABTklEQVR4nOVRXUrDQBCehjTZxDRbi0hL8UVUfOkJfBHER8HiGbyIh/AynkIE8VH87YOUJtU02wqRb8KsG9ET+EF2fvb7ZmYnrdOzcdXtpiRQUUTlYmGtmwfc3P3DE/kQb+/sUn9rQKlOKc9y+sjfaS1NOH59fKF5NmcBOLgDkJvNcvLl4urywlZux20Kw9jGxhS0KlZ0F7c5hj88GLPv4UAnIFnXNOxr9nVI1m6mMReFlcK93sZ3gTzLmQByTyfcIVZBTdQJf+ILOrpTF1BRZN/1EzKFjB34lY2xA6VC8rBVLAyQri5Ks2wIBzrgaafTNypL09yBCICibFqIlp8ty7M7UFHEvwojumR3IlcoHIHnPsGFiMWigUwHH08AfBy31zc0Ojm34n0iJsiY8Ed7ta84UYuB1uHxUdVN6x0YYygMndX/kRM8Tya/5v8bvgDSbY0ZebYYQwAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "block/andesite_casing.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "2",
+      "uuid": "f6c299bd-9d9f-5ed4-a720-68c858ab9a3d",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAOVBMVEWos6uapJ2PlpGCh4RwdXCIZTlobGiCYTpgY196WjRYW1hwUi5QU1FhSy5JTEpaRCRARUNVOh81Ozmz6w0pAAAAiUlEQVR42iVM0QoDMQwyNhx9yK3X/f+XjuItaWNQFBTRe78SyUUPejMYDWzNyBboNucc932POcb0IF6sHwStRBrCpEVhLSxUIEOdAAowkW+ZY5eMtQFuiKdCEkoQ9agKcBKCBp41HdIr0iBhD+yWl14ll/zsWAZw5nsZdG95nl/igSfiE1G07/sHU88yq1mY5YIAAAAASUVORK5CYII="
+    },
+    {
+      "name": "block/sculk_sensor_side.png",
+      "namespace": "minecraft",
+      "folder": "block",
+      "id": "3",
+      "uuid": "5c948f9b-d610-5ea8-af54-5f2c0e28c99e",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEUAAAAp3+sAkpUHSFcDQVAGLjcLISoRGyENEhfJSjsvAAAAAXRSTlMAQObYZgAAAEpJREFUeNqtwUEBgCAMBdAfwwjeaeDAAjITKJBgM8H4sb0YwffwF0kiKUtGKYduqhVV9Wx3VXjfezczDCfpz8Rg8JqxgI1rBAl+XjVyGfdNtyNZAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "block/calibrated_sculk_sensor_top.png",
+      "namespace": "minecraft",
+      "folder": "block",
+      "id": "4",
+      "uuid": "ff16fd26-f922-53a3-9b71-94c059083219",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAG1BMVEX+y+bPoPOzjvNudXsAkpVUZJsHSFcDQVAFKjKDI/neAAAAbElEQVR42g3CsQkCQRiE0SlBBHMNDkvYCsR0EXQL8Jy5UBD+Lzc42/YeTwVUChHaaj8F8TaipfIpy7gMJcc4oFrq8vA6C3M7QPQrnyZiYfeBrdjHO4XMq+8HTXX1e8yOgH52LOe7G16QTZ8If7y6MsYZvwJqAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "block/calibrated_sculk_sensor_amethyst.png",
+      "namespace": "minecraft",
+      "folder": "block",
+      "id": "5",
+      "uuid": "0144e6b8-e0bb-5a2a-a11c-1c76c4581ed5",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAGFBMVEUAAAD//dX+y+bPoPOzjvONasx6W7VkR57jjLTVAAAAAXRSTlMAQObYZgAAAEFJREFUeNpjIBIwwRhKBmAeEDFDBQSVDcAMYyMXB7DU//8MAmCGwAcogxEIwYDZ0BXCYDEKgzKcwyEM1rByBgYGAF8mB2YYJepCAAAAAElFTkSuQmCC"
+    },
+    {
+      "name": "block/brass_casing.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "6",
+      "uuid": "1c8db241-0461-5da3-a152-c224d08ff225",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAM1BMVEX/64z3y2zkt2POoFqeaUdyRzFaPh5TOBpPMhhPMRhJLxdZJCRJLhZEKxU6JBEwHg4pGgxrh7CpAAAAe0lEQVR42l2OQQ7EIAgAQbRQLLD/f+0i9tB2ojGZMEQY/cWETgg3CEgDOkZ4eJJPQAoIYT6Ok/k8A5dwUVE1M1Uv8UxaTWTBvDLxnegKtJK2hWlhdgsRsbwq4rTE77MUXXJfHd0TYdlfZnpJfL9eghAbtkaNkj5gjhfzDxUvB+Sfnve3AAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {},
+  "credit": "Create / Minecraft derived; see INTEGRATION.md"
+}

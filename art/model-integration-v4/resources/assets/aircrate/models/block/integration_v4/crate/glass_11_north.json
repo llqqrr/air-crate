@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "wall": "aircrate:block/integration_v4/glass_11",
+    "particle": "create:block/vault/vault_front_small"
+  },
+  "elements": [
+    {
+      "name": "glass",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        0.04
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wall",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wall",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

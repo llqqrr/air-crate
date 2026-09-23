@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "aircrate:crate_interaction_hatch" }],
+    "conditions": [{ "condition": "minecraft:survives_explosion" }]
+  }]
+}

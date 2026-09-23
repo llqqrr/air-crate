@@ -1,0 +1,46 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "t": "aircrate:block/crate_vent_end",
+    "fan": "create:block/fan_blades"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "south": {
+          "texture": "#t"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        2,
+        16
+      ],
+      "to": [
+        14,
+        14,
+        16.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fan"
+        },
+        "south": {
+          "texture": "#fan"
+        }
+      }
+    }
+  ]
+}

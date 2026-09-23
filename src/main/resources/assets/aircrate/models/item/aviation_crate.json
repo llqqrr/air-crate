@@ -1,0 +1,4 @@
+{
+  "loader": "aircrate:crate",
+  "render_type": "minecraft:cutout"
+}

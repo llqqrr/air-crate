@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/package_frogport/head",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "aircrate:block/integration_v4/transparent",
+    "1": "aircrate:block/creature_frogport_port_glow"
+  }
+}

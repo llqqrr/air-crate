@@ -1,0 +1,365 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "wall": "aircrate:block/integration_v4/vent_panel_07",
+    "particle": "create:block/fan_side",
+    "2": "create:block/gearbox",
+    "fan_casing": "create:block/fan_casing",
+    "fan_side": "create:block/fan_side",
+    "axis_top": "create:block/axis_top",
+    "fan_blades": "create:block/fan_blades",
+    "axis": "create:block/axis"
+  },
+  "elements": [
+    {
+      "name": "vent_panel",
+      "from": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "to": [
+        16.0,
+        16.0,
+        0.04
+      ],
+      "faces": {
+        "north": {
+          "texture": "#wall",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#wall",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bottom",
+      "from": [
+        3.0,
+        3.0,
+        -0.5
+      ],
+      "to": [
+        13.0,
+        4.25,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#fan_casing"
+        },
+        "east": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#fan_casing"
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fan_side"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Top",
+      "from": [
+        3.0,
+        11.75,
+        -0.5
+      ],
+      "to": [
+        13.0,
+        13.0,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#fan_casing"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            2
+          ],
+          "texture": "#fan_casing"
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            16,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#fan_side"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "rotation": 180,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        3.0,
+        4.25,
+        -0.5
+      ],
+      "to": [
+        4.25,
+        11.75,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "east": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "south": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            2,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "from": [
+        11.75,
+        4.25,
+        -0.5
+      ],
+      "to": [
+        13.0,
+        11.75,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            2,
+            2,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "east": {
+          "uv": [
+            2,
+            0,
+            14,
+            16
+          ],
+          "rotation": 90,
+          "texture": "#fan_side"
+        },
+        "south": {
+          "uv": [
+            14,
+            2,
+            16,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "west": {
+          "uv": [
+            14,
+            0,
+            2,
+            16
+          ],
+          "rotation": 270,
+          "texture": "#fan_side"
+        }
+      }
+    },
+    {
+      "name": "Lattice",
+      "from": [
+        4.25,
+        4.25,
+        0.125
+      ],
+      "to": [
+        11.75,
+        11.75,
+        0.125
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#fan_casing"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#fan_casing"
+        }
+      }
+    },
+    {
+      "name": "Back",
+      "from": [
+        4.25,
+        4.25,
+        5.125
+      ],
+      "to": [
+        11.75,
+        11.75,
+        8.875
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#2"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#2"
+        }
+      }
+    }
+  ]
+}

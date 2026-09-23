@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "aircrate:creature_belt_fixture" }],
+    "conditions": [{ "condition": "minecraft:survives_explosion" }]
+  }]
+}

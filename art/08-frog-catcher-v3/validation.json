@@ -1,0 +1,33 @@
+{
+  "idle_bounds": [
+    [
+      3.7800000000000002,
+      0.8238501366244932,
+      -2.1160000000000005
+    ],
+    [
+      12.03,
+      14.400000000000002,
+      16.200000000000003
+    ]
+  ],
+  "idle_length": 18.316000000000003,
+  "native_potato_cannon_length": 20.0,
+  "firstperson_display_equals_native": true,
+  "grip_rake_degrees": 25,
+  "dial_face_pixels": 6,
+  "capacity_preview": 8,
+  "pressure_angle_degrees": "70 - 140 * clamp(air / maxAir, 0, 1)",
+  "warning_fraction": 0.25,
+  "game_integrated": false,
+  "backtank_imported_elements": [
+    0,
+    1,
+    2
+  ],
+  "backtank_excluded_pad_elements": [
+    3,
+    4
+  ],
+  "back_pad_texture_region_removed": true
+}

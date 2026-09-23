@@ -1,0 +1,198 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "0": "aircrate:block/industrial_iron_plate_metal",
+    "1": "create:block/vault/vault_front_small",
+    "2": "create:block/packager_iris_closed",
+    "3": "create:block/packager_details",
+    "4": "aircrate:block/care_badge"
+  },
+  "elements": [
+    {
+      "name": "薄安装背板",
+      "from": [
+        2,
+        2,
+        14
+      ],
+      "to": [
+        14,
+        14,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            14.0
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            14.0
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            2.0,
+            2.0,
+            4.0,
+            14.0
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            2.0,
+            2.0,
+            4.0,
+            14.0
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            4.0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            4.0
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "铆接面板",
+      "from": [
+        2,
+        2,
+        13.75
+      ],
+      "to": [
+        14,
+        14,
+        13.75
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            2.0,
+            2.0,
+            14.0,
+            14.0
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "hatch_closed_0",
+      "from": [
+        4.525,
+        5.525,
+        13
+      ],
+      "to": [
+        11.475,
+        12.475,
+        14.525
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1.0,
+            1.0,
+            15.0,
+            15.0
+          ],
+          "texture": "#2"
+        },
+        "east": {
+          "uv": [
+            8.0,
+            8.5,
+            9.5,
+            15.5
+          ],
+          "texture": "#3"
+        },
+        "south": {
+          "uv": [
+            1.0,
+            1.0,
+            15.0,
+            15.0
+          ],
+          "texture": "#2"
+        },
+        "west": {
+          "uv": [
+            8.0,
+            8.5,
+            9.5,
+            15.5
+          ],
+          "texture": "#3"
+        },
+        "up": {
+          "uv": [
+            8.0,
+            8.5,
+            9.5,
+            15.5
+          ],
+          "texture": "#3"
+        },
+        "down": {
+          "uv": [
+            8.0,
+            8.5,
+            9.5,
+            15.5
+          ],
+          "texture": "#3"
+        }
+      }
+    },
+    {
+      "name": "奶滴毛刷标签",
+      "from": [
+        6,
+        2.25,
+        13.6
+      ],
+      "to": [
+        10,
+        5.25,
+        13.6
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0.0,
+            0.0,
+            8.0,
+            6.0
+          ],
+          "texture": "#4"
+        }
+      }
+    }
+  ]
+}

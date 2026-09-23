@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:wheat" },
+    { "item": "minecraft:apple" },
+    { "tag": "c:seeds" }
+  ],
+  "result": {
+    "id": "aircrate:mixed_feed",
+    "count": 2
+  }
+}

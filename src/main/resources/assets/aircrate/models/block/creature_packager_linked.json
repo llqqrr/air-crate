@@ -1,0 +1,4 @@
+{
+  "parent": "create:block/packager/block_linked",
+  "textures": { "0": "create:block/brass_casing" }
+}

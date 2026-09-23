@@ -1,0 +1,1762 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "fan_north",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "Bottom",
+      "type": "mesh",
+      "uuid": "d13d4fd3-40d6-51d4-aab6-049306381817",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          13.0,
+          4.25,
+          -0.5
+        ],
+        "north1": [
+          13.0,
+          3.0,
+          -0.5
+        ],
+        "north2": [
+          3.0,
+          3.0,
+          -0.5
+        ],
+        "north3": [
+          3.0,
+          4.25,
+          -0.5
+        ],
+        "east0": [
+          13.0,
+          4.25,
+          9.5
+        ],
+        "east1": [
+          13.0,
+          3.0,
+          9.5
+        ],
+        "east2": [
+          13.0,
+          3.0,
+          -0.5
+        ],
+        "east3": [
+          13.0,
+          4.25,
+          -0.5
+        ],
+        "south0": [
+          3.0,
+          4.25,
+          9.5
+        ],
+        "south1": [
+          3.0,
+          3.0,
+          9.5
+        ],
+        "south2": [
+          13.0,
+          3.0,
+          9.5
+        ],
+        "south3": [
+          13.0,
+          4.25,
+          9.5
+        ],
+        "west0": [
+          3.0,
+          4.25,
+          -0.5
+        ],
+        "west1": [
+          3.0,
+          3.0,
+          -0.5
+        ],
+        "west2": [
+          3.0,
+          3.0,
+          9.5
+        ],
+        "west3": [
+          3.0,
+          4.25,
+          9.5
+        ],
+        "up0": [
+          3.0,
+          4.25,
+          -0.5
+        ],
+        "up1": [
+          3.0,
+          4.25,
+          9.5
+        ],
+        "up2": [
+          13.0,
+          4.25,
+          9.5
+        ],
+        "up3": [
+          13.0,
+          4.25,
+          -0.5
+        ],
+        "down0": [
+          3.0,
+          3.0,
+          9.5
+        ],
+        "down1": [
+          3.0,
+          3.0,
+          -0.5
+        ],
+        "down2": [
+          13.0,
+          3.0,
+          -0.5
+        ],
+        "down3": [
+          13.0,
+          3.0,
+          9.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              0.0,
+              14.0
+            ],
+            "north1": [
+              0.0,
+              16.0
+            ],
+            "north2": [
+              16.0,
+              16.0
+            ],
+            "north3": [
+              16.0,
+              14.0
+            ]
+          },
+          "texture": 0
+        },
+        "east": {
+          "vertices": [
+            "east0",
+            "east1",
+            "east2",
+            "east3"
+          ],
+          "uv": {
+            "east0": [
+              14.0,
+              16.0
+            ],
+            "east1": [
+              16.0,
+              16.0
+            ],
+            "east2": [
+              16.0,
+              0.0
+            ],
+            "east3": [
+              14.0,
+              0.0
+            ]
+          },
+          "texture": 1
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              0.0,
+              14.0
+            ],
+            "south1": [
+              0.0,
+              16.0
+            ],
+            "south2": [
+              16.0,
+              16.0
+            ],
+            "south3": [
+              16.0,
+              14.0
+            ]
+          },
+          "texture": 0
+        },
+        "west": {
+          "vertices": [
+            "west0",
+            "west1",
+            "west2",
+            "west3"
+          ],
+          "uv": {
+            "west0": [
+              14.0,
+              16.0
+            ],
+            "west1": [
+              16.0,
+              16.0
+            ],
+            "west2": [
+              16.0,
+              0.0
+            ],
+            "west3": [
+              14.0,
+              0.0
+            ]
+          },
+          "texture": 1
+        },
+        "up": {
+          "vertices": [
+            "up0",
+            "up1",
+            "up2",
+            "up3"
+          ],
+          "uv": {
+            "up0": [
+              0.0,
+              0.0
+            ],
+            "up1": [
+              0.0,
+              16.0
+            ],
+            "up2": [
+              16.0,
+              16.0
+            ],
+            "up3": [
+              16.0,
+              0.0
+            ]
+          },
+          "texture": 1
+        },
+        "down": {
+          "vertices": [
+            "down0",
+            "down1",
+            "down2",
+            "down3"
+          ],
+          "uv": {
+            "down0": [
+              16.0,
+              16.0
+            ],
+            "down1": [
+              16.0,
+              0.0
+            ],
+            "down2": [
+              0.0,
+              0.0
+            ],
+            "down3": [
+              0.0,
+              16.0
+            ]
+          },
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Top",
+      "type": "mesh",
+      "uuid": "a39206f8-1fe6-59af-b588-ade9eec12943",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          13.0,
+          13.0,
+          -0.5
+        ],
+        "north1": [
+          13.0,
+          11.75,
+          -0.5
+        ],
+        "north2": [
+          3.0,
+          11.75,
+          -0.5
+        ],
+        "north3": [
+          3.0,
+          13.0,
+          -0.5
+        ],
+        "east0": [
+          13.0,
+          13.0,
+          9.5
+        ],
+        "east1": [
+          13.0,
+          11.75,
+          9.5
+        ],
+        "east2": [
+          13.0,
+          11.75,
+          -0.5
+        ],
+        "east3": [
+          13.0,
+          13.0,
+          -0.5
+        ],
+        "south0": [
+          3.0,
+          13.0,
+          9.5
+        ],
+        "south1": [
+          3.0,
+          11.75,
+          9.5
+        ],
+        "south2": [
+          13.0,
+          11.75,
+          9.5
+        ],
+        "south3": [
+          13.0,
+          13.0,
+          9.5
+        ],
+        "west0": [
+          3.0,
+          13.0,
+          -0.5
+        ],
+        "west1": [
+          3.0,
+          11.75,
+          -0.5
+        ],
+        "west2": [
+          3.0,
+          11.75,
+          9.5
+        ],
+        "west3": [
+          3.0,
+          13.0,
+          9.5
+        ],
+        "up0": [
+          3.0,
+          13.0,
+          -0.5
+        ],
+        "up1": [
+          3.0,
+          13.0,
+          9.5
+        ],
+        "up2": [
+          13.0,
+          13.0,
+          9.5
+        ],
+        "up3": [
+          13.0,
+          13.0,
+          -0.5
+        ],
+        "down0": [
+          3.0,
+          11.75,
+          9.5
+        ],
+        "down1": [
+          3.0,
+          11.75,
+          -0.5
+        ],
+        "down2": [
+          13.0,
+          11.75,
+          -0.5
+        ],
+        "down3": [
+          13.0,
+          11.75,
+          9.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              0.0,
+              0.0
+            ],
+            "north1": [
+              0.0,
+              2.0
+            ],
+            "north2": [
+              16.0,
+              2.0
+            ],
+            "north3": [
+              16.0,
+              0.0
+            ]
+          },
+          "texture": 0
+        },
+        "east": {
+          "vertices": [
+            "east0",
+            "east1",
+            "east2",
+            "east3"
+          ],
+          "uv": {
+            "east0": [
+              0.0,
+              16.0
+            ],
+            "east1": [
+              2.0,
+              16.0
+            ],
+            "east2": [
+              2.0,
+              0.0
+            ],
+            "east3": [
+              0.0,
+              0.0
+            ]
+          },
+          "texture": 1
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              0.0,
+              0.0
+            ],
+            "south1": [
+              0.0,
+              2.0
+            ],
+            "south2": [
+              16.0,
+              2.0
+            ],
+            "south3": [
+              16.0,
+              0.0
+            ]
+          },
+          "texture": 0
+        },
+        "west": {
+          "vertices": [
+            "west0",
+            "west1",
+            "west2",
+            "west3"
+          ],
+          "uv": {
+            "west0": [
+              16.0,
+              0.0
+            ],
+            "west1": [
+              14.0,
+              0.0
+            ],
+            "west2": [
+              14.0,
+              16.0
+            ],
+            "west3": [
+              16.0,
+              16.0
+            ]
+          },
+          "texture": 1
+        },
+        "up": {
+          "vertices": [
+            "up0",
+            "up1",
+            "up2",
+            "up3"
+          ],
+          "uv": {
+            "up0": [
+              0.0,
+              0.0
+            ],
+            "up1": [
+              0.0,
+              16.0
+            ],
+            "up2": [
+              16.0,
+              16.0
+            ],
+            "up3": [
+              16.0,
+              0.0
+            ]
+          },
+          "texture": 1
+        },
+        "down": {
+          "vertices": [
+            "down0",
+            "down1",
+            "down2",
+            "down3"
+          ],
+          "uv": {
+            "down0": [
+              16.0,
+              16.0
+            ],
+            "down1": [
+              16.0,
+              0.0
+            ],
+            "down2": [
+              0.0,
+              0.0
+            ],
+            "down3": [
+              0.0,
+              16.0
+            ]
+          },
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "type": "mesh",
+      "uuid": "7b2b2bee-243b-50c4-8888-634d63872709",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          4.25,
+          11.75,
+          -0.5
+        ],
+        "north1": [
+          4.25,
+          4.25,
+          -0.5
+        ],
+        "north2": [
+          3.0,
+          4.25,
+          -0.5
+        ],
+        "north3": [
+          3.0,
+          11.75,
+          -0.5
+        ],
+        "east0": [
+          4.25,
+          11.75,
+          9.5
+        ],
+        "east1": [
+          4.25,
+          4.25,
+          9.5
+        ],
+        "east2": [
+          4.25,
+          4.25,
+          -0.5
+        ],
+        "east3": [
+          4.25,
+          11.75,
+          -0.5
+        ],
+        "south0": [
+          3.0,
+          11.75,
+          9.5
+        ],
+        "south1": [
+          3.0,
+          4.25,
+          9.5
+        ],
+        "south2": [
+          4.25,
+          4.25,
+          9.5
+        ],
+        "south3": [
+          4.25,
+          11.75,
+          9.5
+        ],
+        "west0": [
+          3.0,
+          11.75,
+          -0.5
+        ],
+        "west1": [
+          3.0,
+          4.25,
+          -0.5
+        ],
+        "west2": [
+          3.0,
+          4.25,
+          9.5
+        ],
+        "west3": [
+          3.0,
+          11.75,
+          9.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              14.0,
+              2.0
+            ],
+            "north1": [
+              14.0,
+              14.0
+            ],
+            "north2": [
+              16.0,
+              14.0
+            ],
+            "north3": [
+              16.0,
+              2.0
+            ]
+          },
+          "texture": 0
+        },
+        "east": {
+          "vertices": [
+            "east0",
+            "east1",
+            "east2",
+            "east3"
+          ],
+          "uv": {
+            "east0": [
+              2.0,
+              16.0
+            ],
+            "east1": [
+              14.0,
+              16.0
+            ],
+            "east2": [
+              14.0,
+              0.0
+            ],
+            "east3": [
+              2.0,
+              0.0
+            ]
+          },
+          "texture": 1
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              0.0,
+              2.0
+            ],
+            "south1": [
+              0.0,
+              14.0
+            ],
+            "south2": [
+              2.0,
+              14.0
+            ],
+            "south3": [
+              2.0,
+              2.0
+            ]
+          },
+          "texture": 0
+        },
+        "west": {
+          "vertices": [
+            "west0",
+            "west1",
+            "west2",
+            "west3"
+          ],
+          "uv": {
+            "west0": [
+              2.0,
+              0.0
+            ],
+            "west1": [
+              14.0,
+              0.0
+            ],
+            "west2": [
+              14.0,
+              16.0
+            ],
+            "west3": [
+              2.0,
+              16.0
+            ]
+          },
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Side",
+      "type": "mesh",
+      "uuid": "55a6779a-01d3-5115-b524-9701038a4f06",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          13.0,
+          11.75,
+          -0.5
+        ],
+        "north1": [
+          13.0,
+          4.25,
+          -0.5
+        ],
+        "north2": [
+          11.75,
+          4.25,
+          -0.5
+        ],
+        "north3": [
+          11.75,
+          11.75,
+          -0.5
+        ],
+        "east0": [
+          13.0,
+          11.75,
+          9.5
+        ],
+        "east1": [
+          13.0,
+          4.25,
+          9.5
+        ],
+        "east2": [
+          13.0,
+          4.25,
+          -0.5
+        ],
+        "east3": [
+          13.0,
+          11.75,
+          -0.5
+        ],
+        "south0": [
+          11.75,
+          11.75,
+          9.5
+        ],
+        "south1": [
+          11.75,
+          4.25,
+          9.5
+        ],
+        "south2": [
+          13.0,
+          4.25,
+          9.5
+        ],
+        "south3": [
+          13.0,
+          11.75,
+          9.5
+        ],
+        "west0": [
+          11.75,
+          11.75,
+          -0.5
+        ],
+        "west1": [
+          11.75,
+          4.25,
+          -0.5
+        ],
+        "west2": [
+          11.75,
+          4.25,
+          9.5
+        ],
+        "west3": [
+          11.75,
+          11.75,
+          9.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              0.0,
+              2.0
+            ],
+            "north1": [
+              0.0,
+              14.0
+            ],
+            "north2": [
+              2.0,
+              14.0
+            ],
+            "north3": [
+              2.0,
+              2.0
+            ]
+          },
+          "texture": 0
+        },
+        "east": {
+          "vertices": [
+            "east0",
+            "east1",
+            "east2",
+            "east3"
+          ],
+          "uv": {
+            "east0": [
+              2.0,
+              16.0
+            ],
+            "east1": [
+              14.0,
+              16.0
+            ],
+            "east2": [
+              14.0,
+              0.0
+            ],
+            "east3": [
+              2.0,
+              0.0
+            ]
+          },
+          "texture": 1
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              14.0,
+              2.0
+            ],
+            "south1": [
+              14.0,
+              14.0
+            ],
+            "south2": [
+              16.0,
+              14.0
+            ],
+            "south3": [
+              16.0,
+              2.0
+            ]
+          },
+          "texture": 0
+        },
+        "west": {
+          "vertices": [
+            "west0",
+            "west1",
+            "west2",
+            "west3"
+          ],
+          "uv": {
+            "west0": [
+              2.0,
+              0.0
+            ],
+            "west1": [
+              14.0,
+              0.0
+            ],
+            "west2": [
+              14.0,
+              16.0
+            ],
+            "west3": [
+              2.0,
+              16.0
+            ]
+          },
+          "texture": 1
+        }
+      }
+    },
+    {
+      "name": "Lattice",
+      "type": "mesh",
+      "uuid": "16d23ddb-57d9-5987-a3de-05a99c6d9450",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          11.75,
+          11.75,
+          0.125
+        ],
+        "north1": [
+          11.75,
+          4.25,
+          0.125
+        ],
+        "north2": [
+          4.25,
+          4.25,
+          0.125
+        ],
+        "north3": [
+          4.25,
+          11.75,
+          0.125
+        ],
+        "south0": [
+          4.25,
+          11.75,
+          0.125
+        ],
+        "south1": [
+          4.25,
+          4.25,
+          0.125
+        ],
+        "south2": [
+          11.75,
+          4.25,
+          0.125
+        ],
+        "south3": [
+          11.75,
+          11.75,
+          0.125
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              2.0,
+              2.0
+            ],
+            "north1": [
+              2.0,
+              14.0
+            ],
+            "north2": [
+              14.0,
+              14.0
+            ],
+            "north3": [
+              14.0,
+              2.0
+            ]
+          },
+          "texture": 0
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              2.0,
+              2.0
+            ],
+            "south1": [
+              2.0,
+              14.0
+            ],
+            "south2": [
+              14.0,
+              14.0
+            ],
+            "south3": [
+              14.0,
+              2.0
+            ]
+          },
+          "texture": 0
+        }
+      }
+    },
+    {
+      "name": "Back",
+      "type": "mesh",
+      "uuid": "1643e7f0-727a-5d2e-b87d-4da8d9252b09",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          11.75,
+          11.75,
+          5.125
+        ],
+        "north1": [
+          11.75,
+          4.25,
+          5.125
+        ],
+        "north2": [
+          4.25,
+          4.25,
+          5.125
+        ],
+        "north3": [
+          4.25,
+          11.75,
+          5.125
+        ],
+        "south0": [
+          4.25,
+          11.75,
+          8.875
+        ],
+        "south1": [
+          4.25,
+          4.25,
+          8.875
+        ],
+        "south2": [
+          11.75,
+          4.25,
+          8.875
+        ],
+        "south3": [
+          11.75,
+          11.75,
+          8.875
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              2.0,
+              2.0
+            ],
+            "north1": [
+              2.0,
+              14.0
+            ],
+            "north2": [
+              14.0,
+              14.0
+            ],
+            "north3": [
+              14.0,
+              2.0
+            ]
+          },
+          "texture": 2
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              2.0,
+              2.0
+            ],
+            "south1": [
+              2.0,
+              14.0
+            ],
+            "south2": [
+              14.0,
+              14.0
+            ],
+            "south3": [
+              14.0,
+              2.0
+            ]
+          },
+          "texture": 2
+        }
+      }
+    },
+    {
+      "name": "Shaft",
+      "type": "mesh",
+      "uuid": "7b53f62b-ef45-5e4d-a5da-606f25e114e5",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          9.25,
+          9.25,
+          0.25
+        ],
+        "north1": [
+          9.25,
+          6.75,
+          0.25
+        ],
+        "north2": [
+          6.75,
+          6.75,
+          0.25
+        ],
+        "north3": [
+          6.75,
+          9.25,
+          0.25
+        ],
+        "east0": [
+          9.25,
+          9.25,
+          9.5
+        ],
+        "east1": [
+          9.25,
+          6.75,
+          9.5
+        ],
+        "east2": [
+          9.25,
+          6.75,
+          0.25
+        ],
+        "east3": [
+          9.25,
+          9.25,
+          0.25
+        ],
+        "south0": [
+          6.75,
+          9.25,
+          9.5
+        ],
+        "south1": [
+          6.75,
+          6.75,
+          9.5
+        ],
+        "south2": [
+          9.25,
+          6.75,
+          9.5
+        ],
+        "south3": [
+          9.25,
+          9.25,
+          9.5
+        ],
+        "west0": [
+          6.75,
+          9.25,
+          0.25
+        ],
+        "west1": [
+          6.75,
+          6.75,
+          0.25
+        ],
+        "west2": [
+          6.75,
+          6.75,
+          9.5
+        ],
+        "west3": [
+          6.75,
+          9.25,
+          9.5
+        ],
+        "up0": [
+          6.75,
+          9.25,
+          0.25
+        ],
+        "up1": [
+          6.75,
+          9.25,
+          9.5
+        ],
+        "up2": [
+          9.25,
+          9.25,
+          9.5
+        ],
+        "up3": [
+          9.25,
+          9.25,
+          0.25
+        ],
+        "down0": [
+          6.75,
+          6.75,
+          9.5
+        ],
+        "down1": [
+          6.75,
+          6.75,
+          0.25
+        ],
+        "down2": [
+          9.25,
+          6.75,
+          0.25
+        ],
+        "down3": [
+          9.25,
+          6.75,
+          9.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              6.0,
+              6.0
+            ],
+            "north1": [
+              6.0,
+              10.0
+            ],
+            "north2": [
+              10.0,
+              10.0
+            ],
+            "north3": [
+              10.0,
+              6.0
+            ]
+          },
+          "texture": 3
+        },
+        "east": {
+          "vertices": [
+            "east0",
+            "east1",
+            "east2",
+            "east3"
+          ],
+          "uv": {
+            "east0": [
+              6.0,
+              16.0
+            ],
+            "east1": [
+              10.0,
+              16.0
+            ],
+            "east2": [
+              10.0,
+              0.0
+            ],
+            "east3": [
+              6.0,
+              0.0
+            ]
+          },
+          "texture": 4
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              6.0,
+              6.0
+            ],
+            "south1": [
+              6.0,
+              10.0
+            ],
+            "south2": [
+              10.0,
+              10.0
+            ],
+            "south3": [
+              10.0,
+              6.0
+            ]
+          },
+          "texture": 3
+        },
+        "west": {
+          "vertices": [
+            "west0",
+            "west1",
+            "west2",
+            "west3"
+          ],
+          "uv": {
+            "west0": [
+              10.0,
+              0.0
+            ],
+            "west1": [
+              6.0,
+              0.0
+            ],
+            "west2": [
+              6.0,
+              16.0
+            ],
+            "west3": [
+              10.0,
+              16.0
+            ]
+          },
+          "texture": 4
+        },
+        "up": {
+          "vertices": [
+            "up0",
+            "up1",
+            "up2",
+            "up3"
+          ],
+          "uv": {
+            "up0": [
+              6.0,
+              0.0
+            ],
+            "up1": [
+              6.0,
+              16.0
+            ],
+            "up2": [
+              10.0,
+              16.0
+            ],
+            "up3": [
+              10.0,
+              0.0
+            ]
+          },
+          "texture": 4
+        },
+        "down": {
+          "vertices": [
+            "down0",
+            "down1",
+            "down2",
+            "down3"
+          ],
+          "uv": {
+            "down0": [
+              6.0,
+              0.0
+            ],
+            "down1": [
+              6.0,
+              16.0
+            ],
+            "down2": [
+              10.0,
+              16.0
+            ],
+            "down3": [
+              10.0,
+              0.0
+            ]
+          },
+          "texture": 4
+        }
+      }
+    },
+    {
+      "name": "Fan",
+      "type": "mesh",
+      "uuid": "4c75a1ed-ea62-5792-8a8e-aae56920bf9e",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "vertices": {
+        "north0": [
+          10.36773293813961,
+          13.716212971334148,
+          2.0
+        ],
+        "north1": [
+          13.716212971334148,
+          5.632267061860388,
+          2.0
+        ],
+        "north2": [
+          5.6322670618603885,
+          2.283787028665853,
+          2.0
+        ],
+        "north3": [
+          2.283787028665853,
+          10.367732938139612,
+          2.0
+        ],
+        "south0": [
+          2.283787028665853,
+          10.367732938139612,
+          7.0
+        ],
+        "south1": [
+          5.6322670618603885,
+          2.283787028665853,
+          7.0
+        ],
+        "south2": [
+          13.716212971334148,
+          5.632267061860388,
+          7.0
+        ],
+        "south3": [
+          10.36773293813961,
+          13.716212971334148,
+          7.0
+        ]
+      },
+      "faces": {
+        "north": {
+          "vertices": [
+            "north0",
+            "north1",
+            "north2",
+            "north3"
+          ],
+          "uv": {
+            "north0": [
+              1.0,
+              1.0
+            ],
+            "north1": [
+              1.0,
+              15.0
+            ],
+            "north2": [
+              15.0,
+              15.0
+            ],
+            "north3": [
+              15.0,
+              1.0
+            ]
+          },
+          "texture": 5
+        },
+        "south": {
+          "vertices": [
+            "south0",
+            "south1",
+            "south2",
+            "south3"
+          ],
+          "uv": {
+            "south0": [
+              1.0,
+              1.0
+            ],
+            "south1": [
+              1.0,
+              15.0
+            ],
+            "south2": [
+              15.0,
+              15.0
+            ],
+            "south3": [
+              15.0,
+              1.0
+            ]
+          },
+          "texture": 5
+        }
+      }
+    }
+  ],
+  "outliner": [
+    "d13d4fd3-40d6-51d4-aab6-049306381817",
+    "a39206f8-1fe6-59af-b588-ade9eec12943",
+    "7b2b2bee-243b-50c4-8888-634d63872709",
+    "55a6779a-01d3-5115-b524-9701038a4f06",
+    "16d23ddb-57d9-5987-a3de-05a99c6d9450",
+    "1643e7f0-727a-5d2e-b87d-4da8d9252b09",
+    "7b53f62b-ef45-5e4d-a5da-606f25e114e5",
+    "4c75a1ed-ea62-5792-8a8e-aae56920bf9e"
+  ],
+  "textures": [
+    {
+      "name": "block/fan_casing.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "0",
+      "uuid": "edda61db-889e-52f8-b1e9-6bfebb6c96c5",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAKlBMVEUAAACos6uapJ2PlpGKkJCCh4RwdXBobGhgY19YW1hQU1FJTEpARUM1Ozn4V3itAAAAAXRSTlMAQObYZgAAAIRJREFUeNpjWNFRUdFR3tHD0KqorGgaZBzF0BTAwNrAwJrF0MjAwBTAwAAUgTCsGIoZGDxaGRgigSIsXSsCGIBqgjQWsDRbRDEUt0YsYG3LAilmbdVYwJDFUMTAENEFUtzMwMC2gIEhCsFoTWDgOACyoi00NDUsNCyL4dTqVat2rVq1FgDjQSXCIgAIggAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "block/fan_side.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "1",
+      "uuid": "e55faa16-8222-5365-82de-295632b3c3ca",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAbFBMVEWos6uapJ2PlpGCh4RwdXCIZTlobGiHZDiCYTqBYDlgY196WjR5WTN3VzJ2VzFYW1hxUi1wUi5sTy1rTi1QU1FmSilhSy5lSShJTEpfQyRfQyNeQyRaRCRARUNWPCBVOh9ONhw1OzlHMxxGMhxWfx9XAAAAtUlEQVR42k2O23LDMAhEAfkSo9YuNVLbmASX/v8/VvJTzjD7cIbZWVBmnnjq2eMBnBCQECglJEoKZyj/nRfBGid8HAz3UsrnvjttzwJmjNa4uweqGWSfqJovi1mFzUa4GWO1JefZKrI3URlszCLzbE3cQOpEJvImsxhu7UN66djFasCWeyl6lvy+rg6bZ/BgCg9vBHE4FGfyoxxfP7snfh7X9HidzkNqDNelYVB4qH6r9rj4/Qe6+xFI2Wv87QAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "block/gearbox.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "2",
+      "uuid": "83743525-940f-53cf-b7c3-afb005ce1df6",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAeFBMVEWos6uapJ2PlpGCh4RwdXBobGhgY19YW1hwUi5wUSxvUStsTi1rTSxQU1FQUFBOTk5lSShkSChJTEpdQiRdQiJdQiFFRERaPyNaPyJARUNZPiJCQUFVOx9UOx89PDxONhw1Ozk6ODg4NzdGMhwzMTEaGRkDAwMAAAAM9ipYAAAArUlEQVR42k2N6RKCMAyEe1Gx0lpEOQIasYfv/4Y2iDPuZPbHN7sbZrXWla7IySamJWdccCak5EJIyzQPATGQMKAqgAV/9C1Aa7xZvglfx9m5PtYGhWWVQB/XlHNaY0kcKNHN6V2U+nbfAJcJZAcoqfIP9tH1V1lUSfDQ7KMvAzQqsKnj4+zmWDdAFRFOJ++7zvimHQhIHK8wIN4A7iO9VbJIbSdVAZO1F2vJNj0/iRASOCMZA8QAAAAASUVORK5CYII="
+    },
+    {
+      "name": "block/axis_top.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "3",
+      "uuid": "997e3926-9786-53a2-b74d-01f96b326766",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAElBMVEUAAACPlpGCh4R5fntwdXBiZmKSxvPoAAAAAXRSTlMAQObYZgAAABhJREFUeNpjIBsEu0IZhspQhpMJXIpsUwGOYwH7VJhPXwAAAABJRU5ErkJggg=="
+    },
+    {
+      "name": "block/axis.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "4",
+      "uuid": "f66ced67-fde2-5f6d-9e45-0d3e94c64e76",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAFVBMVEUAAACCh4R5fntwdXBpbmliZmJaXVr2kyZrAAAAAXRSTlMAQObYZgAAADpJREFUeNpjAIIkMwYICFaFMkJEoQwXNSjDWRQmJQKTUoHpgjGSYVJJMMVBYjAGTMRJFW4gsqVwZwAA/0YHD2HHCxkAAAAASUVORK5CYII="
+    },
+    {
+      "name": "block/fan_blades.png",
+      "namespace": "create",
+      "folder": "block",
+      "id": "5",
+      "uuid": "1dc56782-62ba-59ba-9fc1-c955cf0cb471",
+      "width": 16,
+      "height": 16,
+      "uv_width": 16,
+      "uv_height": 16,
+      "mode": "bitmap",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAVFBMVEUAAADz8/Pw8PDv7+/t7e3s7Ozr6+vr6+rq6uri4uLY2NjY2NfW1tbR0dLR0dHQ0NDPz9DMzMzKysrHx8fExMXCwsK6urqwsLCMjIyCgoJeXl41NTVrzZ9vAAAAAXRSTlMAQObYZgAAAGNJREFUeNpiwAUAbY4DFsRAAENr2/25/zmX9Uye4xUeRFRyJ4LsTuC1OsQVIB92gqao+plx3iNKQj8d3QUE+hJIsGiM4yDaY5pr5qnNyoNoXfSFsxOdr/uLLHwQZXInnD1uwRsHJgec0Wmh7gAAAABJRU5ErkJggg=="
+    }
+  ],
+  "display": {},
+  "credit": "Create / Minecraft derived; see INTEGRATION.md"
+}

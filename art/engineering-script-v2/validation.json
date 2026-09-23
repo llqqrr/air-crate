@@ -1,0 +1,104 @@
+{
+  "models": [
+    {
+      "file": "01_crate_bars.bbmodel",
+      "elements": 26,
+      "animations": 0
+    },
+    {
+      "file": "01_crate_closed.bbmodel",
+      "elements": 26,
+      "animations": 0
+    },
+    {
+      "file": "01_crate_glass.bbmodel",
+      "elements": 26,
+      "animations": 0
+    },
+    {
+      "file": "02_interaction_hatch_patch.bbmodel",
+      "elements": 4,
+      "animations": 0
+    },
+    {
+      "file": "03_resonator_active.bbmodel",
+      "elements": 9,
+      "animations": 0
+    },
+    {
+      "file": "03_resonator_idle.bbmodel",
+      "elements": 9,
+      "animations": 0
+    },
+    {
+      "file": "04_packager_linked.bbmodel",
+      "elements": 8,
+      "animations": 0
+    },
+    {
+      "file": "04_packager_powered.bbmodel",
+      "elements": 8,
+      "animations": 0
+    },
+    {
+      "file": "04_packager_unpowered.bbmodel",
+      "elements": 8,
+      "animations": 0
+    },
+    {
+      "file": "04_packager_vertical_unpowered.bbmodel",
+      "elements": 8,
+      "animations": 0
+    },
+    {
+      "file": "05_parcel_display.bbmodel",
+      "elements": 9,
+      "animations": 0
+    },
+    {
+      "file": "05_parcel_empty.bbmodel",
+      "elements": 2,
+      "animations": 0
+    },
+    {
+      "file": "06_mixed_feed.bbmodel",
+      "elements": 178,
+      "animations": 0
+    },
+    {
+      "file": "07_creature_list_filter.bbmodel",
+      "elements": 152,
+      "animations": 0
+    },
+    {
+      "file": "08_catcher_animated.bbmodel",
+      "elements": 19,
+      "animations": 1
+    },
+    {
+      "file": "08_catcher_extended.bbmodel",
+      "elements": 18,
+      "animations": 0
+    },
+    {
+      "file": "08_catcher_stowed.bbmodel",
+      "elements": 18,
+      "animations": 0
+    }
+  ],
+  "filter_original_edges_unchanged": true,
+  "packager_elements_original": true,
+  "one_vent_per_crate": true,
+  "crates_long_axis": "Z",
+  "long_faces": [
+    "up",
+    "down",
+    "west",
+    "east"
+  ],
+  "fixed_ends": [
+    "north",
+    "south"
+  ],
+  "native_UV_wrap_preserved": true
+}

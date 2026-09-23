@@ -1,0 +1,101 @@
+[
+  {
+    "file": "packager_frame.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 204,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_details.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 28,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_horizontal_unpowered.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 170,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_horizontal_powered.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 170,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_horizontal_linked.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 132,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_vertical_unpowered.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 176,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_vertical_powered.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 176,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_vertical_linked.png",
+    "size": [
+      32,
+      32
+    ],
+    "mask_pixels": 138,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_iris_closed.png",
+    "size": [
+      16,
+      16
+    ],
+    "mask_pixels": 52,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_iris_open.png",
+    "size": [
+      16,
+      16
+    ],
+    "mask_pixels": 52,
+    "outside_mask_unchanged": true
+  },
+  {
+    "file": "packager_particle.png",
+    "size": [
+      16,
+      16
+    ],
+    "mask_pixels": 36,
+    "outside_mask_unchanged": true
+  }
+]

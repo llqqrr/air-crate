@@ -1,0 +1,85 @@
+{
+ "parent": "block/block",
+ "textures": {
+  "0": "aircrate:block/creature_frogport_port",
+  "1": "create:block/port2",
+  "2": "aircrate:item/copper_pressure_shell_32",
+  "3": "create:block/brass_casing",
+  "4": "create:block/andesite_casing",
+  "5": "create:block/mechanical_press_pole",
+  "6": "create:item/potato_cannon",
+  "7": "aircrate:item/mechanism_pixels_16",
+  "8": "aircrate:item/pressure_gauge_16"
+ },
+ "elements": [
+  {
+   "name": "独立压力指针",
+   "from": [
+    3.82,
+    9.803,
+    6.934
+   ],
+   "to": [
+    3.86,
+    10.49,
+    8.285
+   ],
+   "faces": {
+    "down": {
+     "uv": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "texture": "#7"
+    },
+    "up": {
+     "uv": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "texture": "#7"
+    },
+    "west": {
+     "uv": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "texture": "#7"
+    },
+    "east": {
+     "uv": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "texture": "#7"
+    },
+    "north": {
+     "uv": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "texture": "#7"
+    },
+    "south": {
+     "uv": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+     ],
+     "texture": "#7"
+    }
+   }
+  }
+ ]
+}

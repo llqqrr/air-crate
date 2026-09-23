@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "wall": "aircrate:block/integration_v4/closed_08",
+    "particle": "create:block/vault/vault_front_small"
+  },
+  "elements": [
+    {
+      "name": "closed",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        0.04,
+        16,
+        16
+      ],
+      "faces": {
+        "west": {
+          "texture": "#wall",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#wall",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

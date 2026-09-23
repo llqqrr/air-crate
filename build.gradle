@@ -1,0 +1,137 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.142'
+    id 'idea'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+}
+
+sourceSets.main.resources.srcDir('src/generated/resources')
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        gameTestServer {
+            type = 'gameTestServer'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output',
+                    file('src/generated/resources/').getAbsolutePath(), '--existing',
+                    file('src/main/resources/').getAbsolutePath()
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+def extractFlywheelApi = tasks.register('extractFlywheelApi', Copy) {
+    from(zipTree('../libs/create-1.21.1-6.0.10.jar')) {
+        include 'META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6.jar'
+        eachFile { details -> details.path = details.name }
+    }
+    includeEmptyDirs = false
+    into layout.buildDirectory.dir('flywheel-api')
+}
+def flywheelApi = files(layout.buildDirectory.file(
+        'flywheel-api/flywheel-neoforge-1.21.1-1.0.6.jar')).builtBy(extractFlywheelApi)
+
+// These jars are compile-only API surfaces. They are never bundled and are not
+// required to build the base mod because the compatibility implementations are
+// intentionally added in separate source sets/modules later.
+dependencies {
+    compileOnly files('../libs/create-1.21.1-6.0.10.jar')
+    compileOnly flywheelApi
+    compileOnly files('../libs/ponder-neoforge-1.0.82+mc1.21.1.jar')
+    compileOnly files('../libs/curios-neoforge-9.5.1+1.21.1.jar')
+    compileOnly files('../libs/jade-1.21.1-15.10.5.jar')
+    testImplementation platform('org.junit:junit-bom:5.10.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_min        : neo_version_min,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    from 'src/main/templates'
+    into 'build/generated/sources/modMetadata'
+}
+
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven { url = "file://${project.projectDir}/repo" }
+    }
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

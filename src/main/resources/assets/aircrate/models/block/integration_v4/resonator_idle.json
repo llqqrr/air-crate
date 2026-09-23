@@ -1,0 +1,511 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "casing": "aircrate:block/integration_v4/resonator_casing_side",
+    "bearing": "aircrate:block/integration_v4/resonator_casing_bearing",
+    "cap": "create:block/andesite_casing",
+    "ring": "minecraft:block/sculk_sensor_side",
+    "top": "minecraft:block/calibrated_sculk_sensor_top",
+    "crystal": "minecraft:block/calibrated_sculk_sensor_amethyst",
+    "brass": "create:block/brass_casing",
+    "axis": "create:block/axis",
+    "axis_top": "create:block/axis_top",
+    "particle": "create:block/andesite_casing"
+  },
+  "elements": [
+    {
+      "name": "Complete casing frame / shaft centre Y=8",
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        12,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bearing",
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#bearing",
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#casing",
+          "uv": [
+            0,
+            0,
+            16,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#cap",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#cap",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sculk ring",
+      "from": [
+        0,
+        12,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#ring",
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "south": {
+          "texture": "#ring",
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "west": {
+          "texture": "#ring",
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "east": {
+          "texture": "#ring",
+          "uv": [
+            0,
+            8,
+            16,
+            12
+          ]
+        },
+        "up": {
+          "texture": "#top",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        16,
+        0
+      ],
+      "to": [
+        8,
+        28,
+        16
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          17,
+          8
+        ],
+        "rescale": true
+      },
+      "shade": false,
+      "faces": {
+        "east": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#crystal"
+        },
+        "west": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#crystal"
+        }
+      },
+      "name": "Native crystal plane 0"
+    },
+    {
+      "from": [
+        0,
+        16,
+        8
+      ],
+      "to": [
+        16,
+        28,
+        8
+      ],
+      "rotation": {
+        "angle": 45,
+        "axis": "y",
+        "origin": [
+          8,
+          17,
+          8
+        ],
+        "rescale": true
+      },
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#crystal"
+        },
+        "south": {
+          "uv": [
+            0,
+            4,
+            16,
+            16
+          ],
+          "texture": "#crystal"
+        }
+      },
+      "name": "Native crystal plane 1"
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        1,
+        15,
+        1
+      ],
+      "to": [
+        4,
+        17,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        12,
+        15,
+        1
+      ],
+      "to": [
+        15,
+        17,
+        4
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        1,
+        15,
+        12
+      ],
+      "to": [
+        4,
+        17,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "name": "Brass crystal clamp",
+      "from": [
+        12,
+        15,
+        12
+      ],
+      "to": [
+        15,
+        17,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "south": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "west": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "east": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "up": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        },
+        "down": {
+          "texture": "#brass",
+          "uv": [
+            1,
+            1,
+            4,
+            3
+          ]
+        }
+      }
+    }
+  ]
+}
